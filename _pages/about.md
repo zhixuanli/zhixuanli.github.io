@@ -101,7 +101,7 @@ My research interests include computer vision and deep learning, especially in t
 
 [//]: # (<strong><span class='show_paper_citations' data='ElujT6oAAAAJ:hqOjcs7Dif8C'></span></strong>)
 
-Ruohua Shi, Wenyao Wang, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, \
+Ruohua Shi, Wenyao Wang, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, <br>
 Lei Ma, Kai Du, Tingting Jiang, Tiejun Huang
 
 <i>Frontiers in Computational Neuroscience, 2022 (SCI, IF 3.387)</i>
@@ -150,4 +150,4 @@ Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fo
 Thanks for the template of <a href="https://github.com/RayeRen/acad-homepage.github.io">Yi Ren</a>
 
 
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=UA1prgTfM8f4KdsTtZDKPAqAagf4Sr6L0d9xRVyOdrE"></script>
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=UA1prgTfM8f4KdsTtZDKPAqAagf4Sr6L0d9xRVyOdrE&cl=ffffff&w=a"></script>
