@@ -101,7 +101,8 @@ My research interests include computer vision and deep learning, especially in t
 
 [//]: # (<strong><span class='show_paper_citations' data='ElujT6oAAAAJ:hqOjcs7Dif8C'></span></strong>)
 
-Ruohua Shi, Wenyao Wang, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, Lei Ma, Kai Du, Tingting Jiang, Tiejun Huang
+Ruohua Shi, Wenyao Wang, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, \
+Lei Ma, Kai Du, Tingting Jiang, Tiejun Huang
 
 <i>Frontiers in Computational Neuroscience, 2022 (SCI, IF 3.387)</i>
 
@@ -138,8 +139,8 @@ Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fo
 <span class='anchor' id='education'></span>
 
 # 📖 Education
-- *2018.09 - 2023.07*, Doctor of Philosophy, School of Computer Science, Peking University
-- *2014.09 - 2018.07*, Bachelor of Engineering, School of Computer Science, Tianjin University <i>(Outstanding Graduates)</i>
+- *2018.09 - 2023.07:* Doctor of Philosophy, School of Computer Science, Peking University
+- *2014.09 - 2018.07:* Bachelor of Engineering, School of Computer Science, Tianjin University <i>(Outstanding Graduates)</i>
 
 
 **Contact:** zhixuanli at pku.edu.cn, zhixuanli520 at gmail.com
