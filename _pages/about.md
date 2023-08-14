@@ -153,4 +153,4 @@ Thanks for the template of <a href="https://github.com/RayeRen/acad-homepage.git
 
 [//]: # (<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=UA1prgTfM8f4KdsTtZDKPAqAagf4Sr6L0d9xRVyOdrE&cl=ffffff&w=300"></script>)
 
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=UA1prgTfM8f4KdsTtZDKPAqAagf4Sr6L0d9xRVyOdrE&cl=ffffff&w=300"></script>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=UA1prgTfM8f4KdsTtZDKPAqAagf4Sr6L0d9xRVyOdrE&co=9fc7e3&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
