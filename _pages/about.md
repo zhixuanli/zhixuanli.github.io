@@ -97,7 +97,7 @@ My research interests include computer vision and deep learning, especially in t
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers 2022</div><img src='images/2022_Frontiers.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<a href="https://www.frontiersin.org/articles/10.3389/fncom.2022.842760/full">U-RISC: An Annotated Ultra-High-Resolution Electron Microscopy Dataset Challenging the Existing Deep Learning Algorithms</a>
+<a href="https://www.frontiersin.org/articles/10.3389/fncom.2022.842760/full">U-RISC: An Annotated Ultra-High-Resolution Electron Microscopy Dataset Challenging <br> the Existing Deep Learning Algorithms</a>
 
 [//]: # (<strong><span class='show_paper_citations' data='ElujT6oAAAAJ:hqOjcs7Dif8C'></span></strong>)
 
