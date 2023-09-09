@@ -24,14 +24,37 @@ My research interests include computer vision and deep learning, especially in t
 <span class='anchor' id='news'></span>
 
 # 🔥 News
-- *2023.07*: One paper was accepted by <b>ICCV 2023!</b>
+- *2023.09*: One paper is accepted by <b>TMM!</b>
+- *2023.07*: One paper is accepted by <b>ICCV 2023!</b>
 - *2023.07*: Congratulations on obtaining the Ph.D. degree from Peking University!
-- *2023.02*: One paper was accepted by <b>ICASSP 2023!</b>
-- *2022.07*: One paper was accepted by <b>ECCV 2022!</b>
+- *2023.02*: One paper is accepted by <b>ICASSP 2023!</b>
+- *2022.07*: One paper is accepted by <b>ECCV 2022!</b>
 
 <span class='anchor' id='publications'></span>
 
 # 📝 Publications 
+
+[//]: # (----------- TMM 2023 -------------------------)
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMM 2023</div><img src='images/2023_TMM.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[GIN: Generative INvariant Shape Prior for Amodal Instance Segmentation]() 
+
+[//]: # (<strong><span class='show_paper_citations' data='ElujT6oAAAAJ:hqOjcs7Dif8C'></span></strong>)
+
+<u><b>Zhixuan Li</b></u>, Weining Ye, Tingting Jiang, Tiejun Huang
+
+<i>TMM, 2023 (SCI IF=7.3, JCR Q1, CCF B)</i>
+
+[//]: # (<a href="">paper</a> /)
+
+[//]: # (<a href="https://zhixuanli.github.io/project_2023_ICCV_MUVA/">project</a> /)
+
+[//]: # (<a href="">bibtex</a>)
+
+</div>
+</div>
 
 [//]: # (----------- ICCV 2023 -------------------------)
 
@@ -146,7 +169,7 @@ Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fo
 
 **Contact:** zhixuanli at pku.edu.cn, zhixuanli520 at gmail.com
 
-**Last Update:** August 14, 2023
+**Last Update:** September 9, 2023
 
 Thanks for the template of <a href="https://github.com/RayeRen/acad-homepage.github.io">Yi Ren</a>
 
