@@ -24,7 +24,7 @@ My research interests include computer vision and deep learning, especially in t
 <span class='anchor' id='news'></span>
 
 # 🔥 News
-- *2023.09*: One paper is accepted by <b>TMM!</b>
+- *2023.09*: One paper is accepted by <b>IEEE TMM!</b>
 - *2023.07*: One paper is accepted by <b>ICCV 2023!</b>
 - *2023.07*: Congratulations on obtaining the Ph.D. degree from Peking University!
 - *2023.02*: One paper is accepted by <b>ICASSP 2023!</b>
@@ -45,7 +45,7 @@ My research interests include computer vision and deep learning, especially in t
 
 <u><b>Zhixuan Li</b></u>, Weining Ye, Tingting Jiang, Tiejun Huang
 
-<i>TMM, 2023 (SCI IF=7.3, JCR Q1, CCF B)</i>
+<i>IEEE TMM, 2023 (SCI IF=7.3, JCR Q1, CCF B)</i>
 
 [//]: # (<a href="">paper</a> /)
 
@@ -69,9 +69,10 @@ My research interests include computer vision and deep learning, especially in t
 
 <i>ICCV, 2023 (EI, CCF A)</i>
 
-<a href="">paper</a> /
+[//]: # (<a href="">paper</a> /)
 <a href="https://zhixuanli.github.io/project_2023_ICCV_MUVA/">project</a> /
-<a href="">bibtex</a>
+
+[//]: # (<a href="">bibtex</a>)
 
 </div>
 </div>
