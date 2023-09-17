@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I received my Ph.D. degree at <a href="http://idm.pku.edu.cn/">National Engineering Research Center of Visual Technology</a>, <a href="https://www.pku.edu.cn/">Peking University</a> in 2023, supervised by Prof. <a href="https://idm.pku.edu.cn/info/1017/1040.htm">Tiejun Huang</a> and Assoc. Prof. <a href="http://www.vie.group/ttj">Tingting Jiang</a>. I received my B.S. degree from <a href="http://www.tju.edu.cn/">Tianjin University</a> in 2018, supervised by Assoc. Prof. <a href="http://aiskyeye.com/">Pengfei Zhu</a> and Prof. <a href="http://cic.tju.edu.cn/faculty/jindi/index.htm">Di Jin</a>.
+I received my Ph.D. degree at <a href="http://idm.pku.edu.cn/">National Engineering Research Center of Visual Technology</a>, <a href="https://www.pku.edu.cn/">Peking University</a> in 2023, supervised by Prof. <a href="https://idm.pku.edu.cn/info/1017/1040.htm">Tiejun Huang</a> and Assoc. Prof. <a href="http://www.vie.group/ttj">Tingting Jiang</a>. I received my B.E. degree from <a href="http://www.tju.edu.cn/">Tianjin University</a> in 2018, supervised by Assoc. Prof. <a href="http://aiskyeye.com/">Pengfei Zhu</a> and Prof. <a href="http://cic.tju.edu.cn/faculty/jindi/index.htm">Di Jin</a>.
 
 My research interests include computer vision and deep learning, especially in the fields of instance segmentation, 3D reconstruction, and 2D/3D object detection.
 
@@ -39,7 +39,7 @@ My research interests include computer vision and deep learning, especially in t
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMM 2023</div><img src='images/2023_TMM.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[GIN: Generative INvariant Shape Prior for Amodal Instance Segmentation]() 
+<font color=#6495ed>GIN: Generative INvariant Shape Prior for Amodal Instance Segmentation</font> 
 
 [//]: # (<strong><span class='show_paper_citations' data='ElujT6oAAAAJ:hqOjcs7Dif8C'></span></strong>)
 
@@ -61,7 +61,7 @@ My research interests include computer vision and deep learning, especially in t
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023</div><img src='images/2023_ICCV_MUVA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[MUVA: A New Large-Scale Benchmark for Multi-view Amodal Instance Segmentation in the Shopping Scenario]() 
+<font color=#6495ed>MUVA: A New Large-Scale Benchmark for Multi-view Amodal Instance Segmentation in the Shopping Scenario</font>
 
 [//]: # (<strong><span class='show_paper_citations' data='ElujT6oAAAAJ:hqOjcs7Dif8C'></span></strong>)
 
@@ -70,7 +70,9 @@ My research interests include computer vision and deep learning, especially in t
 <i>ICCV, 2023 (EI, CCF A)</i>
 
 [//]: # (<a href="">paper</a> /)
-<a href="https://zhixuanli.github.io/project_2023_ICCV_MUVA/">project</a> /
+<a href="https://zhixuanli.github.io/project_2023_ICCV_MUVA/">project</a> 
+
+[//]: # (/)
 
 [//]: # (<a href="">bibtex</a>)
 
@@ -82,9 +84,8 @@ My research interests include computer vision and deep learning, especially in t
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2023</div><img src='images/2023_ICASSP_OAFormer.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[OAFormer: Learning Occlusion Distinguishable Feature for Amodal Instance Segmentation](https://ieeexplore.ieee.org/abstract/document/10096534/) 
+<font color=#6495ed> OAFormer: Learning Occlusion Distinguishable Feature for Amodal Instance Segmentation </font>
 
-[//]: # (<strong><span class='show_paper_citations' data='ElujT6oAAAAJ:hqOjcs7Dif8C'></span></strong>)
 
 <u><b>Zhixuan Li</b></u>, Ruohua Shi, Tiejun Huang, Tingting Jiang
 
@@ -101,9 +102,8 @@ My research interests include computer vision and deep learning, especially in t
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2022</div><img src='images/2022_ECCV_A3D.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[2D Amodal Instance Segmentation Guided by 3D Shape Prior](https://link.springer.com/chapter/10.1007/978-3-031-19818-2_10) 
+<font color=#6495ed> 2D Amodal Instance Segmentation Guided by 3D Shape Prior  </font>
 
-[//]: # (<strong><span class='show_paper_citations' data='ElujT6oAAAAJ:hqOjcs7Dif8C'></span></strong>)
 
 <u><b>Zhixuan Li</b></u>, Weining Ye, Tingting Jiang, Tiejun Huang
 
@@ -121,9 +121,7 @@ My research interests include computer vision and deep learning, especially in t
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers 2022</div><img src='images/2022_Frontiers.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<a href="https://www.frontiersin.org/articles/10.3389/fncom.2022.842760/full">U-RISC: An Annotated Ultra-High-Resolution Electron Microscopy Dataset Challenging <br> the Existing Deep Learning Algorithms</a>
-
-[//]: # (<strong><span class='show_paper_citations' data='ElujT6oAAAAJ:hqOjcs7Dif8C'></span></strong>)
+<font color=#6495ed>U-RISC: An Annotated Ultra-High-Resolution Electron Microscopy Dataset Challenging <br> the Existing Deep Learning Algorithms</font>
 
 Ruohua Shi, Wenyao Wang, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, <br>
 Lei Ma, Kai Du, Tingting Jiang, Tiejun Huang
@@ -141,9 +139,8 @@ Lei Ma, Kai Du, Tingting Jiang, Tiejun Huang
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICTAI 2017</div><img src='images/2017_ICTAI.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Using Deep Learning for Community Discovery in Social Networks](https://ieeexplore.ieee.org/abstract/document/8371938) 
+<font color=#6495ed>Using Deep Learning for Community Discovery in Social Networks </font>
 
-[//]: # (<strong><span class='show_paper_citations' data='ElujT6oAAAAJ:hqOjcs7Dif8C'></span></strong>)
 
 Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fogelman-Soulie
 
