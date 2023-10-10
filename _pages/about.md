@@ -47,11 +47,7 @@ GIN: Generative INvariant Shape Prior for Amodal Instance Segmentation
 
 <i>IEEE TMM, 2023 (SCI IF=7.3, JCR Q1, CCF B)</i>
 
-<a href="https://ieeexplore.ieee.org/abstract/document/10258334/">paper</a> /
-
-[//]: # (<a href="https://zhixuanli.github.io/project_2023_ICCV_MUVA/">project</a> /)   
-
-<a href="https://scholar.googleusercontent.com/scholar.bib?q=info:xgGaPRjB75QJ:scholar.google.com/&output=citation&scisdr=ClHMn7WREMTp0ITAMzs:AFWwaeYAAAAAZSTGKzu8WvrydNun0OPY-Ra2bUo&scisig=AFWwaeYAAAAAZSTGK8nESXC0-xtui6jnyX_lNo8&scisf=4&ct=citation&cd=-1&hl=zh-CN">bibtex</a>
+<a href="https://ieeexplore.ieee.org/abstract/document/10258334/">paper</a> / <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:xgGaPRjB75QJ:scholar.google.com/&output=citation&scisdr=ClHMn7WREMTp0ITAMzs:AFWwaeYAAAAAZSTGKzu8WvrydNun0OPY-Ra2bUo&scisig=AFWwaeYAAAAAZSTGK8nESXC0-xtui6jnyX_lNo8&scisf=4&ct=citation&cd=-1&hl=zh-CN">bibtex</a>
 
 </div>
 </div>
