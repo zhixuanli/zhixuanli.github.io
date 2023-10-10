@@ -45,7 +45,7 @@ GIN: Generative INvariant Shape Prior for Amodal Instance Segmentation
 
 <u><b>Zhixuan Li</b></u>, Weining Ye, Tingting Jiang, Tiejun Huang
 
-<i>IEEE TMM, 2023 (SCI IF=7.3, JCR Q1, CCF B)</i>
+<i>IEEE TMM, 2023 (SCI一区, IF=7.3, JCR Q1, CCF B)</i>
 
 <a href="https://ieeexplore.ieee.org/abstract/document/10258334/">paper</a> / <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:xgGaPRjB75QJ:scholar.google.com/&output=citation&scisdr=ClHMn7WREMTp0ITAMzs:AFWwaeYAAAAAZSTGKzu8WvrydNun0OPY-Ra2bUo&scisig=AFWwaeYAAAAAZSTGK8nESXC0-xtui6jnyX_lNo8&scisf=4&ct=citation&cd=-1&hl=zh-CN">bibtex</a>
 
@@ -118,7 +118,7 @@ U-RISC: An Annotated Ultra-High-Resolution Electron Microscopy Dataset Challengi
 Ruohua Shi, Wenyao Wang, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, <br>
 Lei Ma, Kai Du, Tingting Jiang, Tiejun Huang
 
-<i>Frontiers in Computational Neuroscience, 2022 (SCI, IF 3.387)</i>
+<i>Frontiers in Computational Neuroscience, 2022 (SCI, IF=3.387)</i>
 
 <a href="https://www.frontiersin.org/articles/10.3389/fncom.2022.842760/full">paper</a> /
 <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:boiR6Ve7SL8J:scholar.google.com/&output=citation&scisdr=ChVGOwtREMTp0RQLK9o:ABFrs3wAAAAAZLQNM9or3Z9HC8OrS89wk8ERg9c&scisig=ABFrs3wAAAAAZLQNM4OlV_3nryLFk2-D6DM0WGw&scisf=4&ct=citation&cd=-1&hl=zh-CN">bibtex</a>
