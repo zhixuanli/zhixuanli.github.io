@@ -172,7 +172,9 @@ Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fo
 
 # 💻 Service
 
-- Reviewer for ACM JATS, ICASSP 
+- Reviewer for 
+  - Journal: ACM JATS, JVCI
+  - Conference: ICASSP 2024, CVPR 2024
 
 # -
 
