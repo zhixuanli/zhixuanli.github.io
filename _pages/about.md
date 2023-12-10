@@ -34,6 +34,18 @@ My research interests include computer vision and deep learning, especially in t
 
 # 📝 Publications 
 
+[//]: # (----------- AAAI 2024 -------------------------)
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2023</div><img src='images/2024_AAAI.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+BLADE: Box-Level Supervised Amodal Segmentation through Directed Expansion
+
+Zhaochen Liu, <u><b>Zhixuan Li</b></u>, Tingting Jiang
+
+<i>AAAI, 2024 (EI, CCF A)</i>
+
+
 [//]: # (----------- TMM 2023 -------------------------)
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMM 2023</div><img src='images/2023_TMM.jpg' alt="sym" width="100%"></div></div>
@@ -45,7 +57,7 @@ GIN: Generative INvariant Shape Prior for Amodal Instance Segmentation
 
 <u><b>Zhixuan Li</b></u>, Weining Ye, Tingting Jiang, Tiejun Huang
 
-<i>IEEE TMM, 2023 (SCI一区, IF=7.3, JCR Q1, CCF B)</i>
+<i>IEEE TMM, 2023 (SCI, IF=7.3, JCR Q1, CCF B)</i>
 
 <a href="https://ieeexplore.ieee.org/abstract/document/10258334/">paper</a> / <a href="https://scholar.googleusercontent.com/scholar.bib?q=info:xgGaPRjB75QJ:scholar.google.com/&output=citation&scisdr=ClHMn7WREMTp0ITAMzs:AFWwaeYAAAAAZSTGKzu8WvrydNun0OPY-Ra2bUo&scisig=AFWwaeYAAAAAZSTGK8nESXC0-xtui6jnyX_lNo8&scisf=4&ct=citation&cd=-1&hl=zh-CN">bibtex</a>
 
