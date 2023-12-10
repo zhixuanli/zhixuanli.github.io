@@ -46,6 +46,8 @@ Zhaochen Liu, <u><b>Zhixuan Li</b></u>, Tingting Jiang
 
 <i>AAAI, 2024 (EI, CCF A)</i>
 
+</div>
+</div>
 
 [//]: # (----------- TMM 2023 -------------------------)
 
