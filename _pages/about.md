@@ -35,7 +35,7 @@ My research interests include computer vision and deep learning, especially in t
 
 # 📝 Publications 
 
-* Equal contribution
+The * means equal contribution.
 
 [//]: # (----------- AAAI 2024 -------------------------)
 
