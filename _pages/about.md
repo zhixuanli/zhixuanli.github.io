@@ -44,7 +44,7 @@ The * means equal contribution.
 
 BLADE: Box-Level Supervised Amodal Segmentation through Directed Expansion
 
-Zhaochen Liu*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
+Zhaochen Liu*, <u><b>Zhixuan Li\*</b></u>, Tingting Jiang
 
 <i>AAAI, 2024 (EI, CCF A)</i>
 
@@ -132,7 +132,7 @@ OAFormer: Learning Occlusion Distinguishable Feature for Amodal Instance Segment
 
 U-RISC: An Annotated Ultra-High-Resolution Electron Microscopy Dataset Challenging <br> the Existing Deep Learning Algorithms
 
-Ruohua Shi*, Wenyao Wang*, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, <br>
+Ruohua Shi\*, Wenyao Wang\*, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, <br>
 Lei Ma, Kai Du, Tingting Jiang, Tiejun Huang
 
 <i>Frontiers in Computational Neuroscience, 2022 (SCI, IF=3.387)</i>
