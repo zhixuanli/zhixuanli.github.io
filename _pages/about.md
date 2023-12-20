@@ -35,6 +35,8 @@ My research interests include computer vision and deep learning, especially in t
 
 # 📝 Publications 
 
+* Equal contribution
+
 [//]: # (----------- AAAI 2024 -------------------------)
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2023</div><img src='images/2024_AAAI.jpg' alt="sym" width="100%"></div></div>
@@ -42,7 +44,7 @@ My research interests include computer vision and deep learning, especially in t
 
 BLADE: Box-Level Supervised Amodal Segmentation through Directed Expansion
 
-Zhaochen Liu, <u><b>Zhixuan Li</b></u>, Tingting Jiang
+Zhaochen Liu*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 <i>AAAI, 2024 (EI, CCF A)</i>
 
@@ -130,7 +132,7 @@ OAFormer: Learning Occlusion Distinguishable Feature for Amodal Instance Segment
 
 U-RISC: An Annotated Ultra-High-Resolution Electron Microscopy Dataset Challenging <br> the Existing Deep Learning Algorithms
 
-Ruohua Shi, Wenyao Wang, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, <br>
+Ruohua Shi*, Wenyao Wang*, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, <br>
 Lei Ma, Kai Du, Tingting Jiang, Tiejun Huang
 
 <i>Frontiers in Computational Neuroscience, 2022 (SCI, IF=3.387)</i>
