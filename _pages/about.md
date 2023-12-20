@@ -44,7 +44,7 @@ The * means equal contribution.
 
 BLADE: Box-Level Supervised Amodal Segmentation through Directed Expansion
 
-Zhaochen Liu\*, <u><b>Zhixuan Li \*</b></u>, Tingting Jiang
+Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 <i>AAAI, 2024 (EI, CCF A)</i>
 
