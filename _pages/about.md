@@ -48,6 +48,8 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 <i>AAAI, 2024 (EI, CCF A)</i>
 
+<a href="https://arxiv.org/abs/2401.01642">paper</a> 
+
 </div>
 </div>
 
