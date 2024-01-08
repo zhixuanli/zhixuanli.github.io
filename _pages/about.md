@@ -39,7 +39,7 @@ The * means equal contribution.
 
 [//]: # (----------- AAAI 2024 -------------------------)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2023</div><img src='images/2024_AAAI.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024</div><img src='images/2024_AAAI.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 BLADE: Box-Level Supervised Amodal Segmentation through Directed Expansion
