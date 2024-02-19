@@ -19,8 +19,8 @@ redirect_from:
 
 I received my Ph.D. degree at <a href="http://idm.pku.edu.cn/">National Engineering Research Center of Visual Technology</a>, <a href="https://www.pku.edu.cn/">Peking University</a> in 2023, supervised by Prof. <a href="https://idm.pku.edu.cn/info/1017/1040.htm">Tiejun Huang</a> and Assoc. Prof. <a href="http://www.vie.group/ttj">Tingting Jiang</a>. I received my B.E. degree from <a href="http://www.tju.edu.cn/">Tianjin University</a> in 2018, supervised by Assoc. Prof. <a href="http://aiskyeye.com/">Pengfei Zhu</a> and Prof. <a href="http://cic.tju.edu.cn/faculty/jindi/index.htm">Di Jin</a>.
 
-My research interests include Artificial Intelligence, Computer Vision and Deep learning, especially in the fields of :
-- Time-series Analysis for Climate and Financial Data,
+My research interests include Artificial Intelligence, Computer Vision and Deep Learning, especially in the fields of :
+- Time-Series Analysis for Climate, Financial and Electricity Data,
 - Human Mesh Estimation, Segmentation, and 2D/3D Object Detection.
 
 <span class='anchor' id='news'></span>
