@@ -19,7 +19,9 @@ redirect_from:
 
 I received my Ph.D. degree at <a href="http://idm.pku.edu.cn/">National Engineering Research Center of Visual Technology</a>, <a href="https://www.pku.edu.cn/">Peking University</a> in 2023, supervised by Prof. <a href="https://idm.pku.edu.cn/info/1017/1040.htm">Tiejun Huang</a> and Assoc. Prof. <a href="http://www.vie.group/ttj">Tingting Jiang</a>. I received my B.E. degree from <a href="http://www.tju.edu.cn/">Tianjin University</a> in 2018, supervised by Assoc. Prof. <a href="http://aiskyeye.com/">Pengfei Zhu</a> and Prof. <a href="http://cic.tju.edu.cn/faculty/jindi/index.htm">Di Jin</a>.
 
-My research interests include computer vision and deep learning, especially in the fields of instance segmentation, 3D reconstruction, and 2D/3D object detection.
+My research interests include Artificial Intelligence, Computer Vision and Deep learning, especially in the fields of :
+- Time-series Analysis for Climate and Financial Data,
+- Human Mesh Estimation, Segmentation, and 2D/3D Object Detection.
 
 <span class='anchor' id='news'></span>
 
@@ -184,7 +186,7 @@ Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fo
 
 **Contact:** zhixuanli at pku.edu.cn, zhixuanli520 at gmail.com
 
-**Last Update:** December 10, 2023
+**Last Update:** Feb 19, 2024
 
 Thanks for the template of <a href="https://github.com/RayeRen/acad-homepage.github.io">Yi Ren</a>
 
