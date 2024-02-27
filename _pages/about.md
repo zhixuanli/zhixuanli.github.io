@@ -44,7 +44,7 @@ The * means equal contribution.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024</div><img src='images/2024_AAAI.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-BLADE: Box-Level Supervised Amodal Segmentation through Directed Expansion
+**BLADE: Box-Level Supervised Amodal Segmentation through Directed Expansion**
 
 Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
@@ -60,7 +60,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMM 2023</div><img src='images/2023_TMM.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-GIN: Generative INvariant Shape Prior for Amodal Instance Segmentation 
+**GIN: Generative INvariant Shape Prior for Amodal Instance Segmentation** 
 
 [//]: # (<strong><span class='show_paper_citations' data='ElujT6oAAAAJ:hqOjcs7Dif8C'></span></strong>)
 
@@ -78,7 +78,7 @@ GIN: Generative INvariant Shape Prior for Amodal Instance Segmentation
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023</div><img src='images/2023_ICCV_MUVA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-MUVA: A New Large-Scale Benchmark for Multi-view Amodal Instance Segmentation in the Shopping Scenario
+**MUVA: A New Large-Scale Benchmark for Multi-view Amodal Instance Segmentation in the Shopping Scenario**
 
 [//]: # (<strong><span class='show_paper_citations' data='ElujT6oAAAAJ:hqOjcs7Dif8C'></span></strong>)
 
@@ -97,7 +97,7 @@ MUVA: A New Large-Scale Benchmark for Multi-view Amodal Instance Segmentation in
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2023</div><img src='images/2023_ICASSP_OAFormer.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-OAFormer: Learning Occlusion Distinguishable Feature for Amodal Instance Segmentation
+**OAFormer: Learning Occlusion Distinguishable Feature for Amodal Instance Segmentation**
 
 
 <u><b>Zhixuan Li</b></u>, Ruohua Shi, Tiejun Huang, Tingting Jiang
@@ -115,7 +115,7 @@ OAFormer: Learning Occlusion Distinguishable Feature for Amodal Instance Segment
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2022</div><img src='images/2022_ECCV_A3D.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-2D Amodal Instance Segmentation Guided by 3D Shape Prior
+**2D Amodal Instance Segmentation Guided by 3D Shape Prior**
 
 
 <u><b>Zhixuan Li</b></u>, Weining Ye, Tingting Jiang, Tiejun Huang
@@ -134,7 +134,7 @@ OAFormer: Learning Occlusion Distinguishable Feature for Amodal Instance Segment
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers 2022</div><img src='images/2022_Frontiers.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-U-RISC: An Annotated Ultra-High-Resolution Electron Microscopy Dataset Challenging <br> the Existing Deep Learning Algorithms
+**U-RISC: An Annotated Ultra-High-Resolution Electron Microscopy Dataset Challenging <br> the Existing Deep Learning Algorithms**
 
 Ruohua Shi\*, Wenyao Wang\*, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, <br>
 Lei Ma, Kai Du, Tingting Jiang, Tiejun Huang
@@ -152,7 +152,7 @@ Lei Ma, Kai Du, Tingting Jiang, Tiejun Huang
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICTAI 2017</div><img src='images/2017_ICTAI.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Using Deep Learning for Community Discovery in Social Networks
+**Using Deep Learning for Community Discovery in Social Networks**
 
 
 Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fogelman-Soulie
