@@ -107,7 +107,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 <i>ICASSP, 2023 (EI, CCF B)</i>
 
 <a href="https://ieeexplore.ieee.org/abstract/document/10096534/">paper</a> /
-<a href="https://scholar.googleusercontent.com/scholar.bib?q=info:XWnXeHTP3MMJ:scholar.google.com/&output=citation&scisdr=ChVGOwtREMTp0RPH3kk:ABFrs3wAAAAAZLPBxkmrk6W4Sgie9PSTe6G0I20&scisig=ABFrs3wAAAAAZLPBxkjvu5Inok1RhHs0pCSNUkI&scisf=4&ct=citation&cd=-1&hl=zh-CN">bibtex</a>
+<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2023oaformer.md">bibtex</a>
 
 </div>
 </div>
