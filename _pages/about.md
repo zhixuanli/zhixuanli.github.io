@@ -125,7 +125,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 <i>ECCV, 2022 (EI, CCF B)</i>
 
 <a href="https://link.springer.com/chapter/10.1007/978-3-031-19818-2_10">paper</a> /
-<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2022a3d.md">bibtex</a>
+<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2022a3d.html">bibtex</a>
 
 
 </div>
