@@ -163,7 +163,7 @@ Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fo
 <i>ICTAI, 2017 (EI, CCF C)</i>
 
 <a href="https://ieeexplore.ieee.org/abstract/document/8371938">paper</a> /
-<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/jin02017using.html">bibtex</a>
+<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/jin2017using.html">bibtex</a>
 
 </div>
 </div>
