@@ -145,7 +145,7 @@ Lei Ma, Kai Du, Tingting Jiang, Tiejun Huang
 <i>Frontiers in Computational Neuroscience, 2022 (SCI, IF=3.387)</i>
 
 <a href="https://www.frontiersin.org/articles/10.3389/fncom.2022.842760/full">paper</a> /
-<a href="https://scholar.googleusercontent.com/scholar.bib?q=info:boiR6Ve7SL8J:scholar.google.com/&output=citation&scisdr=ChVGOwtREMTp0RQLK9o:ABFrs3wAAAAAZLQNM9or3Z9HC8OrS89wk8ERg9c&scisig=ABFrs3wAAAAAZLQNM4OlV_3nryLFk2-D6DM0WGw&scisf=4&ct=citation&cd=-1&hl=zh-CN">bibtex</a>
+<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/shi2022urisc.html">bibtex</a>
 
 </div>
 </div>
@@ -163,7 +163,7 @@ Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fo
 <i>ICTAI, 2017 (EI, CCF C)</i>
 
 <a href="https://ieeexplore.ieee.org/abstract/document/8371938">paper</a> /
-<a href="https://scholar.googleusercontent.com/scholar.bib?q=info:x7kH2QlTnlQJ:scholar.google.com/&output=citation&scisdr=ChVGOwtREMTp0RQIAek:ABFrs3wAAAAAZLQOGenxJaSAQjClejjFm0no4n0&scisig=ABFrs3wAAAAAZLQOGXBVJp5Hh6lUdRIqwT7_HtI&scisf=4&ct=citation&cd=-1&hl=zh-CN">bibtex</a>
+<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/jin02017using.html">bibtex</a>
 
 </div>
 </div>
