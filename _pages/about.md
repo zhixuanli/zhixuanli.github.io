@@ -190,7 +190,7 @@ Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fo
 
 **Contact:** zhixuan.li at ntu.edu.sg, zhixuanli520 at gmail.com
 
-**Last Update:** Mar 38, 2024
+**Last Update:** 13 Apr, 2024
 
 Thanks for the template of <a href="https://github.com/RayeRen/acad-homepage.github.io">Yi Ren</a>
 
