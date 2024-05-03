@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm now a Postdoctoral Research Fellow in <a href="https://www.ntu.edu.sg/scse">SCSE</a> of <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>, supervided by Prof. <a href="https://personal.ntu.edu.sg/wslin/Home.html">Weisi Lin</a>. I received my Ph.D. degree at <a href="http://idm.pku.edu.cn/">National Engineering Research Center of Visual Technology</a>, <a href="https://www.pku.edu.cn/">Peking University</a> in 2023, supervised by Prof. <a href="https://idm.pku.edu.cn/info/1017/1040.htm">Tiejun Huang</a> and Assoc. Prof. <a href="http://www.vie.group/ttj">Tingting Jiang</a>. I received my B.E. degree from <a href="http://www.tju.edu.cn/">Tianjin University</a> in 2018, supervised by Assoc. Prof. <a href="http://aiskyeye.com/">Pengfei Zhu</a> and Prof. <a href="http://cic.tju.edu.cn/faculty/jindi/index.htm">Di Jin</a>.
+I'm now a Postdoctoral Research Fellow in <a href="https://www.ntu.edu.sg/computing">College of Computing and Data Science</a> of <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>, supervised by Prof. <a href="https://personal.ntu.edu.sg/wslin/Home.html">Weisi Lin</a>. I received my Ph.D. degree at <a href="http://idm.pku.edu.cn/">National Engineering Research Center of Visual Technology</a>, <a href="https://www.pku.edu.cn/">Peking University</a> in 2023, supervised by Prof. <a href="https://idm.pku.edu.cn/info/1017/1040.htm">Tiejun Huang</a> and Assoc. Prof. <a href="http://www.vie.group/ttj">Tingting Jiang</a>. I received my B.E. degree from <a href="http://www.tju.edu.cn/">Tianjin University</a> in 2018, supervised by Assoc. Prof. <a href="http://aiskyeye.com/">Pengfei Zhu</a> and Prof. <a href="http://cic.tju.edu.cn/faculty/jindi/index.htm">Di Jin</a>.
 
 My research interests include Artificial Intelligence, Computer Vision and Deep Learning, especially in the fields of :
 - Time-Series Analysis for Climate, Financial and Electricity Data,
@@ -176,7 +176,7 @@ Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fo
 <span class='anchor' id='experience'></span>
 
 # 📖 Experience
-- *2024.03 - Present:* Postdoctoral Research Fellow, School of Computer Science and Engineering, Nanyang Technological University, Singapore.
+- *2024.03 - Present:* Postdoctoral Research Fellow, College of Computing and Data Science, Nanyang Technological University, Singapore.
 - *2018.09 - 2023.07:* Doctor of Philosophy, School of Computer Science, Peking University, Beijing, China.
 - *2014.09 - 2018.07:* Bachelor of Engineering, School of Computer Science, Tianjin University <i>(Outstanding Graduates)</i>, Tianjin, China.
 
@@ -190,7 +190,7 @@ Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fo
 
 **Contact:** zhixuan.li at ntu.edu.sg, zhixuanli520 at gmail.com
 
-**Last Update:** 13 Apr, 2024
+**Last Update:** 3 May, 2024
 
 Thanks for the template of <a href="https://github.com/RayeRen/acad-homepage.github.io">Yi Ren</a>
 
