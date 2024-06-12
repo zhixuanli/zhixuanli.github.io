@@ -175,6 +175,11 @@ Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fo
 
 <span class='anchor' id='experience'></span>
 
+# 🎯 Projects
+- Awesome Mixture-of-Experts list: [Github Link](https://github.com/Oliver-FutureAI/Awesome-MoE). 
+  - This project is a collection of papers and codes about Mixture-of-Experts. We hope to provide a comprehensive and up-to-date resource for researchers and practitioners in this field.
+
+
 # 📖 Experience
 - *2024.03 - Present:* Postdoctoral Research Fellow, College of Computing and Data Science, Nanyang Technological University, Singapore.
 - *2018.09 - 2023.07:* Doctor of Philosophy, School of Computer Science, Peking University, Beijing, China.
@@ -183,8 +188,8 @@ Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fo
 # 💻 Service
 
 - Reviewer for 
-  - Journal: ACM JATS, JVCI, IEEE TNNLS
-  - Conference: ICASSP 2024, CVPR 2024, ACM MM 2024, ECCV 2024, ICPR 2024
+  - Journals: ACM JATS, JVCI, IEEE TNNLS, IEEE TCSVT
+  - Conferences: ICASSP 2024, CVPR 2024, ACM MM 2024, ECCV 2024, ICPR 2024
 
 # -
 
