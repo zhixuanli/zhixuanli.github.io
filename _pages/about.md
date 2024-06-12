@@ -21,7 +21,7 @@ I'm now a Postdoctoral Research Fellow in <a href="https://www.ntu.edu.sg/comput
 
 My research interests include Artificial Intelligence, Computer Vision and Deep Learning, especially in the fields of :
 - Time-Series Analysis for Climate, Financial and Electricity Data,
-- Human Mesh Estimation, Segmentation, and 2D/3D Object Detection.
+- Computer Vision: 2D/3D Segmentation and Object Detection, Human Mesh Estimation
 
 <span class='anchor' id='news'></span>
 
@@ -190,9 +190,9 @@ Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fo
 
 **Contact:** zhixuan.li at ntu.edu.sg, zhixuanli520 at gmail.com
 
-**Last Update:** 7 May, 2024
+**Last Update:** 12 June, 2024
 
-Thanks for the template of <a href="https://github.com/RayeRen/acad-homepage.github.io">Yi Ren</a>
+[//]: # (Thanks for the template of <a href="https://github.com/RayeRen/acad-homepage.github.io">Yi Ren</a>)
 
 
 [//]: # (<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=UA1prgTfM8f4KdsTtZDKPAqAagf4Sr6L0d9xRVyOdrE&cl=ffffff&w=300"></script>)
