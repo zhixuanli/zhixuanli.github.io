@@ -25,7 +25,6 @@ My research interests include Artificial Intelligence, Computer Vision and Deep 
   - Climate Change Forecasting
 - Computer Vision: 
   - 2D/3D Segmentation and Object Detection
-  - Human Mesh Recovery
 
 <span class='anchor' id='news'></span>
 
