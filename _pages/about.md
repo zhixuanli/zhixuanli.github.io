@@ -193,7 +193,7 @@ Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fo
 
 - Reviewer for 
   - Journals: ACM JATS, JVCI, IEEE TNNLS, IEEE TCSVT
-  - Conferences: ICASSP 2024, CVPR 2024, ACM MM 2024, ECCV 2024, ICPR 2024
+  - Conferences: CVPR, ECCV, ACM MM, ICASSP, ICPR
 
 # -
 
