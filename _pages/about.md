@@ -15,6 +15,8 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+[//]: # (----------------------------------------------------------------------------------------)
+
 <span class='anchor' id='about-me'></span>
 
 I'm now a Postdoctoral Research Fellow in <a href="https://www.ntu.edu.sg/computing">College of Computing and Data Science</a> of <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>, supervised by Prof. <a href="https://personal.ntu.edu.sg/wslin/Home.html">Weisi Lin</a>. I received my Ph.D. degree at <a href="http://idm.pku.edu.cn/">National Engineering Research Center of Visual Technology</a>, <a href="https://www.pku.edu.cn/">Peking University</a> in 2023, supervised by Prof. <a href="https://idm.pku.edu.cn/info/1017/1040.htm">Tiejun Huang</a> and Assoc. Prof. <a href="http://www.vie.group/ttj">Tingting Jiang</a>. I received my B.E. degree from <a href="http://www.tju.edu.cn/">Tianjin University</a> in 2018, supervised by Prof. <a href="http://aiskyeye.com/">Pengfei Zhu</a> and Prof. <a href="http://cic.tju.edu.cn/faculty/jindi/index.htm">Di Jin</a>.
@@ -26,6 +28,7 @@ My research interests include Artificial Intelligence, Computer Vision and Deep 
 - Computer Vision: 
   - 2D/3D Segmentation and Object Detection
 
+[//]: # (----------------------------------------------------------------------------------------)
 <span class='anchor' id='news'></span>
 
 # 🔥 News
@@ -33,6 +36,8 @@ My research interests include Artificial Intelligence, Computer Vision and Deep 
 - *2023.09*: One paper is accepted by <b>IEEE TMM</b>
 - *2023.07*: One paper is accepted by <b>ICCV 2023</b>
 
+
+[//]: # (----------------------------------------------------------------------------------------)
 <span class='anchor' id='publications'></span>
 
 # 📝 Selected Publications 
@@ -133,9 +138,6 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 </div>
 
 
-
-[//]: # (-----------------------------------------------)
-[//]: # (-----------------------------------------------)
 [//]: # (-----------------------------------------------)
 
 <span class='anchor' id='Projects'></span>
@@ -146,6 +148,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
   - This project is a collection of papers and codes about Mixture-of-Experts. We hope to provide a comprehensive and up-to-date resource for researchers and practitioners in this field.
 
 
+[//]: # (----------------------------------------------------------------------------------------)
 <span class='anchor' id='experience'></span>
 
 # 📖 Experience
@@ -155,12 +158,14 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 <span class='anchor' id='Service'></span>
 
+[//]: # (----------------------------------------------------------------------------------------)
 # 💻 Service
 
 - Reviewer for 
   - Journals: ACM JATS, JVCI, IEEE TNNLS, IEEE TCSVT
   - Conferences: CVPR, ECCV, ACM MM, ICASSP, ICPR
 
+[//]: # (----------------------------------------------------------------------------------------)
 # -
 
 **Contact:** zhixuan.li at ntu.edu.sg, zhixuanli520 at gmail.com
