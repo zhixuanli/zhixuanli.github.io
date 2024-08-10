@@ -35,7 +35,7 @@ My research interests include Artificial Intelligence, Computer Vision and Deep 
 
 <span class='anchor' id='publications'></span>
 
-# 📝 Publications 
+# 📝 Selected Publications 
 
 The * means equal contribution.
 
@@ -132,41 +132,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 </div>
 </div>
 
-[//]: # (----------- Frontiers 2022 --------------------)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers 2022</div><img src='images/2022_Frontiers.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**U-RISC: An Annotated Ultra-High-Resolution Electron Microscopy Dataset Challenging <br> the Existing Deep Learning Algorithms**
-
-Ruohua Shi\*, Wenyao Wang\*, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, <br>
-Lei Ma, Kai Du, Tingting Jiang, Tiejun Huang
-
-<i>Frontiers in Computational Neuroscience, 2022 (SCI, IF=3.387)</i>
-
-<a href="https://www.frontiersin.org/articles/10.3389/fncom.2022.842760/full">paper</a> /
-<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/shi2022urisc.html">bibtex</a>
-
-</div>
-</div>
-
-[//]: # (----------  ICTAI 2017  ----------------)
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICTAI 2017</div><img src='images/2017_ICTAI.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Using Deep Learning for Community Discovery in Social Networks**
-
-
-Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fogelman-Soulie
-
-<i>ICTAI, 2017 (EI, CCF C)</i>
-
-<a href="https://ieeexplore.ieee.org/abstract/document/8371938">paper</a> /
-<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/jin2017using.html">bibtex</a>
-
-</div>
-</div>
 
 [//]: # (-----------------------------------------------)
 [//]: # (-----------------------------------------------)
