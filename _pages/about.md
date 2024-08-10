@@ -63,7 +63,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 [//]: # (----------- TMM 2023 -------------------------)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMM 2023</div><img src='images/2023_TMM.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMM 2023</div><img src='images/2023_TMM.jpg' alt="sym" width="90%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **GIN: Generative INvariant Shape Prior for Amodal Instance Segmentation** 
