@@ -140,7 +140,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 [//]: # (-----------------------------------------------)
 
-<span class='anchor' id='Projects'></span>
+<span class='anchor' id='projects'></span>
 
 
 # 🎯 Projects
@@ -156,7 +156,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 - *2018.09 - 2023.07:* Doctor of Philosophy, School of Computer Science, Peking University, Beijing, China.
 - *2014.09 - 2018.07:* Bachelor of Engineering, School of Computer Science, Tianjin University <i>(Outstanding Graduates)</i>, Tianjin, China.
 
-<span class='anchor' id='Service'></span>
+<span class='anchor' id='service'></span>
 
 [//]: # (----------------------------------------------------------------------------------------)
 # 💻 Service

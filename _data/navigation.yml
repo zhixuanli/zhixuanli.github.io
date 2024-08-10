@@ -9,5 +9,11 @@ main:
   - title: "Publications"
     url: "/#publications"
 
+  - title: "Projects"
+    url: "/#projects"
+
   - title: "Experience"
     url: "/#experience"
+
+  - title: "Service"
+    url: "/#service"
