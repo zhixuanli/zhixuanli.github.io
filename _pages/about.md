@@ -29,13 +29,9 @@ My research interests include Artificial Intelligence, Computer Vision and Deep 
 <span class='anchor' id='news'></span>
 
 # 🔥 News
-- *2024.06*: Release the <b>Awesome Mixture-of-Experts</b> list on [Github](https://github.com/Oliver-FutureAI/Awesome-MoE)
 - *2023.12*: One paper is accepted by <b>AAAI 2024</b>
 - *2023.09*: One paper is accepted by <b>IEEE TMM</b>
 - *2023.07*: One paper is accepted by <b>ICCV 2023</b>
-- *2023.07*: Congratulations on obtaining the Ph.D. degree from Peking University
-- *2023.02*: One paper is accepted by <b>ICASSP 2023</b>
-- *2022.07*: One paper is accepted by <b>ECCV 2022</b>
 
 <span class='anchor' id='publications'></span>
 
