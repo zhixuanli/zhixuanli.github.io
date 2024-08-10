@@ -138,18 +138,22 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 [//]: # (-----------------------------------------------)
 [//]: # (-----------------------------------------------)
 
+<span class='anchor' id='Projects'></span>
 
-<span class='anchor' id='experience'></span>
 
 # 🎯 Projects
 - Awesome Mixture-of-Experts list: [Github Link](https://github.com/Oliver-FutureAI/Awesome-MoE)
   - This project is a collection of papers and codes about Mixture-of-Experts. We hope to provide a comprehensive and up-to-date resource for researchers and practitioners in this field.
 
 
+<span class='anchor' id='experience'></span>
+
 # 📖 Experience
 - *2024.03 - Present:* Postdoctoral Research Fellow, College of Computing and Data Science, Nanyang Technological University, Singapore.
 - *2018.09 - 2023.07:* Doctor of Philosophy, School of Computer Science, Peking University, Beijing, China.
 - *2014.09 - 2018.07:* Bachelor of Engineering, School of Computer Science, Tianjin University <i>(Outstanding Graduates)</i>, Tianjin, China.
+
+<span class='anchor' id='Service'></span>
 
 # 💻 Service
 
@@ -161,7 +165,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 **Contact:** zhixuan.li at ntu.edu.sg, zhixuanli520 at gmail.com
 
-**Last Update:** 12 June, 2024
+**Last Update:** 10 August, 2024
 
 [//]: # (Thanks for the template of <a href="https://github.com/RayeRen/acad-homepage.github.io">Yi Ren</a>)
 
