@@ -163,7 +163,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 - Reviewer for 
   - Journals: IEEE TNNLS, IEEE TCSVT, ACM JATS, JVCI
-  - Conferences: CVPR, ECCV, ACM MM, ICASSP, ICPR
+  - Conferences: CVPR, ECCV, AAAI, ACM MM, ICASSP, ICPR
 
 [//]: # (----------------------------------------------------------------------------------------)
 # -
