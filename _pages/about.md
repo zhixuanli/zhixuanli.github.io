@@ -60,8 +60,8 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 <i>AAAI, 2024 (EI, CCF A)</i>
 
-<a href="https://arxiv.org/abs/2401.01642">paper</a> / 
-<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/liu2024blade.html">bibtex</a>
+<a href="https://arxiv.org/abs/2401.01642">Paper</a> / 
+<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/liu2024blade.html">Bibtex</a>
 
 </div>
 </div>
@@ -79,7 +79,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 <i>IEEE TMM, 2023 (SCI, IF=7.3, JCR Q1, CCF B)</i>
 
-<a href="https://ieeexplore.ieee.org/abstract/document/10258334/">paper</a> / <a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2023gin.html">bibtex</a>
+<a href="https://ieeexplore.ieee.org/abstract/document/10258334/">Paper</a> / <a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2023gin.html">Bibtex</a>
 
 </div>
 </div>
@@ -99,8 +99,8 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 <i>ICCV, 2023 (EI, CCF A)</i>
 
-<a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Li_MUVA_A_New_Large-Scale_Benchmark_for_Multi-View_Amodal_Instance_Segmentation_ICCV_2023_paper.pdf">paper</a> / <a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2023muva.html">bibtex</a> /
-<a href="https://zhixuanli.github.io/projects/li2023muva/index.html">project</a> 
+<a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Li_MUVA_A_New_Large-Scale_Benchmark_for_Multi-View_Amodal_Instance_Segmentation_ICCV_2023_paper.pdf">Paper</a> / <a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2023muva.html">Bibtex</a> /
+<a href="https://zhixuanli.github.io/projects/li2023muva/index.html">Project Page</a> 
 
 </div>
 </div>
@@ -117,8 +117,8 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 <i>ICASSP, 2023 (EI, CCF B)</i>
 
-<a href="https://ieeexplore.ieee.org/abstract/document/10096534/">paper</a> /
-<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2023oaformer.html">bibtex</a>
+<a href="https://ieeexplore.ieee.org/abstract/document/10096534/">Paper</a> /
+<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2023oaformer.html">Bibtex</a>
 
 </div>
 </div>
@@ -135,8 +135,8 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 <i>ECCV, 2022 (EI, CCF B)</i>
 
-<a href="https://link.springer.com/chapter/10.1007/978-3-031-19818-2_10">paper</a> /
-<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2022a3d.html">bibtex</a>
+<a href="https://link.springer.com/chapter/10.1007/978-3-031-19818-2_10">Paper</a> /
+<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2022a3d.html">Bibtex</a>
 
 
 </div>
