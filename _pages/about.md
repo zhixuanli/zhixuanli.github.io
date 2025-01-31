@@ -57,7 +57,7 @@ The * means equal contribution.
 
 Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
-<i>AAAI, 2024 (EI, CCF A)</i>
+<span style="font-size: 90%;"><i>AAAI Conference on Artificial Intelligence (AAAI), 2024 (EI, CCF A)</i></span>
 
 <a href="https://arxiv.org/abs/2401.01642">Paper</a> / 
 <a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/liu2024blade.html">Bibtex</a>
@@ -76,7 +76,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 <u><b>Zhixuan Li</b></u>, Weining Ye, Tingting Jiang, Tiejun Huang
 
-<i>IEEE TMM, 2023 (SCI, IF=7.3, JCR Q1, CCF B)</i>
+<span style="font-size: 90%;"><i>IEEE Transactions on Multimedia (TMM), 2023 (SCI, IF=7.3, JCR Q1, CCF B)</i></span>
 
 <a href="https://ieeexplore.ieee.org/abstract/document/10258334/">Paper</a> / <a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2023gin.html">Bibtex</a>
 
@@ -96,7 +96,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 <u><b>Zhixuan Li</b></u>, Weining Ye, Juan Terven, Zachary Bennett, Ying Zheng, Tingting Jiang, Tiejun Huang
 
-<i>ICCV, 2023 (EI, CCF A)</i>
+<span style="font-size: 90%;"><i>International Conference on Computer Vision (ICCV), 2023 (EI, CCF A)</i></span>
 
 <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Li_MUVA_A_New_Large-Scale_Benchmark_for_Multi-View_Amodal_Instance_Segmentation_ICCV_2023_paper.pdf">Paper</a> / <a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2023muva.html">Bibtex</a> /
 <a href="https://zhixuanli.github.io/projects/li2023muva/index.html">Project Page</a> 
@@ -111,10 +111,9 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 **OAFormer: Learning Occlusion Distinguishable Feature for Amodal Instance Segmentation**
 
-
 <u><b>Zhixuan Li</b></u>, Ruohua Shi, Tiejun Huang, Tingting Jiang
 
-<i>ICASSP, 2023 (EI, CCF B)</i>
+<span style="font-size: 90%;"><i>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2023 (EI, CCF B)</i></span>
 
 <a href="https://ieeexplore.ieee.org/abstract/document/10096534/">Paper</a> /
 <a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2023oaformer.html">Bibtex</a>
@@ -131,7 +130,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 <u><b>Zhixuan Li</b></u>, Weining Ye, Tingting Jiang, Tiejun Huang
 
-<i>ECCV, 2022 (EI, CCF B)</i>
+<span style="font-size: 90%;"><i>European Conference on Computer Vision (ECCV), 2022 (EI, CCF B)</i></span>
 
 <a href="https://link.springer.com/chapter/10.1007/978-3-031-19818-2_10">Paper</a> /
 <a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2022a3d.html">Bibtex</a>
@@ -151,7 +150,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 Weining Ye, <u><b>Zhixuan Li</b></u>, Tingting Jiang
 
-<i>ACCV 2024 (EI, CCF C)</i>
+<span style="font-size: 90%;"><i>Asian Conference on Computer Vision (ACCV), 2024 (EI, CCF C)</i></span>
 
 <a href="https://openaccess.thecvf.com/content/ACCV2024/html/Ye_VIPNet_Combining_Viewpoint_Information_and_Shape_Priors_for_Instant_Multi-View_ACCV_2024_paper.html">Paper</a> 
 
@@ -190,7 +189,7 @@ Tingting Jiang, Tiejun Huang
 
 Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fogelman-Soulie
 
-<i>International Conference on Tools with Artificial Intelligence (ICTAI), 2017 (EI, CCF C)</i>
+<span style="font-size: 90%;"><i>International Conference on Tools with Artificial Intelligence (ICTAI), 2017 (EI, CCF C)</i></span>
 
 <a href="https://ieeexplore.ieee.org/abstract/document/8371938/">Paper</a> 
 
