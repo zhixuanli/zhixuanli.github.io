@@ -164,15 +164,11 @@ Weining Ye, <u><b>Zhixuan Li</b></u>, Tingting Jiang
 <div class='paper-box-text' markdown="1">
 
 
-<p><b>U-RISC: An Annotated Ultra-High-Resolution Electron Microscopy Dataset Challenging the Existing<br></b>Deep Learning Algorithms</p>
+<p><b>U-RISC: An Annotated Ultra-High-Resolution Electron Microscopy Dataset Challenging the Existing<br></b><b>Deep Learning Algorithms</b></p>
 
-[//]: # (**U-RISC: An Annotated Ultra-High-Resolution Electron Microscopy Dataset Challenging the Existing**)
 
-[//]: # (**Deep Learning Algorithms**)
-
-Ruohua Shi*, Wenyao Wang*, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, Lei Ma, Kai Du, 
-
-Tingting Jiang, Tiejun Huang
+<p>Ruohua Shi*, Wenyao Wang*, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, Lei Ma, Kai Du,<br>Tingting Jiang, Tiejun Huang</p>
+ 
 
 <span style="font-size: 90%;"><i>Frontiers in Computational Neuroscience, 2022 (SCI, IF=3.2, JCR Q2)</i></span>
 
@@ -231,7 +227,7 @@ Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fo
 
 **Contact:** zhixuan.li at ntu.edu.sg, zhixuanli520 at gmail.com
 
-**Last Update:** 10 August, 2024
+**Last Update:** 31 Jan, 2025
 
 [//]: # (Thanks for the template of <a href="https://github.com/RayeRen/acad-homepage.github.io">Yi Ren</a>)
 
