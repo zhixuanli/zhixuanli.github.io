@@ -67,7 +67,8 @@ audio:not([controls]) {
 }
 
 a {
-  color: $link-color;
+  //color: $link-color;
+  color: $twitter-color;
 }
 
 /* Apply focus state */
