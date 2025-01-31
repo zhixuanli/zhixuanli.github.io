@@ -130,7 +130,6 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 **2D Amodal Instance Segmentation Guided by 3D Shape Prior**
 
-
 <u><b>Zhixuan Li</b></u>, Weining Ye, Tingting Jiang, Tiejun Huang
 
 <i>ECCV, 2022 (EI, CCF B)</i>
@@ -170,7 +169,9 @@ Weining Ye, <u><b>Zhixuan Li</b></u>, Tingting Jiang
 
 **Dataset Challenging the Existing Deep Learning Algorithms**
 
-Ruohua Shi*, Wenyao Wang*, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, Lei Ma, Kai Du, Tingting Jiang, Tiejun Huang
+Ruohua Shi*, Wenyao Wang*, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, 
+
+Lei Ma, Kai Du, Tingting Jiang, Tiejun Huang
 
 <i>Frontiers in Computational Neuroscience, 2022 (SCI, IF=3.2, JCR Q2)</i>
 
