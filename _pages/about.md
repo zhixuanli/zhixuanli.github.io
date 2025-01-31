@@ -88,11 +88,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023</div><img src='images/2023_ICCV_MUVA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**MUVA: A New Large-Scale Benchmark for Multi-view Amodal Instance Segmentation** 
-
-**in the Shopping Scenario**
-
-[//]: # (<strong><span class='show_paper_citations' data='ElujT6oAAAAJ:hqOjcs7Dif8C'></span></strong>)
+<p><b>MUVA: A New Large-Scale Benchmark for Multi-view Amodal Instance Segmentation<br></b><b>in the Shopping Scenario</b></p>
 
 <u><b>Zhixuan Li</b></u>, Weining Ye, Juan Terven, Zachary Bennett, Ying Zheng, Tingting Jiang, Tiejun Huang
 
