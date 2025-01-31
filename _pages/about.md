@@ -143,6 +143,57 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 </div>
 
 
+[//]: # (------------ ACCV 2024 -------------------)
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACCV 2024</div><img src='images/2024_ACCV_VIPNet.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**VIPNet: Combining Viewpoint Information and Shape Priors for Instant Multi-View 3D Reconstruction**
+
+
+Weining Ye, <u><b>Zhixuan Li</b></u>, Tingting Jiang
+
+<i>ACCV 2024 (EI, CCF C)</i>
+
+<a href="https://openaccess.thecvf.com/content/ACCV2024/html/Ye_VIPNet_Combining_Viewpoint_Information_and_Shape_Priors_for_Instant_Multi-View_ACCV_2024_paper.html">Paper</a> 
+
+</div>
+</div>
+
+
+[//]: # (------------ Frontiers 2022 -------------------)
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers 2022</div><img src='images/2022_Frontiers.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**U-RISC: An Annotated Ultra-High-Resolution Electron Microscopy Dataset Challenging the Existing Deep Learning Algorithms**
+
+Ruohua Shi*, Wenyao Wang*, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, Lei Ma, Kai Du, Tingting Jiang, Tiejun Huang
+
+<i>Frontiers in Computational Neuroscience, 2022 (SCI, IF=3.2, JCR Q2)</i>
+
+<a href="https://www.frontiersin.org/journals/computational-neuroscience/articles/10.3389/fncom.2022.842760/full">Paper</a>
+
+</div>
+</div>
+
+
+
+[//]: # (------------ ICTAI 2017 -------------------)
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICTAI 2017</div><img src='images/2017_ICTAI.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Using deep learning for community discovery in social networks**
+Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fogelman-Soulie
+
+<i>International Conference on Tools with Artificial Intelligence (ICTAI), 2017 (EI, CCF C)</i>
+
+<a href="https://ieeexplore.ieee.org/abstract/document/8371938/">Paper</a> 
+
+</div>
+</div>
+
 [//]: # (-----------------------------------------------)
 
 <span class='anchor' id='projects'></span>
