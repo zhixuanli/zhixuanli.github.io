@@ -172,7 +172,7 @@ Ruohua Shi*, Wenyao Wang*, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, L
 
 Tingting Jiang, Tiejun Huang
 
-<span style="font-size: smaller;"><i>Frontiers in Computational Neuroscience, 2022 (SCI, IF=3.2, JCR Q2)</i></span>
+<span style="font-size: 0.75em;"><i>Frontiers in Computational Neuroscience, 2022 (SCI, IF=3.2, JCR Q2)</i></span>
 
 <a href="https://www.frontiersin.org/journals/computational-neuroscience/articles/10.3389/fncom.2022.842760/full">Paper</a>
 
