@@ -24,14 +24,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm now a Postdoctoral Research Fellow in <a href="https://www.ntu.edu.sg/computing">College of Computing and Data Science</a> of <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>, supervised by Prof. <a href="https://personal.ntu.edu.sg/wslin/Home.html">Weisi Lin</a>. I received my Ph.D. degree at <a href="http://idm.pku.edu.cn/">National Engineering Research Center of Visual Technology</a>, <a href="https://www.pku.edu.cn/">Peking University</a> in 2023, supervised by Prof. <a href="https://idm.pku.edu.cn/info/1017/1040.htm">Tiejun Huang</a> and Assoc. Prof. <a href="http://www.vie.group/ttj">Tingting Jiang</a>. I received my B.E. degree from <a href="http://www.tju.edu.cn/">Tianjin University</a> in 2018, supervised by Prof. <a href="http://aiskyeye.com/">Pengfei Zhu</a> and Prof. <a href="http://cic.tju.edu.cn/faculty/jindi/index.htm">Di Jin</a>.
+I'm now a Research Fellow in <a href="https://www.ntu.edu.sg/computing">College of Computing and Data Science</a> of <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>, supervised by Prof. <a href="https://personal.ntu.edu.sg/wslin/Home.html">Weisi Lin</a>. I received my Ph.D. degree at <a href="http://idm.pku.edu.cn/">National Engineering Research Center of Visual Technology</a>, <a href="https://www.pku.edu.cn/">Peking University</a> in 2023, supervised by Prof. <a href="https://idm.pku.edu.cn/info/1017/1040.htm">Tiejun Huang</a> and Assoc. Prof. <a href="http://www.vie.group/ttj">Tingting Jiang</a>. I received my B.E. degree from <a href="http://www.tju.edu.cn/">Tianjin University</a> in 2018, supervised by Prof. <a href="http://aiskyeye.com/">Pengfei Zhu</a> and Prof. <a href="http://cic.tju.edu.cn/faculty/jindi/index.htm">Di Jin</a>.
 
 My research interests include Artificial Intelligence, Computer Vision and Deep Learning, especially in the fields of:
 - Computer Vision: 
   - Complex Occlusion Scene Understanding, Amodal Segmentation
 - AI for Science: 
-  - Time-Series Analysis for Climate, Financial and Electricity Data
-  - Climate Change Forecasting
+  - Climate Change Forecasting and Time-Series Analysis
 
 [//]: # (----------------------------------------------------------------------------------------)
 <span class='anchor' id='news'></span>
