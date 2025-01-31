@@ -163,9 +163,12 @@ Weining Ye, <u><b>Zhixuan Li</b></u>, Tingting Jiang
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers 2022</div><img src='images/2022_Frontiers.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**U-RISC: An Annotated Ultra-High-Resolution Electron Microscopy Dataset Challenging the Existing**
 
-**Deep Learning Algorithms**
+<p><b>U-RISC: An Annotated Ultra-High-Resolution Electron Microscopy Dataset Challenging the Existing<br></b>Deep Learning Algorithms</p>
+
+[//]: # (**U-RISC: An Annotated Ultra-High-Resolution Electron Microscopy Dataset Challenging the Existing**)
+
+[//]: # (**Deep Learning Algorithms**)
 
 Ruohua Shi*, Wenyao Wang*, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, Lei Ma, Kai Du, 
 
