@@ -166,7 +166,9 @@ Weining Ye, <u><b>Zhixuan Li</b></u>, Tingting Jiang
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers 2022</div><img src='images/2022_Frontiers.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**U-RISC: An Annotated Ultra-High-Resolution Electron Microscopy Dataset Challenging the Existing Deep Learning Algorithms**
+**U-RISC: An Annotated Ultra-High-Resolution Electron Microscopy**
+
+**Dataset Challenging the Existing Deep Learning Algorithms**
 
 Ruohua Shi*, Wenyao Wang*, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, Lei Ma, Kai Du, Tingting Jiang, Tiejun Huang
 
@@ -185,6 +187,7 @@ Ruohua Shi*, Wenyao Wang*, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, L
 <div class='paper-box-text' markdown="1">
 
 **Using deep learning for community discovery in social networks**
+
 Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fogelman-Soulie
 
 <i>International Conference on Tools with Artificial Intelligence (ICTAI), 2017 (EI, CCF C)</i>
