@@ -212,8 +212,8 @@ Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fo
 
 # 📖 Experience
 - *2024.03 - Present:* Research Fellow, College of Computing and Data Science, <img src="images/NTU.svg" width="15.5" height="20"> Nanyang Technological University, <img src="images/Flag_of_Singapore.svg" width="20" height="20" class="flag"> Singapore.
-- *2018.09 - 2023.07:* Doctor of Philosophy, School of Computer Science, <img src="images/PKU.svg" width="20" height="20"> Peking University, Beijing, China.
-- *2014.09 - 2018.07:* Bachelor of Engineering, School of Computer Science, <img src="images/TJU.svg" width="20" height="20"> Tianjin University <i>(Outstanding Graduates)</i>, Tianjin, China.
+- *2018.09 - 2023.07:* Doctor of Philosophy, School of Computer Science, <img src="images/PKU.svg" width="20" height="20"> Peking University, Beijing, <img src="images/Flag_of_the_People's_Republic_of_China.svg" width="20" height="20" class="flag"> China.
+- *2014.09 - 2018.07:* Bachelor of Engineering, School of Computer Science, <img src="images/TJU.svg" width="20" height="20"> Tianjin University <i>(Outstanding Graduates)</i>, Tianjin, <img src="images/Flag_of_the_People's_Republic_of_China.svg" width="20" height="20" class="flag"> China.
 
 <span class='anchor' id='service'></span>
 
