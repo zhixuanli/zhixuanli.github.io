@@ -109,7 +109,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 <u><b>Zhixuan Li</b></u>, Ruohua Shi, Tiejun Huang, Tingting Jiang
 
-<span style="font-size: 90%;"><i>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2023 (EI, CCF B)</i></span>
+<span style="font-size: 90%;"><i>IEEE International Conference on Acoustics, Speech and Signal Processing (**ICASSP**), 2023 (EI, CCF B)</i></span>
 
 <a href="https://ieeexplore.ieee.org/abstract/document/10096534/">Paper</a> /
 <a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2023oaformer.html">Bibtex</a>
