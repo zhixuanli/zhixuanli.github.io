@@ -48,6 +48,24 @@ My research interests include Artificial Intelligence, Computer Vision and Deep 
 
 The * means equal contribution.
 
+[//]: # (----------- BEAT 2025 Arxiv -------------------------)
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/2025_BEAT.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**BEAT: Balanced Frequency Adaptive Tuning for Long-Term Time-Series Forecasting**
+
+<u><b>Zhixuan Li</b></u>, Naipeng Chen, Seonghwa Choi, Sanghoon Lee, Weisi Lin
+
+<span style="font-size: 90%;"><i>arXiv, 2025</i></span>
+
+<a href="https://arxiv.org/abs/2501.19065">Paper</a> / 
+<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2025beat.html">Bibtex</a>
+
+</div>
+</div>
+
+
 [//]: # (----------- AAAI 2024 -------------------------)
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024</div><img src='images/2024_AAAI.jpg' alt="sym" width="100%"></div></div>
