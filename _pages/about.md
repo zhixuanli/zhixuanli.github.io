@@ -44,6 +44,11 @@ My research interests include Artificial Intelligence, Computer Vision and Deep 
 [//]: # (----------------------------------------------------------------------------------------)
 <span class='anchor' id='publications'></span>
 
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+
 # 📝 Selected Publications 
 
 The * means equal contribution.
@@ -55,7 +60,7 @@ The * means equal contribution.
 
 **BEAT: Balanced Frequency Adaptive Tuning for Long-Term Time-Series Forecasting**
 
-<u><b>Zhixuan Li</b></u>, Naipeng Chen, Seonghwa Choi, Sanghoon Lee, Weisi Lin
+<u><b>Zhixuan Li</b></u>, Naipeng Chen, Seonghwa Choi, Sanghoon Lee, Weisi Lin <i class="fas fa-envelope"></i>
 
 <span style="font-size: 90%;"><i>arXiv, 2025</i></span>
 
