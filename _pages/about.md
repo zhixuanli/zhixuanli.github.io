@@ -60,7 +60,7 @@ The * means equal contribution.
 
 **BEAT: Balanced Frequency Adaptive Tuning for Long-Term Time-Series Forecasting**
 
-<u><b>Zhixuan Li</b></u>, Naipeng Chen, Seonghwa Choi, Sanghoon Lee, Weisi Lin <i class="fas fa-envelope"></i>
+<u><b>Zhixuan Li</b></u>, Naipeng Chen, Seonghwa Choi, Sanghoon Lee, Weisi Lin
 
 <span style="font-size: 90%;"><i>arXiv, 2025</i></span>
 
