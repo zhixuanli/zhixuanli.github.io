@@ -245,7 +245,7 @@ Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fo
 
 - Reviewer for 
   - Journals: IEEE TNNLS, IEEE TCSVT, ACM JATS, JVCI
-  - Conferences: CVPR, ECCV, AAAI, ICLR, ACM MM, ICASSP, ICPR
+  - Conferences: CVPR, ICCV, ECCV, AAAI, ICLR, ACM MM, ICASSP, ICPR
 
 [//]: # (----------------------------------------------------------------------------------------)
 # -
