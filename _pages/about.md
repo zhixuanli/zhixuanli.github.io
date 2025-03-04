@@ -179,40 +179,54 @@ Weining Ye, <u><b>Zhixuan Li</b></u>, Tingting Jiang
 
 [//]: # (------------ Frontiers 2022 -------------------)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers 2022</div><img src='images/2022_Frontiers.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+[//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers 2022</div><img src='images/2022_Frontiers.jpg' alt="sym" width="100%"></div></div>)
 
+[//]: # (<div class='paper-box-text' markdown="1">)
 
-<p><b>U-RISC: An Annotated Ultra-High-Resolution Electron Microscopy Dataset Challenging the Existing<br></b><b>Deep Learning Algorithms</b></p>
+[//]: # ()
+[//]: # ()
+[//]: # (<p><b>U-RISC: An Annotated Ultra-High-Resolution Electron Microscopy Dataset Challenging the Existing<br></b><b>Deep Learning Algorithms</b></p>)
 
+[//]: # ()
+[//]: # ()
+[//]: # (<p>Ruohua Shi&#42;, Wenyao Wang&#42;, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, Lei Ma, Kai Du,<br>Tingting Jiang, Tiejun Huang</p>)
 
-<p>Ruohua Shi&#42;, Wenyao Wang&#42;, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, Lei Ma, Kai Du,<br>Tingting Jiang, Tiejun Huang</p>
+[//]: # ()
+[//]: # ()
+[//]: # (<span style="font-size: 90%;"><i>Frontiers in Computational Neuroscience, 2022 &#40;SCI, IF=3.2, JCR Q2&#41;</i></span>)
 
+[//]: # ()
+[//]: # (<a href="https://www.frontiersin.org/journals/computational-neuroscience/articles/10.3389/fncom.2022.842760/full">Paper</a>)
 
-<span style="font-size: 90%;"><i>Frontiers in Computational Neuroscience, 2022 (SCI, IF=3.2, JCR Q2)</i></span>
+[//]: # ()
+[//]: # (</div>)
 
-<a href="https://www.frontiersin.org/journals/computational-neuroscience/articles/10.3389/fncom.2022.842760/full">Paper</a>
-
-</div>
-</div>
+[//]: # (</div>)
 
 
 
 [//]: # (------------ ICTAI 2017 -------------------)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICTAI 2017</div><img src='images/2017_ICTAI.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+[//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICTAI 2017</div><img src='images/2017_ICTAI.jpg' alt="sym" width="100%"></div></div>)
 
-**Using deep learning for community discovery in social networks**
+[//]: # (<div class='paper-box-text' markdown="1">)
 
-Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fogelman-Soulie
+[//]: # ()
+[//]: # (**Using deep learning for community discovery in social networks**)
 
-<span style="font-size: 90%;"><i>International Conference on Tools with Artificial Intelligence (**ICTAI**), 2017 (EI, CCF C)</i></span>
+[//]: # ()
+[//]: # (Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fogelman-Soulie)
 
-<a href="https://ieeexplore.ieee.org/abstract/document/8371938/">Paper</a> 
+[//]: # ()
+[//]: # (<span style="font-size: 90%;"><i>International Conference on Tools with Artificial Intelligence &#40;**ICTAI**&#41;, 2017 &#40;EI, CCF C&#41;</i></span>)
 
-</div>
-</div>
+[//]: # ()
+[//]: # (<a href="https://ieeexplore.ieee.org/abstract/document/8371938/">Paper</a> )
+
+[//]: # ()
+[//]: # (</div>)
+
+[//]: # (</div>)
 
 [//]: # (-----------------------------------------------)
 
