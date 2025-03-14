@@ -283,10 +283,6 @@ Weining Ye, <u><b>Zhixuan Li</b></u>, Tingting Jiang
 
 **Contact:** zhixuan.li at ntu.edu.sg, zhixuanli520 at gmail.com
 
-**Last Update:** 31 Jan, 2025
-
-[//]: # (Thanks for the template of <a href="https://github.com/RayeRen/acad-homepage.github.io">Yi Ren</a>)
-
 
 [//]: # (<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=UA1prgTfM8f4KdsTtZDKPAqAagf4Sr6L0d9xRVyOdrE&cl=ffffff&w=300"></script>)
 
