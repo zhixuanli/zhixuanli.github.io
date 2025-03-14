@@ -65,7 +65,9 @@ The * means equal contribution.
 <span style="font-size: 90%;"><i>arXiv, 2025</i></span>
 
 <a href="https://arxiv.org/abs/2503.10225">Paper</a> / 
-<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2025aura.html">Bibtex</a>
+<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2025aura.html">Bibtex</a> /
+<a href="https://zhixuanli.github.io/projects/li2025aura/index.html">Project Page</a> 
+
 
 </div>
 </div>
