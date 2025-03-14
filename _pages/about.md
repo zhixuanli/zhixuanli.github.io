@@ -72,7 +72,7 @@ The * means equal contribution.
 
 [//]: # (----------- BEAT 2025 Arxiv -------------------------)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/2025_BEAT.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/2025_BEAT.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **BEAT: Balanced Frequency Adaptive Tuning for Long-Term Time-Series Forecasting**
@@ -90,7 +90,7 @@ The * means equal contribution.
 
 [//]: # (----------- AAAI 2024 -------------------------)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024</div><img src='images/2024_AAAI.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/2024_AAAI.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **BLADE: Box-Level Supervised Amodal Segmentation through Directed Expansion**
@@ -107,7 +107,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 [//]: # (----------- TMM 2023 -------------------------)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMM 2023</div><img src='images/2023_TMM.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/2023_TMM.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **GIN: Generative INvariant Shape Prior for Amodal Instance Segmentation** 
@@ -125,7 +125,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 [//]: # (----------- ICCV 2023 -------------------------)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023</div><img src='images/2023_ICCV_MUVA.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/2023_ICCV_MUVA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <p><b>MUVA: A New Large-Scale Benchmark for Multi-view Amodal Instance Segmentation<br></b><b>in the Shopping Scenario</b></p>
@@ -142,7 +142,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 [//]: # (------------- ICASSP 2023 -----------------)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2023</div><img src='images/2023_ICASSP_OAFormer.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/2023_ICASSP_OAFormer.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **OAFormer: Learning Occlusion Distinguishable Feature for Amodal Instance Segmentation**
@@ -159,7 +159,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 [//]: # (------------ ECCV 2022 -------------------)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2022</div><img src='images/2022_ECCV_A3D.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/2022_ECCV_A3D.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **2D Amodal Instance Segmentation Guided by 3D Shape Prior**
@@ -178,7 +178,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
 
 [//]: # (------------ ACCV 2024 -------------------)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACCV 2024</div><img src='images/2024_ACCV_VIPNet.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/2024_ACCV_VIPNet.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **VIPNet: Combining Viewpoint Information and Shape Priors for Instant Multi-View 3D Reconstruction**
@@ -192,58 +192,6 @@ Weining Ye, <u><b>Zhixuan Li</b></u>, Tingting Jiang
 
 </div>
 </div>
-
-
-[//]: # (------------ Frontiers 2022 -------------------)
-
-[//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers 2022</div><img src='images/2022_Frontiers.jpg' alt="sym" width="100%"></div></div>)
-
-[//]: # (<div class='paper-box-text' markdown="1">)
-
-[//]: # ()
-[//]: # ()
-[//]: # (<p><b>U-RISC: An Annotated Ultra-High-Resolution Electron Microscopy Dataset Challenging the Existing<br></b><b>Deep Learning Algorithms</b></p>)
-
-[//]: # ()
-[//]: # ()
-[//]: # (<p>Ruohua Shi&#42;, Wenyao Wang&#42;, <u><b>Zhixuan Li</b></u>, Liuyuan He, Kaiwen Sheng, Lei Ma, Kai Du,<br>Tingting Jiang, Tiejun Huang</p>)
-
-[//]: # ()
-[//]: # ()
-[//]: # (<span style="font-size: 90%;"><i>Frontiers in Computational Neuroscience, 2022 &#40;SCI, IF=3.2, JCR Q2&#41;</i></span>)
-
-[//]: # ()
-[//]: # (<a href="https://www.frontiersin.org/journals/computational-neuroscience/articles/10.3389/fncom.2022.842760/full">Paper</a>)
-
-[//]: # ()
-[//]: # (</div>)
-
-[//]: # (</div>)
-
-
-
-[//]: # (------------ ICTAI 2017 -------------------)
-
-[//]: # (<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICTAI 2017</div><img src='images/2017_ICTAI.jpg' alt="sym" width="100%"></div></div>)
-
-[//]: # (<div class='paper-box-text' markdown="1">)
-
-[//]: # ()
-[//]: # (**Using deep learning for community discovery in social networks**)
-
-[//]: # ()
-[//]: # (Di Jin, Meng Ge, <u><b>Zhixuan Li</b></u>, Wenhuan Lu, Dongxiao He, Francoise Fogelman-Soulie)
-
-[//]: # ()
-[//]: # (<span style="font-size: 90%;"><i>International Conference on Tools with Artificial Intelligence &#40;**ICTAI**&#41;, 2017 &#40;EI, CCF C&#41;</i></span>)
-
-[//]: # ()
-[//]: # (<a href="https://ieeexplore.ieee.org/abstract/document/8371938/">Paper</a> )
-
-[//]: # ()
-[//]: # (</div>)
-
-[//]: # (</div>)
 
 [//]: # (-----------------------------------------------)
 
@@ -260,7 +208,7 @@ Weining Ye, <u><b>Zhixuan Li</b></u>, Tingting Jiang
 
 <style>
   .flag {
-    box-shadow: 0 0 1px black; /* 轻微阴影，模拟超细边框 */
+    box-shadow: 0 0 1px black;
   }
 </style>
 
@@ -283,7 +231,5 @@ Weining Ye, <u><b>Zhixuan Li</b></u>, Tingting Jiang
 
 **Contact:** zhixuan.li at ntu.edu.sg, zhixuanli520 at gmail.com
 
-
-[//]: # (<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=UA1prgTfM8f4KdsTtZDKPAqAagf4Sr6L0d9xRVyOdrE&cl=ffffff&w=300"></script>)
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=UA1prgTfM8f4KdsTtZDKPAqAagf4Sr6L0d9xRVyOdrE&co=9fc7e3&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
