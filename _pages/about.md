@@ -55,7 +55,7 @@ The * means equal contribution.
 
 [//]: # (----------- AURA 2025 Arxiv -------------------------)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/2025_AURA.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/2025_AURA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Unveiling the Invisible: Reasoning Complex Occlusions Amodally with AURA**
@@ -65,9 +65,7 @@ The * means equal contribution.
 <span style="font-size: 90%;"><i>arXiv, 2025</i></span>
 
 <a href="https://arxiv.org/abs/2503.10225">Paper</a> / 
-<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2025aura.html">Bibtex</a> /
-<a href="https://zhixuanli.github.io/projects/li2025aura/index.html">Project Page</a> 
-
+<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2025aura.html">Bibtex</a>
 
 </div>
 </div>
