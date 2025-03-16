@@ -55,7 +55,6 @@ My research interests include Artificial Intelligence, Computer Vision and Deep 
 
 # 📝 Selected Publications 
 
-The * means equal contribution.
 
 [//]: # (----------- AURA 2025 Arxiv -------------------------)
 
@@ -100,7 +99,7 @@ The * means equal contribution.
 
 **BLADE: Box-Level Supervised Amodal Segmentation through Directed Expansion**
 
-Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang
+Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang (* Equal Contribution)
 
 <span style="font-size: 90%;"><i>AAAI Conference on Artificial Intelligence (**AAAI**), 2024 (EI, CCF A)</i></span>
 
