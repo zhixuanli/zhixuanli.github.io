@@ -35,11 +35,15 @@ My research interests include Artificial Intelligence, Computer Vision and Deep 
 [//]: # (----------------------------------------------------------------------------------------)
 <span class='anchor' id='news'></span>
 
-# 🔥 News
-- *2023.12*: One paper is accepted by <b>AAAI 2024</b>
-- *2023.09*: One paper is accepted by <b>IEEE TMM</b>
-- *2023.07*: One paper is accepted by <b>ICCV 2023</b>
+[//]: # (# 🔥 News)
 
+[//]: # (- *2023.12*: One paper is accepted by <b>AAAI 2024</b>)
+
+[//]: # (- *2023.09*: One paper is accepted by <b>IEEE TMM</b>)
+
+[//]: # (- *2023.07*: One paper is accepted by <b>ICCV 2023</b>)
+
+[//]: # ()
 
 [//]: # (----------------------------------------------------------------------------------------)
 <span class='anchor' id='publications'></span>
