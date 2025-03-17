@@ -231,9 +231,13 @@ Weining Ye, <u><b>Zhixuan Li</b></u>, Tingting Jiang
 [//]: # (----------------------------------------------------------------------------------------)
 # 💻 Service
 
-- Reviewer for 
-  - Journals: IEEE TNNLS, IEEE TCSVT, ACM JATS, JVCI, IMAVIS
-  - Conferences: CVPR, ICCV, ECCV, AAAI, ICLR, ACM MM, ICASSP, ICPR
+## Journal Reviewer
+
+- IEEE TNNLS, IEEE TCSVT, ACM JATS, JVCI, IMAVIS
+
+## Conference Reviewer
+
+- CVPR, ICCV, ECCV, AAAI, ICLR, ACM MM, ICASSP, ICPR
 
 [//]: # (----------------------------------------------------------------------------------------)
 # -
