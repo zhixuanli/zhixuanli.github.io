@@ -29,6 +29,7 @@ I'm now a Research Fellow in <a href="https://www.ntu.edu.sg/computing">College 
 My research interests include Artificial Intelligence, Computer Vision and Deep Learning, especially in the fields of:
 - Computer Vision: 
   - Complex Occlusion Scene Understanding, Amodal Segmentation
+  - Vision-Language Models for Visual Reasoning
 - AI for Science: 
   - Climate Change Forecasting and Time-Series Analysis
 
