@@ -189,6 +189,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang (* Equal Contribution)
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/2024_ACCV_VIPNet.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **VIPNet: Combining Viewpoint Information and Shape Priors for Instant Multi-View 3D Reconstruction**
+
 Weining Ye, <u><b>Zhixuan Li</b></u>, Tingting Jiang
 
 <span style="font-size: 90%;"><i>Asian Conference on Computer Vision (**ACCV**), 2024 (EI, CCF C)</i></span>
