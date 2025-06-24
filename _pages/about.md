@@ -207,7 +207,7 @@ Weining Ye, <u><b>Zhixuan Li</b></u>, Tingting Jiang
 
 <p><b>LVPNet: A Latent-variable-based Prediction-driven End-to-end Framework<br></b><b>for Lossless Compression of Medical Images</b></p>
 
-<p><b>Chenyue Song, Chen Hui, Qing Lin, Wei Zhang, Siqiao Li, Shengping Zhang, <br></b><b>Haiqi Zhu, <u><b>Zhixuan Li</b></u>, Shaohui Liu, Feng Jiang, Xiang Li</b></p>
+<p>Chenyue Song, Chen Hui, Qing Lin, Wei Zhang, Siqiao Li, Shengping Zhang, <br>Haiqi Zhu, <u><b>Zhixuan Li</b></u>, Shaohui Liu, Feng Jiang, Xiang Li</p>
 
 <span style="font-size: 90%;"><i>Medical Image Computing and Computer Assisted Intervention (**MICCAI**), 2025 (EI, CCF B)</i></span>
 
