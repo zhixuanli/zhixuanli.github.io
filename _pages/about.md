@@ -188,6 +188,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang (* Equal Contribution)
 [//]: # (------------ ACCV 2024 -------------------)
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/2024_ACCV_VIPNet.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
 **VIPNet: Combining Viewpoint Information and Shape Priors for Instant Multi-View 3D Reconstruction**
 
 Weining Ye, <u><b>Zhixuan Li</b></u>, Tingting Jiang
@@ -203,6 +204,7 @@ Weining Ye, <u><b>Zhixuan Li</b></u>, Tingting Jiang
 [//]: # (------------ MICCAI 2025 -------------------)
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/2025_MICCAI_LVPNet.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
 **LVPNet: A Latent-variable-based Prediction-driven End-to-end Framework for Lossless Compression of Medical Images**
 
 Chenyue Song, Chen Hui, Qing Lin, Wei Zhang, Siqiao Li, Shengping Zhang, Haiqi Zhu, <u><b>Zhixuan Li</b></u>, Shaohui Liu, Feng Jiang, Xiang Li
