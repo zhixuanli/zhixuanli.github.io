@@ -185,20 +185,6 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang (* Equal Contribution)
 </div>
 
 
-[//]: # (------------ ACCV 2024 -------------------)
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/2024_ACCV_VIPNet.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**VIPNet: Combining Viewpoint Information and Shape Priors for Instant Multi-View 3D Reconstruction**
-
-Weining Ye, <u><b>Zhixuan Li</b></u>, Tingting Jiang
-
-<span style="font-size: 90%;"><i>Asian Conference on Computer Vision (**ACCV**), 2024 (EI, CCF C)</i></span>
-
-<a href="https://openaccess.thecvf.com/content/ACCV2024/html/Ye_VIPNet_Combining_Viewpoint_Information_and_Shape_Priors_for_Instant_Multi-View_ACCV_2024_paper.html">Paper</a> /
-<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/ye2024vipnet.html">Bibtex</a>
-</div>
-</div>
 
 
 [//]: # (------------ MICCAI 2025 -------------------)
@@ -213,6 +199,24 @@ Weining Ye, <u><b>Zhixuan Li</b></u>, Tingting Jiang
 
 <a href="https://www.arxiv.org/abs/2506.17983">Paper</a> /
 <a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/song2025LVPNet.html">Bibtex</a>
+</div>
+</div>
+
+
+
+
+[//]: # (------------ ACCV 2024 -------------------)
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/2024_ACCV_VIPNet.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**VIPNet: Combining Viewpoint Information and Shape Priors for Instant Multi-View 3D Reconstruction**
+
+Weining Ye, <u><b>Zhixuan Li</b></u>, Tingting Jiang
+
+<span style="font-size: 90%;"><i>Asian Conference on Computer Vision (**ACCV**), 2024 (EI, CCF C)</i></span>
+
+<a href="https://openaccess.thecvf.com/content/ACCV2024/html/Ye_VIPNet_Combining_Viewpoint_Information_and_Shape_Priors_for_Instant_Multi-View_ACCV_2024_paper.html">Paper</a> /
+<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/ye2024vipnet.html">Bibtex</a>
 </div>
 </div>
 
