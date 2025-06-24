@@ -197,22 +197,29 @@ Weining Ye, <u><b>Zhixuan Li</b></u>, Tingting Jiang
 <a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/ye2024vipnet.html">Bibtex</a>
 </div>
 </div>
+
+
+[//]: # (------------ MICCAI 2025 -------------------)
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/2025_MICCAI_LVPNet.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+**LVPNet: A Latent-variable-based Prediction-driven End-to-end Framework for Lossless Compression of Medical Images**
+
+Chenyue Song, Chen Hui, Qing Lin, Wei Zhang, Siqiao Li, Shengping Zhang, Haiqi Zhu, <u><b>Zhixuan Li</b></u>, Shaohui Liu, Feng Jiang, Xiang Li
+
+<span style="font-size: 90%;"><i>Medical Image Computing and Computer Assisted Intervention (**MICCAI**), 2025 (EI, CCF B)</i></span>
+
+<a href="https://www.arxiv.org/abs/2506.17983">Paper</a> /
+<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/song2025LVPNet.html">Bibtex</a>
+</div>
+</div>
+
+
+
+
+
+
+
 [//]: # (-----------------------------------------------)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <span class='anchor' id='projects'></span>
 
 
