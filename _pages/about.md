@@ -57,7 +57,7 @@ My research interests include Artificial Intelligence, Computer Vision and Deep 
 # 📝 Selected Publications 
 
 
-[//]: # (----------- AURA 2025 Arxiv -------------------------)
+[//]: # (----------- AURA 2025 ICCV -------------------------)
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/2025_AURA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -66,7 +66,7 @@ My research interests include Artificial Intelligence, Computer Vision and Deep 
 
 <u><b>Zhixuan Li</b></u>, Hyunse Yoon, Sanghoon Lee, Weisi Lin
 
-<span style="font-size: 90%;"><i>arXiv, 2025</i></span>
+<span style="font-size: 90%;"><i>International Conference on Computer Vision (**ICCV**), 2025 (EI, CCF A)</i></span>
 
 <a href="https://arxiv.org/abs/2503.10225">Paper</a> / 
 <a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2025aura.html">Bibtex</a> /
