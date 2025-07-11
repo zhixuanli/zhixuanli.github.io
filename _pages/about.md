@@ -208,7 +208,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang (* Equal Contribution)
 
 <p><b>MS-IQA: A Multi-Scale Feature Fusion Network for PET/CT Image Quality Assessment</b></p>
 
-<p>Siqiao Li, Chen Hui, Wei Zhang, Rui Liang, Chenyue Song, Feng Jiang, Haiqi Zhu, <u><b>Zhixuan Li</b></u>, Hong Huang, Xiang Li</p>
+<p>Siqiao Li, Chen Hui, Wei Zhang, Rui Liang, Chenyue Song, Feng Jiang, <br>Haiqi Zhu, <u><b>Zhixuan Li</b></u>, Hong Huang, Xiang Li</p>
 
 <span style="font-size: 90%;"><i>Medical Image Computing and Computer Assisted Intervention (**MICCAI**), 2025 (EI, CCF B)</i></span>
 
