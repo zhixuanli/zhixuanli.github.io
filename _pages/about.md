@@ -202,7 +202,20 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang (* Equal Contribution)
 </div>
 </div>
 
+[//]: # (------------ MICCAI 2025 -------------------)
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/2025_MICCAI_MS-IQA.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
+<p><b>MS-IQA: A Multi-Scale Feature Fusion Network for PET/CT Image Quality Assessment</b></p>
+
+<p>Siqiao Li, Chen Hui, Wei Zhang, Rui Liang, Chenyue Song, Feng Jiang, Haiqi Zhu, <u><b>Zhixuan Li</b></u>, Hong Huang, Xiang Li</p>
+
+<span style="font-size: 90%;"><i>Medical Image Computing and Computer Assisted Intervention (**MICCAI**), 2025 (EI, CCF B)</i></span>
+
+<a href="https://www.arxiv.org/abs/2506.20200">Paper</a> /
+<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/lisiqiao2025MS-IQA.html">Bibtex</a>
+</div>
+</div>
 
 
 [//]: # (------------ ACCV 2024 -------------------)
