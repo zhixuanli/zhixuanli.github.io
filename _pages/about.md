@@ -68,7 +68,7 @@ My research interests include Artificial Intelligence, Computer Vision and Deep 
 
 <span style="font-size: 90%;"><i>International Conference on Computer Vision (**ICCV**), 2025 (EI, CCF A)</i></span>
 
-<a href="https://arxiv.org/abs/2503.10225">Paper</a> / 
+<a href="https://arxiv.org/abs/2503.10225v2">Paper</a> / 
 <a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2025aura.html">Bibtex</a> /
 <a href="https://zhixuanli.github.io/projects/li2025aura/index.html">Project Page</a> 
 
