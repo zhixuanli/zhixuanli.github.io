@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>ShapeMoE</title>
+<!--  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">-->
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Shape Distribution Matters: Shape-specific Mixture-of-Experts for Amodal Segmentation under Diverse Occlusions</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://zhixuanli.github.io/" target="_blank">Zhixuan Li</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?hl=en&user=iDyKEuwAAAAJ&view_op=list_works" target="_blank">Yujia Liu</a><sup>2,3,4</sup>,</span>
+              <span class="author-block">
+                    <a href="https://scholar.google.com/citations?hl=en&user=33MsN_4AAAAJ&view_op=list_works" target="_blank">Chen Hui</a><sup>5</sup>,</span>
+              <span class="author-block">
+                    <a href="https://scholar.google.com/citations?hl=en&user=33MsN_4AAAAJ&view_op=list_works" target="_blank">Jeonghaeng Lee</a><sup>6</sup>,</span>
+              <span class="author-block">
+                    <a href="https://scholar.google.com/citations?hl=en&user=33MsN_4AAAAJ&view_op=list_works" target="_blank">Sanghoon Lee</a><sup>6</sup>,</span>
+              <span class="author-block">
+                    <a href="https://scholar.google.com.tw/citations?user=D_S41X4AAAAJ" target="_blank">Weisi Lin</a><sup>1*</sup></span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>Nanyang Technological University, Singapore,</span><br>
+                    <span class="author-block"><sup>2</sup>School of Computer Science, Peking University, Beijing, China</span><br>
+                    <span class="author-block"><sup>3</sup>National Key Laboratory for Multimedia Information Processing, Peking University, Beijing, China</span><br>
+                    <span class="author-block"><sup>4</sup>National Engineering Research Center of Visual Technology, Peking University, Beijing, China</span><br>
+                    <span class="author-block"><sup>5</sup>Nanjing University of Information Science and Technology, China</span><br>
+                    <span class="author-block"><sup>6</sup>Department of Electrical and Electronic Engineering, Yonsei University, Korea</span><br>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding author.</small></span>
+                    <br>
+                    <span class="author-block"><strong>Preprint</strong></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2508.01664" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                            <!-- ArXiv abstract Link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/abs/2508.01664" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="ai ai-arxiv"></i>
+                        </span>
+                        <span>arXiv</span>
+                      </a>
+                    </span>
+
+<!--                    &lt;!&ndash; Supplementary PDF link &ndash;&gt;-->
+<!--                    <span class="link-block">-->
+<!--                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"-->
+<!--                      class="external-link button is-normal is-rounded is-dark">-->
+<!--                      <span class="icon">-->
+<!--                        <i class="fas fa-file-pdf"></i>-->
+<!--                      </span>-->
+<!--                      <span>Supplementary</span>-->
+<!--                    </a>-->
+<!--                  </span>-->
+
+                  <!-- Github link -->
+<!--                  <span class="link-block">-->
+<!--                    <a href="" target="_blank"-->
+<!--                    class="external-link button is-normal is-rounded is-dark">-->
+<!--                    <span class="icon">-->
+<!--                      <i class="fab fa-github"></i>-->
+<!--                    </span>-->
+<!--                    <span>Code (Will be released)</span>-->
+<!--                  </a>-->
+<!--                </span>-->
+
+<!--                <span class="link-block">-->
+<!--                  <a href="" target="_blank"-->
+<!--                  class="external-link button is-normal is-rounded is-dark">-->
+<!--                  <span class="icon">-->
+<!--                    <i class="fab fa-github"></i>-->
+<!--                  </span>-->
+<!--                  <span>Dataset (Will be released)</span>-->
+<!--                </a>-->
+<!--              </span>-->
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Paper abstract -->
+<section class="section hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Amodal segmentation targets to predict complete object masks, covering both visible and occluded regions. This task poses significant challenges due to complex occlusions and extreme shape variation, from rigid furniture to highly deformable clothing. Existing one-size-fits-all approaches rely on a single model to handle all shape types, struggling to capture and reason about diverse amodal shapes due to limited representation capacity. A natural solution is to adopt a Mixture-of-Experts (MoE) framework, assigning experts to different shape patterns. However, naively applying MoE without considering the object's underlying shape distribution can lead to mismatched expert routing and insufficient expert specialization, resulting in redundant or underutilized experts. To deal with these issues, we introduce ShapeMoE, a shape-specific sparse Mixture-of-Experts framework for amodal segmentation. The key idea is to learn a latent shape distribution space and dynamically route each object to a lightweight expert tailored to its shape characteristics. Specifically, ShapeMoE encodes each object into a compact Gaussian embedding that captures key shape characteristics. A Shape-Aware Sparse Router then maps the object to the most suitable expert, enabling precise and efficient shape-aware expert routing. Each expert is designed as lightweight and specialized in predicting occluded regions for specific shape patterns. ShapeMoE offers well interpretability via clear shape-to-expert correspondence, while maintaining high capacity and efficiency. Experiments on COCOA-cls, KINS, and D2SA show that ShapeMoE consistently outperforms state-of-the-art methods, especially in occluded region segmentation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+
+
+<section class="section hero is-small">
+<div class="container is-max-desktop">
+<div class="columns is-centered">
+  <div class="column is-full">
+    <div class="content">
+      <center>
+      <h2 class="title is-3">Motivation</h2>
+      <img src="static/images/motivation.jpg"  class="center-image blend-img-background"/>
+      </center>
+      <div class="level-set has-text-justified">
+        <p>
+           Motivation and Comparison of Routing Strategies. (a) One-size-fits-all models treat all shape types equally, often producing incomplete predictions under occlusion. (b) Naive MoE approaches rely on softmax-based routing without modeling shape distributions, leading to a mismatch between samples and experts. (c) Our ShapeMoE framework encodes each shape as a Gaussian distribution in a latent space, enabling shape-aware sparse routing to specialized experts and improving segmentation of diverse amodal shapes. Best viewed in color.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+<section class="section hero is-small is-light">
+<div class="container is-max-desktop">
+<div class="columns is-centered">
+  <div class="column is-full">
+    <div class="content">
+      <center>
+      <h2 class="title is-3">The Proposed ShapeMoE Method</h2>
+      <img src="static/images/overall_architecture.jpg"  class="center-image blend-img-background"/>
+      </center>
+      <div class="level-set has-text-justified">
+        <p>
+           Given an input image and a visible mask, ShapeMoE performs amodal segmentation through the following stages. (1) The image is encoded by the image feature encoder, while the visible mask is embedded into a shape-aware mask embedding. (2) The Shape Distribution Encoder predicts the Gaussian parameters that characterize the object’s shape distribution in a learned latent space. (3) A latent shape representation is sampled, and the Shape-aware Sparse Router computes expert selection scores to route each instance to the most appropriate expert. (4) The selected expert, specialized in specific shape patterns, predicts the final high-quality amodal segmentation mask. Best viewed in color.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+<section class="section hero is-small">
+<div class="container is-max-desktop">
+<div class="columns is-centered">
+  <div class="column is-full">
+    <div class="content">
+      <center>
+      <h2 class="title is-3">Qualitative Results</h2>
+      <img src="static/images/qualitative_result.jpg" class="center-image blend-img-background"/>
+      </center>
+      <div class="level-set has-text-justified">
+        <p>
+           Qualitative results of the proposed ShapeMoE. Four representative cases are shown across various object categories, including bench, human, and horse, demonstrating ShapeMoE’s ability to handle complex occlusions and varied amodal shapes. Best viewed in color and zoomed in for details.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+<!--BibTex citation -->
+  <section class="section hero is-small is-light" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+          @inproceedings{li2025shapemoe,
+                title={Shape Distribution Matters: Shape-specific Mixture-of-Experts for Amodal Segmentation under Diverse Occlusions},
+                author={Li, Zhixuan and Liu, Yujia and Hui, Chen and Lee, Jeonghaeng and Lee, Sanghoon and Lin, Weisi},
+                booktitle={arXiv:2508.01664},
+                year={2025}
+          }
+      </code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
