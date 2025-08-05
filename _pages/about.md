@@ -69,8 +69,7 @@ My research interests include Artificial Intelligence, Computer Vision and Deep 
 
 <a href="https://arxiv.org/abs/2508.01661">Paper</a> / 
 <a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2025vela.html">Bibtex</a> /
-
-[//]: # (<a href="https://zhixuanli.github.io/projects/li2025vela/index.html">Project Page</a> )
+<a href="https://zhixuanli.github.io/projects/li2025vela/index.html">Project Page</a> 
 
 
 </div>
