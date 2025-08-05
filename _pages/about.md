@@ -54,9 +54,48 @@ My research interests include Artificial Intelligence, Computer Vision and Deep 
 </head>
 
 
-# 📝 Selected Publications 
+# 📝 Selected Publications
+
+[//]: # (----------- VELA 2025 Arxiv -------------------------)
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/2025_VELA.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Single Point, Full Mask: Velocity-Guided Level Set Evolution for End-to-End Amodal Segmentation**
+
+<u><b>Zhixuan Li</b></u>, Yujia Liu, Chen Hui, Weisi Lin
+
+<span style="font-size: 90%;"><i>arXiv, 2025</i></span>
+
+<a href="https://arxiv.org/abs/2508.01661">Paper</a> / 
+<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2025vela.html">Bibtex</a> /
+
+[//]: # (<a href="https://zhixuanli.github.io/projects/li2025vela/index.html">Project Page</a> )
 
 
+</div>
+</div>
+
+
+[//]: # (----------- ShapeMoE 2025 Arxiv -------------------------)
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/2025_ShapeMoE.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Shape Distribution Matters: Shape-specific Mixture-of-Experts for Amodal Segmentation under Diverse Occlusions**
+
+<u><b>Zhixuan Li</b></u>, Yujia Liu, Chen Hui, Jeonghaeng Lee, Sanghoon Lee, Weisi Lin
+
+<span style="font-size: 90%;"><i>arXiv, 2025</i></span>
+
+<a href="https://arxiv.org/abs/2508.01664">Paper</a> / 
+<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2025shapemoe.html">Bibtex</a> /
+
+[//]: # (<a href="https://zhixuanli.github.io/projects/li2025shapemoe/index.html">Project Page</a> )
+
+
+</div>
+</div>
 
 
 [//]: # (----------- BEAT 2025 Arxiv -------------------------)
