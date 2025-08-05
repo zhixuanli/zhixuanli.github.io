@@ -57,23 +57,7 @@ My research interests include Artificial Intelligence, Computer Vision and Deep 
 # 📝 Selected Publications 
 
 
-[//]: # (----------- AURA 2025 ICCV -------------------------)
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/2025_AURA.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Unveiling the Invisible: Reasoning Complex Occlusions Amodally with AURA**
-
-<u><b>Zhixuan Li</b></u>, Hyunse Yoon, Sanghoon Lee, Weisi Lin
-
-<span style="font-size: 90%;"><i>International Conference on Computer Vision (**ICCV**), 2025 (EI, CCF A)</i></span>
-
-<a href="https://arxiv.org/abs/2503.10225v2">Paper</a> / 
-<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2025aura.html">Bibtex</a> /
-<a href="https://zhixuanli.github.io/projects/li2025aura/index.html">Project Page</a> 
-
-</div>
-</div>
 
 [//]: # (----------- BEAT 2025 Arxiv -------------------------)
 
@@ -94,6 +78,24 @@ My research interests include Artificial Intelligence, Computer Vision and Deep 
 </div>
 </div>
 
+
+[//]: # (----------- AURA 2025 ICCV -------------------------)
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/2025_AURA.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Unveiling the Invisible: Reasoning Complex Occlusions Amodally with AURA**
+
+<u><b>Zhixuan Li</b></u>, Hyunse Yoon, Sanghoon Lee, Weisi Lin
+
+<span style="font-size: 90%;"><i>International Conference on Computer Vision (**ICCV**), 2025 (EI, CCF A)</i></span>
+
+<a href="https://arxiv.org/abs/2503.10225v2">Paper</a> / 
+<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2025aura.html">Bibtex</a> /
+<a href="https://zhixuanli.github.io/projects/li2025aura/index.html">Project Page</a> 
+
+</div>
+</div>
 
 [//]: # (----------- AAAI 2024 -------------------------)
 
