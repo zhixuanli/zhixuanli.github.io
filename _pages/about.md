@@ -76,13 +76,12 @@ My research interests include Artificial Intelligence, Computer Vision and Deep 
 </div>
 </div>
 
-
 [//]: # (----------- ShapeMoE 2025 Arxiv -------------------------)
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/2025_ShapeMoE.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Shape Distribution Matters: Shape-specific Mixture-of-Experts for Amodal Segmentation under Diverse Occlusions**
+<p><b>Shape Distribution Matters: Shape-specific Mixture-of-Experts for Amodal Segmentation<br></b><b>under Diverse Occlusions</b></p>
 
 <u><b>Zhixuan Li</b></u>, Yujia Liu, Chen Hui, Jeonghaeng Lee, Sanghoon Lee, Weisi Lin
 
@@ -92,7 +91,6 @@ My research interests include Artificial Intelligence, Computer Vision and Deep 
 <a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/li2025shapemoe.html">Bibtex</a> /
 
 [//]: # (<a href="https://zhixuanli.github.io/projects/li2025shapemoe/index.html">Project Page</a> )
-
 
 </div>
 </div>
