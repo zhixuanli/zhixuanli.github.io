@@ -30,6 +30,8 @@
 
 @import "forms";
 
+$max-width: 1200px;
+
 @import "page";
 @import "archive";
 @import "sidebar";
@@ -48,7 +50,7 @@
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
     padding: 2em 0 2em 0;
-    max-width: 3000px;
+    max-width: $max-width;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -112,10 +114,3 @@ h1:before, .anchor:before {
     font-size: .8em;
 }
 
-/* 覆盖父容器限制，让 .paper-box 全宽显示 */
-.page__content .paper-box {
-    width: 100vw;  // 占满整个视口宽度
-    margin-left: calc(50% - 50vw);
-    margin-right: calc(50% - 50vw);
-    max-width: 100%;
-  }
