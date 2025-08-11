@@ -61,7 +61,7 @@ My research interests include Artificial Intelligence, Computer Vision and Deep 
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/2025_ShapeMoE.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<p><b>Shape Distribution Matters: Shape-specific Mixture-of-Experts for Amodal Segmentation under Diverse Occlusions</b></p>
+<p><b>Shape Distribution Matters: Shape-specific Mixture-of-Experts for Amodal Segmentation<br></b><b>under Diverse Occlusions</b></p>
 
 <u><b>Zhixuan Li</b></u>, Yujia Liu, Chen Hui, Jeonghaeng Lee, Sanghoon Lee, Weisi Lin
 
