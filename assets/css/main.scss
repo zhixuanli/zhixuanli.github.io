@@ -82,7 +82,7 @@
         .paper-box-text{
             justify-content: left;
             padding-left: 2em;
-            max-width: 100%;
+            max-width: 80%;
             order: 2;
         }
 
@@ -111,3 +111,11 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* 覆盖父容器限制，让 .paper-box 全宽显示 */
+.page__content .paper-box {
+    width: 100vw;  // 占满整个视口宽度
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    max-width: 100%;
+  }
