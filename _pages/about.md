@@ -233,7 +233,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang (* Equal Contribution)
 
 <p>Jeonghaeng Lee, Seok Keun Choi, Zhixuan Li, Weisi Lin, Sanghoon Lee</p>
 
-<span style="font-size: 90%;"><i>AAAI 2026 (EI, CCF A)</i></span>
+<span style="font-size: 90%;"><i>AAAI Conference on Artificial Intelligence (**AAAI**), 2026 (EI, CCF A)</i></span>
 
 <!-- <a href="https://www.arxiv.org/abs/2506.17983">Paper</a> / -->
 <a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/lee2025DipGuava.html">Bibtex</a>
