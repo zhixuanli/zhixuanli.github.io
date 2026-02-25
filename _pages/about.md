@@ -27,11 +27,13 @@ redirect_from:
 I'm now a Research Fellow in <a href="https://www.ntu.edu.sg/computing">College of Computing and Data Science (CCDS) </a> of <img src="images/NTU.svg" width="15.5" height="20"> <a href="https://www.ntu.edu.sg/">Nanyang Technological University</a>, collaborating with Prof. <a href="https://personal.ntu.edu.sg/wslin/Home.html">Weisi Lin</a>. I received my Ph.D. degree at <a href="http://idm.pku.edu.cn/">National Engineering Research Center of Visual Technology (NERCVT) </a>, <img src="images/PKU.svg" width="20" height="20"> <a href="https://www.pku.edu.cn/">Peking University</a> in 2023, supervised by Prof. <a href="https://idm.pku.edu.cn/info/1017/1040.htm">Tiejun Huang</a> and Assoc. Prof. <a href="http://www.vie.group/ttj">Tingting Jiang</a>. I received my B.E. degree from <img src="images/TJU.svg" width="20" height="20"> <a href="http://www.tju.edu.cn/">Tianjin University</a> in 2018, supervised by Prof. <a href="http://aiskyeye.com/">Pengfei Zhu</a> and Prof. <a href="http://cic.tju.edu.cn/faculty/jindi/index.htm">Di Jin</a>.
 
 My research interests include Artificial Intelligence, Computer Vision and Deep Learning, especially in the fields of:
+
+- AI for Science: 
+  - AI for Climate Change Forecasting and Time-Series Analysis
+  - AI for Earth Observation and Remote Sensing
 - Computer Vision: 
   - Complex Occlusion Scene Understanding, Amodal Segmentation
   - Vision-Language Models for Visual Reasoning
-- AI for Science: 
-  - Climate Change Forecasting and Time-Series Analysis
 
 [//]: # (----------------------------------------------------------------------------------------)
 [//]: # (<span class='anchor' id='news'></span>)
@@ -221,6 +223,22 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang (* Equal Contribution)
 </div>
 
 
+<!------------------------ 合作的论文 ----------------------------->
+
+[//]: # (------------ AAAI 2026 -------------------)
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/2026_AAAI_DipGuava.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<p><b>DipGuava: Disentangling Personalized Gaussian Features for 3D Head Avatars from Monocular Video <br></b></p>
+
+<p>Jeonghaeng Lee, Seok Keun Choi, Zhixuan Li, Weisi Lin, Sanghoon Lee</p>
+
+<span style="font-size: 90%;"><i>AAAI 2026 (EI, CCF A)</i></span>
+
+<!-- <a href="https://www.arxiv.org/abs/2506.17983">Paper</a> / -->
+<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/lee2025DipGuava.html">Bibtex</a>
+</div>
+</div>
 
 
 [//]: # (------------ MICCAI 2025 -------------------)
