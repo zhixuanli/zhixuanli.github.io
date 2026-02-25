@@ -231,7 +231,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang (* Equal Contribution)
 
 <p><b>DipGuava: Disentangling Personalized Gaussian Features for 3D Head Avatars from Monocular Video <br></b></p>
 
-<p>Jeonghaeng Lee, Seok Keun Choi, Zhixuan Li, Weisi Lin, Sanghoon Lee</p>
+<p>Jeonghaeng Lee, Seok Keun Choi, <u><b>Zhixuan Li</b></u>, Weisi Lin, Sanghoon Lee</p>
 
 <span style="font-size: 90%;"><i>AAAI Conference on Artificial Intelligence (**AAAI**), 2026 (EI, CCF A)</i></span>
 
