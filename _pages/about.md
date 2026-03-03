@@ -225,6 +225,23 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang (* Equal Contribution)
 
 <!------------------------ 合作的论文 ----------------------------->
 
+
+[//]: # (------------ TPAMI 2026 -------------------)
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/2026_TPAMI_SEGA.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<p><b>SEGA: A Transferable Signed Ensemble Gaussian Black-Box Attack against No-Reference Image Quality Assessment Models<br></b></p>
+
+<p>Yujia Liu, Dingquan Li, <u><b>Zhixuan Li</b></u>, Tiejun Huang</p>
+
+<span style="font-size: 90%;"><i>IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**), 2026 (SCI, JCR Q1, CCF A)</i></span>
+
+<a href="https://ieeexplore.ieee.org/abstract/document/11367453/">Paper</a> /
+<a href="https://raw.githubusercontent.com/zhixuanli/zhixuanli.github.io/main/bibtex/liu2026sega.html">Bibtex</a>
+</div>
+</div>
+
+
 [//]: # (------------ AAAI 2026 -------------------)
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/2026_AAAI_DipGuava.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
