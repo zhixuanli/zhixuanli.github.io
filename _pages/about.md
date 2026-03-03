@@ -230,7 +230,7 @@ Zhaochen Liu\*, <u><b>Zhixuan Li*</b></u>, Tingting Jiang (* Equal Contribution)
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/2026_TPAMI_SEGA.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<p><b>SEGA: A Transferable Signed Ensemble Gaussian Black-Box Attack against No-Reference Image Quality Assessment Models<br></b></p>
+<p><b>SEGA: A Transferable Signed Ensemble Gaussian Black-Box Attack against No-Reference <br></b><b>Image Quality Assessment Models<br></b></p>
 
 <p>Yujia Liu, Dingquan Li, <u><b>Zhixuan Li</b></u>, Tiejun Huang</p>
 
