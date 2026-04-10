@@ -83,7 +83,7 @@ My research interests include Artificial Intelligence, Computer Vision and Deep 
 
 **Single Point, Full Mask: Velocity-Guided Level Set Evolution for End-to-End Amodal Segmentation**
 
-<u><b>Zhixuan Li</b></u>, Yujia Liu, Chen Hui, Weisi Lin
+<u><b>Zhixuan Li</b></u>, Yujia Liu, Chen Hui, Chenyue Song, Weisi Lin
 
 <span style="font-size: 90%;"><i>arXiv, 2025</i></span>
 
