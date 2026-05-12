@@ -306,13 +306,13 @@ Weining Ye, <u><b>Zhixuan Li</b></u>, Tingting Jiang
 
 
 
-
+<!-- 
 [//]: # (----------------------------------------------------------------------------------------)
 <span class='anchor' id='projects'></span>
 
 # 🎯 Projects
 - Awesome Mixture-of-Experts list: [Github Link](https://github.com/Oliver-FutureAI/Awesome-MoE)
-  - This project is a collection of papers and codes about Mixture-of-Experts. We hope to provide a comprehensive and up-to-date resource for researchers and practitioners in this field.
+  - This project is a collection of papers and codes about Mixture-of-Experts. We hope to provide a comprehensive and up-to-date resource for researchers and practitioners in this field. -->
 
 
 [//]: # (----------------------------------------------------------------------------------------)
