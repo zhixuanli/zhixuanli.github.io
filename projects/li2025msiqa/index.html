@@ -1,0 +1,125 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MS-IQA evaluates PET/CT image quality through multi-scale feature fusion.">
+  <meta property="og:title" content="MS-IQA: A Multi-Scale Feature Fusion Network for PET/CT Image Quality Assessment">
+  <meta property="og:description" content="MS-IQA evaluates PET/CT image quality through multi-scale feature fusion.">
+  <meta property="og:url" content="https://zhixuanli.github.io/projects/li2025msiqa/">
+  <meta property="og:image" content="https://zhixuanli.github.io/projects/li2025msiqa/static/images/msiqa_overview.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MS-IQA: A Multi-Scale Feature Fusion Network for PET/CT Image Quality Assessment">
+  <meta name="twitter:description" content="MS-IQA evaluates PET/CT image quality through multi-scale feature fusion.">
+  <meta name="twitter:image" content="https://zhixuanli.github.io/projects/li2025msiqa/static/images/msiqa_overview.jpg">
+  <title>MS-IQA: A Multi-Scale Feature Fusion Network for PET/CT Image Quality Assessment</title>
+  <script>
+    (function () {
+      var savedTheme = localStorage.getItem("zl-theme");
+      if (savedTheme === "light" || savedTheme === "dark") {
+        document.documentElement.dataset.theme = savedTheme;
+      } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.documentElement.dataset.theme = "dark";
+      }
+    }());
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Libre+Caslon+Display&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css?v=19">
+  <link rel="stylesheet" href="../project-theme.css?v=3">
+  <link rel="stylesheet" href="../project-glass.css?v=2">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="project-nav" aria-label="Project navigation">
+    <a class="icon-button" href="../../" aria-label="Back to Zhixuan Li's homepage" title="Back to homepage"><i data-lucide="arrow-left" aria-hidden="true"></i></a>
+    <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode"><i data-lucide="moon" aria-hidden="true"></i></button>
+  </nav>
+
+  <main id="main">
+    <header class="project-hero">
+      <div class="project-shell hero-shell">
+        <p class="eyebrow">MICCAI</p>
+        <h1>MS-IQA: A Multi-Scale Feature Fusion Network for PET/CT Image Quality Assessment</h1>
+        <p class="author-line"><span class="author-block">Siqiao Li,</span> <span class="author-block">Chen Hui<sup>*</sup>,</span> <span class="author-block">Wei Zhang,</span> <span class="author-block">Rui Liang,</span> <span class="author-block">Chenyue Song,</span> <span class="author-block">Feng Jiang,</span> <span class="author-block">Haiqi Zhu<sup>*</sup>,</span> <span class="author-block">Zhixuan Li,</span> <span class="author-block">Hong Huang,</span> <span class="author-block">Xiang Li</span></p>
+        <div class="affiliations" aria-label="Author affiliations">
+          <p><span class="author-block">Nanjing University of Information Science and Technology; Harbin Medical University; Nanyang Technological University; Sichuan University of Science and Engineering</span></p>
+        </div>
+        <p class="corresponding"><sup>*</sup>Corresponding authors</p>
+        <div class="project-actions" aria-label="Paper resources">
+          <a class="project-command primary" href="https://papers.miccai.org/miccai-2025/0592-Paper2780.html"><span>Paper</span><i data-lucide="file-text" aria-hidden="true"></i></a>
+          <a class="project-command" href="#bibtex"><span>BibTeX</span><i data-lucide="braces" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="project-band tinted" id="abstract">
+      <div class="project-shell text-layout">
+        <p class="section-label">Abstract</p>
+        <div>
+          <h2>Overview</h2>
+          <p class="abstract-copy">PET/CT quality varies with acquisition conditions and directly affects clinical interpretation. MS-IQA is a no-reference model designed for this multimodal setting. It extracts local texture with a convolutional backbone and long-range context with a Swin Transformer, aggregates features through attention-guided multi-scale fusion, and jointly estimates a quality score and its weighting. A dedicated PET/CT image-quality dataset and broad experiments support reliable prediction across scanners, doses, and anatomical regions.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-band" id="figure-1">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">01 · Figure</p>
+          <h2>MS-IQA combines complementary ResNet and Swin Transformer features across multiple scales, then predicts PET/CT quality with separate score and confidence branches.</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/msiqa_overview.jpg" alt="Architecture of the MS-IQA network.">
+          <figcaption>MS-IQA combines complementary ResNet and Swin Transformer features across multiple scales, then predicts PET/CT quality with separate score and confidence branches.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted" id="figure-2">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">02 · Figure</p>
+          <h2>Multi-Scale Dual-Backbone Design</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/framework.png" alt="Detailed architecture of MS-IQA.">
+          <figcaption>Features from four ResNet and Swin stages are aligned and fused by attention-guided channel aggregation. The score and weight branches then combine global and scale-specific evidence.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band" id="figure-3">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">03 · Figure</p>
+          <h2>Feature Visualization</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/feature_visualization.jpg" alt="MS-IQA feature maps on PET/CT samples.">
+          <figcaption>Intermediate maps show complementary sensitivity to anatomical detail, global appearance, and quality-degraded regions before multi-scale fusion.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted bibtex-band" id="bibtex">
+      <div class="project-shell text-layout">
+        <p class="section-label">Citation</p>
+        <div>
+          <div class="bibtex-heading">
+            <h2>BibTeX</h2>
+            <button class="copy-button" id="copy-bibtex" type="button"><i data-lucide="copy" aria-hidden="true"></i><span>Copy</span></button>
+          </div>
+          <pre><code id="bibtex-code">@inproceedings{li2025msiqa,
+  title={{MS-IQA}: A Multi-Scale Feature Fusion Network for PET/CT Image Quality Assessment},
+  author={Li, Siqiao and Hui, Chen and Zhang, Wei and Liang, Rui and Song, Chenyue and Jiang, Feng and Zhu, Haiqi and Li, Zhixuan and Huang, Hong and Li, Xiang},
+  booktitle={Medical Image Computing and Computer Assisted Intervention},
+  year={2025}
+}</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="../project-theme.js?v=2"></script>
+</body>
+</html>

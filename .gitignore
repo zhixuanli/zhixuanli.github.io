@@ -1,0 +1,7 @@
+_site/
+tmp/
+push.sh
+.DS_Store
+!/images/images.pptx
+*.idea/*
+*._*

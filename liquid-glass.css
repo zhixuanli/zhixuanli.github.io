@@ -1,0 +1,175 @@
+/* Liquid Glass materials and motion. Section layout is inherited from styles.css. */
+:root {
+  --lg-tint: rgba(255,255,255,.46);
+  --lg-ease: cubic-bezier(.22,1,.36,1);
+  --lg-theme-time: 240ms;
+  --lg-solid: #f6f8fb;
+  --lg-rim: rgba(255,255,255,.94);
+  --lg-bottom: rgba(100,117,145,.16);
+  --lg-shadow: 0 2px 4px rgba(28,46,70,.04), 0 10px 26px -12px rgba(39,63,92,.25);
+  --lg-card-shadow: 0 4px 10px -6px rgba(30,55,82,.1), 0 24px 54px -24px rgba(30,55,82,.2);
+  --lg-sheen: linear-gradient(145deg,rgba(255,255,255,.75),rgba(255,255,255,.04) 42%,rgba(255,255,255,.28));
+}
+html[data-theme=dark] {
+  --lg-tint: rgba(36,45,59,.62);
+  --lg-solid: #252e3d;
+  --lg-rim: rgba(234,244,255,.28);
+  --lg-bottom: rgba(0,0,0,.38);
+  --lg-shadow: 0 2px 6px rgba(0,0,0,.1), 0 12px 30px -12px rgba(0,0,0,.5);
+  --lg-card-shadow: 0 4px 10px rgba(0,0,0,.13), 0 24px 54px -20px rgba(0,0,0,.45);
+  --lg-sheen: linear-gradient(145deg,rgba(221,239,255,.15),rgba(221,239,255,0) 45%,rgba(221,239,255,.06));
+}
+/* Keep the original section backgrounds from styles.css. */
+.command,.command:hover,.publication-actions a,.publication-actions a:hover,.segmented-control,.search-control,
+.corner-actions .icon-button,.back-to-top {
+  background:var(--lg-solid);
+  background-image:var(--lg-sheen);
+  box-shadow:inset 0 1px 1px var(--lg-rim),inset 0 -1px 1px var(--lg-bottom),var(--lg-shadow);
+  transition:background-color var(--lg-theme-time) ease,color var(--lg-theme-time) ease,
+    border-color var(--lg-theme-time) ease,box-shadow 220ms ease,transform 220ms var(--lg-ease);
+}
+.corner-actions .icon-button {border-color:transparent}
+.research-track,.timeline {
+  background:var(--lg-solid);
+  background-image:var(--lg-sheen);
+  box-shadow:inset 0 1px 1px var(--lg-rim),inset 0 -1px 1px var(--lg-bottom),var(--lg-card-shadow);
+}
+@supports ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))) {
+  .command,.command:hover,.publication-actions a,.publication-actions a:hover,.segmented-control,.search-control,
+  .corner-actions .icon-button,.back-to-top {
+    background-color:var(--lg-tint);
+    -webkit-backdrop-filter:blur(14px) saturate(135%);
+    backdrop-filter:blur(14px) saturate(135%);
+  }
+  .research-track,.timeline {
+    background-color:color-mix(in srgb,var(--lg-solid) 64%,transparent);
+    -webkit-backdrop-filter:blur(24px) saturate(120%);
+    backdrop-filter:blur(24px) saturate(120%);
+  }
+}
+/* The selected segment is a solid insert, with no nested live filter. */
+.filter-button {color:var(--ink)}
+.filter-button.is-active {
+  background:var(--surface);
+  box-shadow:inset 0 1px 1px var(--lg-rim),0 2px 8px rgba(28,46,70,.12);
+}
+/* One moving selection surface; labels stay at a stable width. */
+.segmented-control.has-fluid-selection {position:relative;isolation:isolate}
+.has-fluid-selection .filter-button {
+  position:relative;
+  z-index:1;
+  font-weight:500;
+  transition:color 160ms ease,transform 120ms ease;
+}
+.has-fluid-selection .filter-button.is-active {background:transparent;box-shadow:none}
+.selection-glass {
+  position:absolute;
+  left:0;
+  z-index:0;
+  pointer-events:none;
+  border-radius:999px;
+  background:var(--surface);
+  background-image:var(--lg-sheen);
+  box-shadow:inset 0 1px 1px var(--lg-rim),inset 0 -1px 1px var(--lg-bottom),0 3px 10px rgba(28,46,70,.13);
+}
+@media(prefers-reduced-motion:reduce){
+  .has-fluid-selection .filter-button,.has-fluid-selection .filter-button:active {transition:none;transform:none}
+}
+@media(prefers-contrast:more){
+  .selection-glass {outline:1px solid var(--ink)}
+}
+.search-control {color:var(--muted)}
+.search-control input::placeholder {color:var(--muted);opacity:1}
+.hero-actions .command:first-child {
+  color:#fff;
+  background-color:#0071e3;
+  background-image:linear-gradient(165deg,rgba(255,255,255,.28),transparent 55%,rgba(1,44,115,.16));
+  box-shadow:inset 0 1px 1px rgba(255,255,255,.65),inset 0 -1px 1px rgba(0,53,145,.4),0 8px 20px -12px rgba(0,79,180,.65);
+}
+.publication-actions a:active,.back-to-top:active {transform:scale(.97)}
+.publication-thumb {
+  /* Never filter research pixels; retain the white scientific-image canvas. */
+  border-color:rgba(255,255,255,.8);
+  background:#fff;
+  box-shadow:0 1px 2px rgba(45,65,90,.09),0 12px 30px -12px rgba(45,65,90,.29),0 0 0 4px rgba(255,255,255,.3);
+}
+html[data-theme=dark] .publication-thumb {
+  border-color:rgba(255,255,255,.65);
+  box-shadow:0 2px 5px rgba(0,0,0,.25),0 14px 32px -12px rgba(0,0,0,.55),0 0 0 4px rgba(255,255,255,.08);
+}
+.identity img {box-shadow:0 4px 16px rgba(35,60,85,.1);border-color:rgba(255,255,255,.7)}
+/* Theme surfaces and explicit text colors change together. */
+body,.hero,.publications-section,.research-track,.timeline,.selection-glass {
+  transition:background-color var(--lg-theme-time) ease,color var(--lg-theme-time) ease,
+    border-color var(--lg-theme-time) ease,box-shadow var(--lg-theme-time) ease;
+}
+main p,main li,main h1,main h2,main h3,main strong,main a:not(.command):not(.publication-actions a),
+.section-kicker,.publication-number,.publication-status,.track-index,.timeline-date,
+.site-footer,.site-footer p,.site-footer a:not(.back-to-top),.service-column,
+.search-control input,.search-control input::placeholder {
+  transition:color var(--lg-theme-time) ease,border-color var(--lg-theme-time) ease;
+}
+.publication-row,.timeline-row {transition:border-color var(--lg-theme-time) ease}
+.command svg,.publication-actions svg,.back-to-top svg {
+  transition:transform 220ms var(--lg-ease);
+}
+.search-control:focus-within {
+  background-color:var(--surface);
+  box-shadow:inset 0 1px 1px var(--lg-rim),0 0 0 6px color-mix(in srgb,var(--blue) 10%,transparent),var(--lg-shadow);
+}
+@media(hover:hover) and (pointer:fine){
+.command:hover,.publication-actions a:hover,.back-to-top:hover,.corner-actions .icon-button:hover {
+  background-color:var(--surface);
+  box-shadow:inset 0 1px 1px var(--lg-rim),inset 0 -1px 1px var(--lg-bottom),0 8px 24px -10px rgba(39,63,92,.3);
+  text-decoration:none;
+}
+.hero-actions .command:first-child:hover {background-color:#0077ed}
+  .command:hover,.publication-actions a:hover,.back-to-top:hover,.corner-actions .icon-button:hover {
+    transform:translateY(-2px);
+  }
+  .command:hover svg,.publication-actions a:hover svg {transform:translateX(2px)}
+  .back-to-top:hover svg {transform:translateY(-2px)}
+  .has-fluid-selection .filter-button:not(.is-active):hover {color:var(--blue)}
+}
+.command:active,.publication-actions a:active,.back-to-top:active,.corner-actions .icon-button:active,
+.has-fluid-selection .filter-button:active {
+  transform:scale(.97);
+  transition-duration:80ms;
+}
+@media(prefers-reduced-motion:reduce){
+  .command:hover,.publication-actions a:hover,.back-to-top:hover,.corner-actions .icon-button:hover,
+  .command:active,.publication-actions a:active,.back-to-top:active,.corner-actions .icon-button:active,
+  .has-fluid-selection .filter-button:active,
+  .command svg,.publication-actions svg,.back-to-top svg {transform:none!important}
+}
+/* Desktop refraction enhances the blur material where supported.
+   Responsive/mobile controls keep the complete blur fallback. */
+@media(min-width:761px){
+  html[data-refraction=on] .search-control {
+    -webkit-backdrop-filter:blur(2px) url("#lg-search") saturate(135%);
+    backdrop-filter:blur(2px) url("#lg-search") saturate(135%);
+  }
+  html[data-refraction=on] .corner-actions .icon-button,
+  html[data-refraction=on] .back-to-top {
+    -webkit-backdrop-filter:blur(1px) url("#lg-circle") saturate(135%);
+    backdrop-filter:blur(1px) url("#lg-circle") saturate(135%);
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  .command,.publication-actions a,.segmented-control,.search-control,
+  .corner-actions .icon-button,.back-to-top,
+  .publication-actions a:active,.back-to-top:active {transition:none;transform:none}
+}
+/* A solid material remains available without blur or optical effects. */
+@media(prefers-reduced-transparency:reduce),(prefers-contrast:more){
+  .command,.command:hover,.publication-actions a,.publication-actions a:hover,.segmented-control,.search-control,
+  .corner-actions .icon-button,.back-to-top,.research-track,.timeline {
+    background-color:var(--lg-solid);background-image:none;
+    -webkit-backdrop-filter:none!important;backdrop-filter:none!important;
+  }
+  .hero-actions .command:first-child{background:#0071e3}
+}
+@media(prefers-contrast:more){
+  .command,.publication-actions a,.segmented-control,.search-control,
+  .corner-actions .icon-button,.back-to-top,.research-track,.timeline{outline:1px solid var(--ink)}
+}

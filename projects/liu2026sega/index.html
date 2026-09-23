@@ -1,0 +1,129 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SEGA is a transferable black-box attack against no-reference image quality assessment models.">
+  <meta property="og:title" content="SEGA: A Transferable Signed Ensemble Gaussian Black-Box Attack against No-Reference Image Quality Assessment Models">
+  <meta property="og:description" content="SEGA is a transferable black-box attack against no-reference image quality assessment models.">
+  <meta property="og:url" content="https://zhixuanli.github.io/projects/liu2026sega/">
+  <meta property="og:image" content="https://zhixuanli.github.io/projects/liu2026sega/static/images/sega_overview.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SEGA: A Transferable Signed Ensemble Gaussian Black-Box Attack against No-Reference Image Quality Assessment Models">
+  <meta name="twitter:description" content="SEGA is a transferable black-box attack against no-reference image quality assessment models.">
+  <meta name="twitter:image" content="https://zhixuanli.github.io/projects/liu2026sega/static/images/sega_overview.jpg">
+  <title>SEGA: A Transferable Signed Ensemble Gaussian Black-Box Attack against No-Reference Image Quality Assessment Models</title>
+  <script>
+    (function () {
+      var savedTheme = localStorage.getItem("zl-theme");
+      if (savedTheme === "light" || savedTheme === "dark") {
+        document.documentElement.dataset.theme = savedTheme;
+      } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.documentElement.dataset.theme = "dark";
+      }
+    }());
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Libre+Caslon+Display&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css?v=19">
+  <link rel="stylesheet" href="../project-theme.css?v=3">
+  <link rel="stylesheet" href="../project-glass.css?v=2">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="project-nav" aria-label="Project navigation">
+    <a class="icon-button" href="../../" aria-label="Back to Zhixuan Li's homepage" title="Back to homepage"><i data-lucide="arrow-left" aria-hidden="true"></i></a>
+    <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode"><i data-lucide="moon" aria-hidden="true"></i></button>
+  </nav>
+
+  <main id="main">
+    <header class="project-hero">
+      <div class="project-shell hero-shell">
+        <p class="eyebrow">TPAMI</p>
+        <h1>SEGA: A Transferable Signed Ensemble Gaussian Black-Box Attack against No-Reference Image Quality Assessment Models</h1>
+        <p class="author-line"><span class="author-block">Yujia Liu<sup>1</sup>,</span> <span class="author-block">Dingquan Li<sup>3</sup>,</span> <span class="author-block">Zhixuan Li<sup>2</sup>,</span> <span class="author-block">Tiejun Huang<sup>1&dagger;</sup></span></p>
+        <div class="affiliations" aria-label="Author affiliations">
+          <p><span class="author-block"><sup>1</sup>Peking University</span></p>
+          <p><span class="author-block"><sup>2</sup>Nanyang Technological University</span></p>
+          <p><span class="author-block"><sup>3</sup>Pengcheng Laboratory</span></p>
+        </div>
+        <p class="corresponding"><sup>&dagger;</sup>Corresponding author</p>
+        <div class="project-actions" aria-label="Paper resources">
+          <a class="project-command primary" href="https://ieeexplore.ieee.org/abstract/document/11367453/"><span>Paper</span><i data-lucide="file-text" aria-hidden="true"></i></a>
+          <a class="project-command" href="https://github.com/YogaLYJ/SEGA_IQA"><span>Code</span><i data-lucide="github" aria-hidden="true"></i></a>
+          <a class="project-command" href="#bibtex"><span>BibTeX</span><i data-lucide="braces" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="project-band tinted" id="abstract">
+      <div class="project-shell text-layout">
+        <p class="section-label">Abstract</p>
+        <div>
+          <h2>Overview</h2>
+          <p class="abstract-copy">No-reference image quality assessment models are vulnerable to adversarial examples, yet transfer-based black-box attacks remain difficult because different architectures learn dissimilar quality representations. SEGA improves transferable attacks through Gaussian-smoothed gradient estimation, source-model gradient ensembling, and a perturbation filter that suppresses visually conspicuous changes. Experiments across multiple NR-IQA models and datasets demonstrate strong transferability together with competitive perceptual quality.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-band" id="figure-1">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">01 · Figure</p>
+          <h2>SEGA combines Gaussian smoothing, gradients ensembled from multiple source models, and content-aware perturbation filtering to improve black-box transferability while keeping adversarial changes less perceptible.</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/sega_overview.jpg" alt="Overview of the SEGA attack pipeline.">
+          <figcaption>SEGA combines Gaussian smoothing, gradients ensembled from multiple source models, and content-aware perturbation filtering to improve black-box transferability while keeping adversarial changes less perceptible.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted" id="figure-2">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">02 · Figure</p>
+          <h2>Transferable and Imperceptible Attacks</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/adversarial_examples.jpg" alt="Adversarial examples generated by SEGA and competing attacks.">
+          <figcaption>Across CNN- and Transformer-based target models, SEGA preserves the visual appearance of the source image while producing adversarial examples with stronger cross-model transfer.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band" id="figure-3">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">03 · Figure</p>
+          <h2>Perturbation Filtering</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/filtering_ablation.jpg" alt="Visual and hyperparameter analysis of SEGA perturbation filtering.">
+          <figcaption>The two filtering masks remove perturbations in visually sensitive or semantically unhelpful regions. Ablations show how smoothing strength, sampling count, and ensemble size balance transferability and efficiency.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted bibtex-band" id="bibtex">
+      <div class="project-shell text-layout">
+        <p class="section-label">Citation</p>
+        <div>
+          <div class="bibtex-heading">
+            <h2>BibTeX</h2>
+            <button class="copy-button" id="copy-bibtex" type="button"><i data-lucide="copy" aria-hidden="true"></i><span>Copy</span></button>
+          </div>
+          <pre><code id="bibtex-code">@article{liu2026sega,
+  title={{SEGA}: A Transferable Signed Ensemble Gaussian Black-Box Attack against No-Reference Image Quality Assessment Models},
+  author={Liu, Yujia and Li, Dingquan and Li, Zhixuan and Huang, Tiejun},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2026},
+  publisher={IEEE}
+}</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="../project-theme.js?v=2"></script>
+</body>
+</html>

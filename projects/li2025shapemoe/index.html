@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ShapeMoE learns a shape-distribution space and routes objects to specialized experts for amodal segmentation under diverse occlusions.">
+  <meta name="keywords" content="amodal segmentation, mixture of experts, computer vision, ShapeMoE">
+  <meta property="og:title" content="Shape Distribution Matters | ShapeMoE">
+  <meta property="og:description" content="A shape-specific mixture-of-experts framework for amodal segmentation under diverse occlusions.">
+  <meta property="og:url" content="https://zhixuanli.github.io/projects/li2025shapemoe/">
+  <meta property="og:image" content="https://zhixuanli.github.io/projects/li2025shapemoe/static/images/overall_architecture.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Shape Distribution Matters | ShapeMoE">
+  <meta name="twitter:description" content="A shape-specific mixture-of-experts framework for amodal segmentation under diverse occlusions.">
+  <meta name="twitter:image" content="https://zhixuanli.github.io/projects/li2025shapemoe/static/images/overall_architecture.jpg">
+  <title>Shape Distribution Matters | ShapeMoE</title>
+  <script>
+    (function () {
+      var savedTheme = localStorage.getItem("zl-theme");
+      if (savedTheme === "light" || savedTheme === "dark") {
+        document.documentElement.dataset.theme = savedTheme;
+      } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.documentElement.dataset.theme = "dark";
+      }
+    }());
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Libre+Caslon+Display&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css?v=19">
+  <link rel="stylesheet" href="../project-theme.css?v=3">
+  <link rel="stylesheet" href="../project-glass.css?v=2">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <nav class="project-nav" aria-label="Project navigation">
+    <a class="icon-button" href="../../" aria-label="Back to Zhixuan Li's homepage" title="Back to homepage">
+      <i data-lucide="arrow-left" aria-hidden="true"></i>
+    </a>
+    <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">
+      <i data-lucide="moon" aria-hidden="true"></i>
+    </button>
+  </nav>
+
+  <main id="main">
+    <header class="project-hero">
+      <div class="project-shell hero-shell">
+        <p class="eyebrow">Preprint</p>
+        <h1>Shape Distribution Matters: Shape-specific Mixture-of-Experts for Amodal Segmentation under Diverse Occlusions</h1>
+
+        <p class="author-line">
+          <a href="https://zhixuanli.github.io/">Zhixuan Li</a><sup>1</sup>,
+          <a href="https://scholar.google.com/citations?hl=en&amp;user=iDyKEuwAAAAJ&amp;view_op=list_works">Yujia Liu</a><sup>2,3,4</sup>,
+          <a href="https://scholar.google.com/citations?hl=en&amp;user=33MsN_4AAAAJ&amp;view_op=list_works">Chen Hui</a><sup>5</sup>,
+          <span>Jeonghaeng Lee</span><sup>6</sup>,
+          <a href="https://scholar.google.com.sg/citations?user=W1Qo1OUAAAAJ&amp;hl=en">Sanghoon Lee</a><sup>6</sup>,
+          <a href="https://scholar.google.com/citations?user=D_S41X4AAAAJ&amp;hl=en">Weisi Lin</a><sup>1*</sup>
+        </p>
+
+        <div class="affiliations" aria-label="Author affiliations">
+          <p><sup>1</sup>Nanyang Technological University, Singapore</p>
+          <p><sup>2</sup>School of Computer Science, Peking University, Beijing, China</p>
+          <p><sup>3</sup>National Key Laboratory for Multimedia Information Processing, Peking University, Beijing, China</p>
+          <p><sup>4</sup>National Engineering Research Center of Visual Technology, Peking University, Beijing, China</p>
+          <p><sup>5</sup>Nanjing University of Information Science and Technology, China</p>
+          <p><sup>6</sup>Department of Electrical and Electronic Engineering, Yonsei University, Korea</p>
+        </div>
+        <p class="corresponding"><sup>*</sup>Corresponding author</p>
+
+        <div class="project-actions" aria-label="Paper resources">
+          <a class="project-command primary" href="https://arxiv.org/pdf/2508.01664">
+            <span>Paper</span><i data-lucide="file-text" aria-hidden="true"></i>
+          </a>
+          <a class="project-command" href="https://arxiv.org/abs/2508.01664">
+            <span>arXiv</span><i data-lucide="external-link" aria-hidden="true"></i>
+          </a>
+          <a class="project-command" href="#bibtex">
+            <span>BibTeX</span><i data-lucide="braces" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section class="project-band tinted" id="abstract">
+      <div class="project-shell text-layout">
+        <p class="section-label">Abstract</p>
+        <div>
+          <h2>Learning the shape behind the occlusion.</h2>
+          <p class="abstract-copy">Amodal segmentation targets to predict complete object masks, covering both visible and occluded regions. This task poses significant challenges due to complex occlusions and extreme shape variation, from rigid furniture to highly deformable clothing. Existing one-size-fits-all approaches rely on a single model to handle all shape types, struggling to capture and reason about diverse amodal shapes due to limited representation capacity. A natural solution is to adopt a Mixture-of-Experts (MoE) framework, assigning experts to different shape patterns. However, naively applying MoE without considering the object's underlying shape distribution can lead to mismatched expert routing and insufficient expert specialization, resulting in redundant or underutilized experts. To deal with these issues, we introduce ShapeMoE, a shape-specific sparse Mixture-of-Experts framework for amodal segmentation. The key idea is to learn a latent shape distribution space and dynamically route each object to a lightweight expert tailored to its shape characteristics. Specifically, ShapeMoE encodes each object into a compact Gaussian embedding that captures key shape characteristics. A Shape-Aware Sparse Router then maps the object to the most suitable expert, enabling precise and efficient shape-aware expert routing. Each expert is designed as lightweight and specialized in predicting occluded regions for specific shape patterns. ShapeMoE offers well interpretability via clear shape-to-expert correspondence, while maintaining high capacity and efficiency. Experiments on COCOA-cls, KINS, and D2SA show that ShapeMoE consistently outperforms state-of-the-art methods, especially in occluded region segmentation.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-band" id="motivation">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">01 · Motivation</p>
+          <h2>Different shapes need different experts.</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/motivation.jpg" alt="Comparison of one-size-fits-all, naive mixture-of-experts, and ShapeMoE routing strategies">
+          <figcaption>Motivation and Comparison of Routing Strategies. (a) One-size-fits-all models treat all shape types equally, often producing incomplete predictions under occlusion. (b) Naive MoE approaches rely on softmax-based routing without modeling shape distributions, leading to a mismatch between samples and experts. (c) Our ShapeMoE framework encodes each shape as a Gaussian distribution in a latent space, enabling shape-aware sparse routing to specialized experts and improving segmentation of diverse amodal shapes. Best viewed in color.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="project-band tinted" id="method">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">02 · Method</p>
+          <h2>Shape-aware sparse routing.</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/overall_architecture.jpg" alt="Overall architecture of the proposed ShapeMoE framework">
+          <figcaption>Given an input image and a visible mask, ShapeMoE performs amodal segmentation through the following stages. (1) The image is encoded by the image feature encoder, while the visible mask is embedded into a shape-aware mask embedding. (2) The Shape Distribution Encoder predicts the Gaussian parameters that characterize the object's shape distribution in a learned latent space. (3) A latent shape representation is sampled, and the Shape-aware Sparse Router computes expert selection scores to route each instance to the most appropriate expert. (4) The selected expert, specialized in specific shape patterns, predicts the final high-quality amodal segmentation mask. Best viewed in color.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="project-band" id="results">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">03 · Results</p>
+          <h2>Complete shapes across complex occlusions.</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/qualitative_result.jpg" alt="Qualitative amodal segmentation results of ShapeMoE">
+          <figcaption>Qualitative results of the proposed ShapeMoE. Four representative cases are shown across various object categories, including bench, human, and horse, demonstrating ShapeMoE's ability to handle complex occlusions and varied amodal shapes. Best viewed in color and zoomed in for details.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="project-band tinted bibtex-band" id="bibtex">
+      <div class="project-shell text-layout">
+        <p class="section-label">Citation</p>
+        <div>
+          <div class="bibtex-heading">
+            <h2>BibTeX</h2>
+            <button class="copy-button" id="copy-bibtex" type="button">
+              <i data-lucide="copy" aria-hidden="true"></i>
+              <span>Copy</span>
+            </button>
+          </div>
+          <pre><code id="bibtex-code">@inproceedings{li2025shapemoe,
+  title={Shape Distribution Matters: Shape-specific Mixture-of-Experts for Amodal Segmentation under Diverse Occlusions},
+  author={Li, Zhixuan and Liu, Yujia and Hui, Chen and Lee, Jeonghaeng and Lee, Sanghoon and Lin, Weisi},
+  booktitle={arXiv:2508.01664},
+  year={2025}
+}</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="../project-theme.js?v=2"></script>
+</body>
+</html>

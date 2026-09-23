@@ -1,0 +1,115 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Time-series forecasting is crucial for numerous real-world applications including weather prediction and financial market modeling. While temporal-domain methods remain prevalen...">
+  <meta property="og:title" content="BEAT: Balanced Frequency Adaptive Tuning for Long-Term Time-Series Forecasting">
+  <meta property="og:description" content="Time-series forecasting is crucial for numerous real-world applications including weather prediction and financial market modeling. While temporal-domain methods remain prevalen...">
+  <meta property="og:url" content="https://zhixuanli.github.io/projects/li2025beat/">
+  <meta property="og:image" content="static/image/your_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BEAT: Balanced Frequency Adaptive Tuning for Long-Term Time-Series Forecasting">
+  <meta name="twitter:description" content="Time-series forecasting is crucial for numerous real-world applications including weather prediction and financial market modeling. While temporal-domain methods remain prevalen...">
+  <meta name="twitter:image" content="static/image/your_banner_image.png">
+  <title>BEAT: Balanced Frequency Adaptive Tuning for Long-Term Time-Series Forecasting</title>
+  <script>
+    (function () {
+      var savedTheme = localStorage.getItem("zl-theme");
+      if (savedTheme === "light" || savedTheme === "dark") {
+        document.documentElement.dataset.theme = savedTheme;
+      } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.documentElement.dataset.theme = "dark";
+      }
+    }());
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Libre+Caslon+Display&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css?v=19">
+  <link rel="stylesheet" href="../project-theme.css?v=3">
+  <link rel="stylesheet" href="../project-glass.css?v=2">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="project-nav" aria-label="Project navigation">
+    <a class="icon-button" href="../../" aria-label="Back to Zhixuan Li's homepage" title="Back to homepage"><i data-lucide="arrow-left" aria-hidden="true"></i></a>
+    <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode"><i data-lucide="moon" aria-hidden="true"></i></button>
+  </nav>
+
+  <main id="main">
+    <header class="project-hero">
+      <div class="project-shell hero-shell">
+        <p class="eyebrow">Preprint</p>
+        <h1>BEAT: Balanced Frequency Adaptive Tuning for Long-Term Time-Series Forecasting</h1>
+        <p class="author-line"><span class="author-block"> <a href="https://zhixuanli.github.io/">Zhixuan Li</a><sup>1</sup>,</span> <span class="author-block"> Naipeng Chen<sup>1</sup>,</span> <span class="author-block"> <a href="https://scholar.google.com/citations?user=vi8pvAsAAAAJ&hl=en">Seonghwa Choi</a><sup>2</sup>,</span> <span class="author-block"> <a href="https://scholar.google.co.kr/citations?user=W1Qo1OUAAAAJ&hl">Sanghoon Lee</a><sup>2</sup>,</span> <span class="author-block"> <a href="https://scholar.google.com.tw/citations?user=D_S41X4AAAAJ">Weisi Lin</a><sup>1*</sup></span></p>
+        <div class="affiliations" aria-label="Author affiliations">
+          <p><span class="author-block"><sup>1</sup>Nanyang Technological University, Singapore,</span></p>
+          <p><span class="author-block"><sup>2</sup>Department of Electrical Electronic Engineering, Yonsei University, Korea</span></p>
+        </div>
+        <p class="corresponding"><sup>*</sup>Corresponding author</p>
+        <div class="project-actions" aria-label="Paper resources">
+          <a class="project-command primary" href="https://arxiv.org/pdf/2501.19065"><span>Paper</span><i data-lucide="file-text" aria-hidden="true"></i></a>
+          <a class="project-command" href="https://arxiv.org/abs/2501.19065"><span>arXiv</span><i data-lucide="external-link" aria-hidden="true"></i></a>
+          <a class="project-command" href="#bibtex"><span>BibTeX</span><i data-lucide="braces" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="project-band tinted" id="abstract">
+      <div class="project-shell text-layout">
+        <p class="section-label">Abstract</p>
+        <div>
+          <h2>Overview</h2>
+          <p class="abstract-copy">Time-series forecasting is crucial for numerous real-world applications including weather prediction and financial market modeling. While temporal-domain methods remain prevalent, frequency-domain approaches can effectively capture multi-scale periodic patterns, reduce sequence dependencies, and naturally denoise signals. However, existing approaches typically train model components for all frequencies under a unified training objective, often leading to mismatched learning speeds: high-frequency components converge faster and risk overfitting, while low-frequency components underfit due to insufficient training time. To deal with this challenge, we propose BEAT (Balanced frEquency Adaptive Tuning), a novel framework that dynamically monitors the training status for each frequency and adaptively adjusts their gradient updates. By recognizing convergence, overfitting, or underfitting for each frequency, BEAT dynamically reallocates learning priorities, moderating gradients for rapid learners and increasing those for slower ones, alleviating the tension between competing objectives across frequencies and synchronizing the overall learning process. Extensive experiments on seven real-world datasets demonstrate that BEAT consistently outperforms state-of-the-art approaches.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-band" id="figure-1">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">01 · Figure</p>
+          <h2>The Proposed BEAT Method</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/overall_architecture.jpg" alt="BEAT: Balanced Frequency Adaptive Tuning for Long-Term Time-Series Forecasting research figure">
+          <figcaption>Overall architecture of the proposed BEAT. (a) and (b) are the illustrations of the wavelet decomposition and reconstruction, utilizing the multi-level discrete wavelet transform and the inverse operation. (c) demonstrates the process of monitoring the discrepancy ratio for each frequency. (d) presents the process of calculating the gradient modulation coefficients which are applied to adjust the gradients being back-propagated.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted" id="figure-2">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">02 · Figure</p>
+          <h2>Algorithm</h2>
+        </div>
+        <figure class="research-figure compact-figure">
+          <img class="research-image" src="static/images/algorithm.png" alt="BEAT: Balanced Frequency Adaptive Tuning for Long-Term Time-Series Forecasting research figure">
+          <figcaption>Algorithm pipeline of the proposed BEAT.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted bibtex-band" id="bibtex">
+      <div class="project-shell text-layout">
+        <p class="section-label">Citation</p>
+        <div>
+          <div class="bibtex-heading">
+            <h2>BibTeX</h2>
+            <button class="copy-button" id="copy-bibtex" type="button"><i data-lucide="copy" aria-hidden="true"></i><span>Copy</span></button>
+          </div>
+          <pre><code id="bibtex-code">@inproceedings{li2025beat,
+                title={{BEAT}: Balanced Frequency Adaptive Tuning for Long-Term Time-Series Forecasting},
+                author={Li, Zhixuan and Chen, Naipeng and Choi, Seonghwa and Lee, Sanghoon and Lin, Weisi},
+                booktitle={arXiv:2501.19065},
+                year={2025}
+          }</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="../project-theme.js?v=2"></script>
+</body>
+</html>

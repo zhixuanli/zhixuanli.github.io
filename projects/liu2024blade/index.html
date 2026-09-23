@@ -1,0 +1,172 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="BLADE achieves box-level supervised amodal segmentation through directed expansion from visible masks.">
+  <meta property="og:title" content="BLADE: Box-Level Supervised Amodal Segmentation through Directed Expansion">
+  <meta property="og:description" content="BLADE achieves box-level supervised amodal segmentation through directed expansion from visible masks.">
+  <meta property="og:url" content="https://zhixuanli.github.io/projects/liu2024blade/">
+  <meta property="og:image" content="https://zhixuanli.github.io/projects/liu2024blade/static/images/overview_new.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BLADE: Box-Level Supervised Amodal Segmentation through Directed Expansion">
+  <meta name="twitter:description" content="BLADE achieves box-level supervised amodal segmentation through directed expansion from visible masks.">
+  <meta name="twitter:image" content="https://zhixuanli.github.io/projects/liu2024blade/static/images/overview_new.jpg">
+  <title>BLADE: Box-Level Supervised Amodal Segmentation through Directed Expansion</title>
+  <script>
+    (function () {
+      var savedTheme = localStorage.getItem("zl-theme");
+      if (savedTheme === "light" || savedTheme === "dark") {
+        document.documentElement.dataset.theme = savedTheme;
+      } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.documentElement.dataset.theme = "dark";
+      }
+    }());
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Libre+Caslon+Display&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css?v=19">
+  <link rel="stylesheet" href="../project-theme.css?v=3">
+  <link rel="stylesheet" href="../project-glass.css?v=2">
+  <style>
+    .qualitative-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: clamp(1rem, 2vw, 1.5rem);
+      align-items: start;
+    }
+
+    .qualitative-panel {
+      display: block;
+      width: 100%;
+      height: auto;
+      background: #fff;
+    }
+
+    @media (max-width: 760px) {
+      .qualitative-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="project-nav" aria-label="Project navigation">
+    <a class="icon-button" href="../../" aria-label="Back to Zhixuan Li's homepage" title="Back to homepage"><i data-lucide="arrow-left" aria-hidden="true"></i></a>
+    <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode"><i data-lucide="moon" aria-hidden="true"></i></button>
+  </nav>
+
+  <main id="main">
+    <header class="project-hero">
+      <div class="project-shell hero-shell">
+        <p class="eyebrow">AAAI</p>
+        <h1>BLADE: Box-Level Supervised Amodal Segmentation through Directed Expansion</h1>
+        <p class="author-line"><span class="author-block">Zhaochen Liu<sup>1,2*</sup>,</span> <span class="author-block">Zhixuan Li<sup>3*</sup>,</span> <span class="author-block">Tingting Jiang<sup>1,4&dagger;</sup></span></p>
+        <div class="affiliations" aria-label="Author affiliations">
+          <p><span class="author-block"><sup>1</sup>National Engineering Research Center of Visual Technology, National Key Laboratory for Multimedia Information Processing, School of Computer Science, Peking University</span></p>
+          <p><span class="author-block"><sup>2</sup>AI Innovation Center, School of Computer Science, Peking University</span></p>
+          <p><span class="author-block"><sup>3</sup>School of Computer Science and Engineering, Nanyang Technological University</span></p>
+          <p><span class="author-block"><sup>4</sup>National Biomedical Imaging Center, Peking University</span></p>
+        </div>
+        <p class="corresponding"><sup>*</sup>Equal contribution. <sup>&dagger;</sup>Corresponding author</p>
+        <div class="project-actions" aria-label="Paper resources">
+          <a class="project-command primary" href="https://ojs.aaai.org/index.php/AAAI/article/view/28176"><span>Paper</span><i data-lucide="file-text" aria-hidden="true"></i></a>
+          <a class="project-command" href="https://arxiv.org/abs/2401.01642"><span>arXiv</span><i data-lucide="external-link" aria-hidden="true"></i></a>
+          <a class="project-command" href="#bibtex"><span>BibTeX</span><i data-lucide="braces" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="project-band tinted" id="abstract">
+      <div class="project-shell text-layout">
+        <p class="section-label">Abstract</p>
+        <div>
+          <h2>Overview</h2>
+          <p class="abstract-copy">Perceiving the complete shape of occluded objects is essential for human and machine intelligence. While the amodal segmentation task is to predict the complete mask of partially occluded objects, it is time-consuming and labor-intensive to annotate pixel-level ground-truth amodal masks. Box-level supervised amodal segmentation addresses this challenge by relying solely on ground-truth bounding boxes and instance classes as supervision. Nevertheless, current box-level methodologies generate low-resolution masks and imprecise boundaries. We introduce a directed expansion approach from visible masks to corresponding amodal masks. Our hybrid end-to-end network applies distinct segmentation strategies to overlapping and non-overlapping regions. An elaborately designed connectivity loss guides expansion in overlapping regions by leveraging correlations with visible masks. Experiments on several challenging datasets show that BLADE outperforms existing state-of-the-art methods by large margins.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-band" id="figure-1">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">01 · Figure</p>
+          <h2>BLADE identifies the overlapping region of an object from intersecting amodal bounding boxes. This region contains the possible occluded portion and provides a practical cue for directing expansion from a visible mask to its complete amodal shape.</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/region1.jpg" alt="Illustration of the overlapping region used by BLADE.">
+          <figcaption>BLADE identifies the overlapping region of an object from intersecting amodal bounding boxes. This region contains the possible occluded portion and provides a practical cue for directing expansion from a visible mask to its complete amodal shape.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted" id="figure-2">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">02 · Figure</p>
+          <h2>The Proposed BLADE Approach</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/overview_new.jpg" alt="Schematic overview of the BLADE architecture.">
+          <figcaption>BLADE uses three dynamically generated instance-aware branches. The visible branch predicts the visible mask, the amodal branch predicts a coarse amodal mask, and the region branch estimates the overlapping region. Visible-mask cues and the proposed connectivity loss direct expansion in the amodal branch. The final output uses the coarse amodal prediction inside the estimated overlapping region and the visible prediction elsewhere.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band" id="figure-3">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">03 · Figure</p>
+          <h2>Connectivity Loss</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/loss_abc.jpg" alt="Illustration of the connectivity loss in BLADE.">
+          <figcaption>The connectivity loss combines a neighbor loss and a uniform loss. Neighbor loss encourages local label consistency around predicted visible pixels in the overlapping region, while uniform loss maintains consistency between corresponding visible and amodal predictions. Together with projection and pairwise losses, these terms create a balanced expansion process that avoids both under-expansion and over-expansion.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted" id="figure-4">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">04 · Figure</p>
+          <h2>Qualitative Results</h2>
+        </div>
+        <figure class="research-figure">
+          <div class="qualitative-grid" role="group" aria-label="Qualitative comparison of BLADE with box-level supervised baselines.">
+            <svg class="qualitative-panel" viewBox="0 0 2762 4223" role="img" aria-labelledby="qualitative-occlusion-title">
+              <title id="qualitative-occlusion-title">Qualitative results on occluded-object benchmarks.</title>
+              <image href="static/images/comparison_ver_2.jpg" width="2762" height="8183"></image>
+            </svg>
+            <svg class="qualitative-panel" viewBox="0 4312 2762 3871" role="img" aria-labelledby="qualitative-vehicle-title">
+              <title id="qualitative-vehicle-title">Qualitative results on vehicle benchmarks.</title>
+              <image href="static/images/comparison_ver_2.jpg" width="2762" height="8183"></image>
+            </svg>
+          </div>
+          <figcaption>BLADE predicts higher-resolution amodal masks with more complete occluded regions and smoother boundaries than prior box-level supervised approaches across synthetic and real occlusion examples.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted bibtex-band" id="bibtex">
+      <div class="project-shell text-layout">
+        <p class="section-label">Citation</p>
+        <div>
+          <div class="bibtex-heading">
+            <h2>BibTeX</h2>
+            <button class="copy-button" id="copy-bibtex" type="button"><i data-lucide="copy" aria-hidden="true"></i><span>Copy</span></button>
+          </div>
+          <pre><code id="bibtex-code">@inproceedings{liu2024blade,
+  title={{BLADE}: Box-Level Supervised Amodal Segmentation through Directed Expansion},
+  author={Liu, Zhaochen and Li, Zhixuan and Jiang, Tingting},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  pages={3846--3854},
+  year={2024}
+}</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="../project-theme.js?v=2"></script>
+</body>
+</html>
