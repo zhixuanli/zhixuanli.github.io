@@ -1,0 +1,138 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="LVPNet is a prediction-driven framework for lossless medical image compression.">
+  <meta property="og:title" content="LVPNet: A Latent-variable-based Prediction-driven End-to-end Framework for Lossless Compression of Medical Images">
+  <meta property="og:description" content="LVPNet is a prediction-driven framework for lossless medical image compression.">
+  <meta property="og:url" content="https://zhixuanli.github.io/projects/song2025lvpnet/">
+  <meta property="og:image" content="https://zhixuanli.github.io/projects/song2025lvpnet/static/images/lvpnet_overview.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LVPNet: A Latent-variable-based Prediction-driven End-to-end Framework for Lossless Compression of Medical Images">
+  <meta name="twitter:description" content="LVPNet is a prediction-driven framework for lossless medical image compression.">
+  <meta name="twitter:image" content="https://zhixuanli.github.io/projects/song2025lvpnet/static/images/lvpnet_overview.jpg">
+  <title>LVPNet: A Latent-variable-based Prediction-driven End-to-end Framework for Lossless Compression of Medical Images</title>
+  <script>
+    (function () {
+      var savedTheme = localStorage.getItem("zl-theme");
+      if (savedTheme === "light" || savedTheme === "dark") {
+        document.documentElement.dataset.theme = savedTheme;
+      } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.documentElement.dataset.theme = "dark";
+      }
+    }());
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Libre+Caslon+Display&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css?v=19">
+  <link rel="stylesheet" href="../project-theme.css?v=3">
+  <link rel="stylesheet" href="../project-glass.css?v=2">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="project-nav" aria-label="Project navigation">
+    <a class="icon-button" href="../../" aria-label="Back to Zhixuan Li's homepage" title="Back to homepage"><i data-lucide="arrow-left" aria-hidden="true"></i></a>
+    <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode"><i data-lucide="moon" aria-hidden="true"></i></button>
+  </nav>
+
+  <main id="main">
+    <header class="project-hero">
+      <div class="project-shell hero-shell">
+        <p class="eyebrow">MICCAI</p>
+        <h1>LVPNet: A Latent-variable-based Prediction-driven End-to-end Framework for Lossless Compression of Medical Images</h1>
+        <p class="author-line"><span class="author-block">Chenyue Song,</span> <span class="author-block">Chen Hui<sup>*</sup>,</span> <span class="author-block">Qing Lin,</span> <span class="author-block">Wei Zhang,</span> <span class="author-block">Siqiao Li,</span> <span class="author-block">Haiqi Zhu,</span> <span class="author-block">Shengping Zhang<sup>*</sup>,</span> <span class="author-block">Zhixuan Li,</span> <span class="author-block">Shaohui Liu,</span> <span class="author-block">Feng Jiang,</span> <span class="author-block">Xiang Li</span></p>
+        <div class="affiliations" aria-label="Author affiliations">
+          <p><span class="author-block">Harbin Institute of Technology; Nanjing University of Information Science and Technology; Dalian University of Technology; Nanyang Technological University</span></p>
+        </div>
+        <p class="corresponding"><sup>*</sup>Corresponding authors</p>
+        <div class="project-actions" aria-label="Paper resources">
+          <a class="project-command primary" href="https://arxiv.org/abs/2506.17983"><span>Paper</span><i data-lucide="file-text" aria-hidden="true"></i></a>
+          <a class="project-command" href="https://github.com/scy-Jackel/LVPNet"><span>Code</span><i data-lucide="github" aria-hidden="true"></i></a>
+          <a class="project-command" href="#bibtex"><span>BibTeX</span><i data-lucide="braces" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="project-band tinted" id="abstract">
+      <div class="project-shell text-layout">
+        <p class="section-label">Abstract</p>
+        <div>
+          <h2>Overview</h2>
+          <p class="abstract-copy">Lossless medical image compression must preserve every diagnostic detail while reducing storage and transmission cost. LVPNet combines latent-variable coding with prediction-driven entropy modeling. Its global multi-scale sensing module extracts compact context, a quantization compensation module corrects information lost when the latent representation is discretized, and a probabilistic predictor models the residual image distribution. The unified framework improves compression efficiency across several medical-image datasets.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-band" id="figure-1">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">01 · Figure</p>
+          <h2>LVPNet learns a compact global latent variable, predicts pixel distributions from multi-scale context, and compensates quantization loss for efficient end-to-end lossless medical image compression.</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/lvpnet_overview.jpg" alt="Overview of the LVPNet compression pipeline.">
+          <figcaption>LVPNet learns a compact global latent variable, predicts pixel distributions from multi-scale context, and compensates quantization loss for efficient end-to-end lossless medical image compression.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted" id="figure-2">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">02 · Figure</p>
+          <h2>End-to-End Compression Framework</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/framework.png" alt="LVPNet framework with its GMSM and QCM components.">
+          <figcaption>The encoder produces a quantized latent variable for entropy coding. Decoded context is refined by QCM and used to predict a probability distribution for losslessly coding every image pixel.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band" id="figure-3">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">03 · Figure</p>
+          <h2>Multi-Scale Context and Compensation</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/feature_maps.jpg" alt="Feature-map visualization of LVPNet modules.">
+          <figcaption>Feature maps illustrate how the global multi-scale sensing module aggregates broad anatomical structure and how quantization compensation restores residual information.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted" id="figure-4">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">04 · Figure</p>
+          <h2>Sampling-Rate Analysis</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/sampling_ablation.jpg" alt="Ablation study of latent-variable sampling rate.">
+          <figcaption>The sampling rate controls the trade-off between latent storage overhead and prediction accuracy; the selected operating point gives consistently strong compression across datasets.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted bibtex-band" id="bibtex">
+      <div class="project-shell text-layout">
+        <p class="section-label">Citation</p>
+        <div>
+          <div class="bibtex-heading">
+            <h2>BibTeX</h2>
+            <button class="copy-button" id="copy-bibtex" type="button"><i data-lucide="copy" aria-hidden="true"></i><span>Copy</span></button>
+          </div>
+          <pre><code id="bibtex-code">@inproceedings{song2025lvpnet,
+  title={{LVPNet}: A Latent-variable-based Prediction-driven End-to-end Framework for Lossless Compression of Medical Images},
+  author={Song, Chenyue and Hui, Chen and Lin, Qing and Zhang, Wei and Li, Siqiao and Zhu, Haiqi and Zhang, Shengping and Li, Zhixuan and Liu, Shaohui and Jiang, Feng and Li, Xiang},
+  booktitle={Medical Image Computing and Computer Assisted Intervention},
+  year={2025}
+}</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="../project-theme.js?v=2"></script>
+</body>
+</html>

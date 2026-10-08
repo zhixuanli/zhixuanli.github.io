@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en" class="protocast-v2">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ProtoCast: Interpretable Prototype-Conditioned Adaptation for Weather Forecasting. Explore forecasts, prototype contributions, and results from the paper.">
+  <title>ProtoCast · Interpretable Prototype-Conditioned Adaptation for Weather Forecasting</title>
+  <link rel="canonical" href="https://zhixuanli.github.io/projects/li2026protocast/">
+  <script>(function(){try{var t=localStorage.getItem('zl-theme');document.documentElement.dataset.theme=t==='dark'||(!t&&matchMedia('(prefers-color-scheme: dark)').matches)?'dark':'light';}catch(e){}}());</script>
+  <link rel="stylesheet" href="../../styles.css?v=19">
+  <link rel="stylesheet" href="../project-theme.css?v=3">
+  <link rel="stylesheet" href="../project-glass.css?v=2">
+  <link rel="stylesheet" href="v2.css?v=42">
+  <link rel="stylesheet" href="prototype-space.css?v=7">
+  <script src="v2.js?v=33" defer></script>
+  <script src="prototype-space.js?v=7" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="project-nav" aria-label="Project navigation"><a class="icon-button" href="../../" aria-label="Back to Zhixuan Li's homepage"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 5-7 7 7 7M5 12h14"/></svg></a><button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark mode"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 13A9 9 0 0 1 11 3.2 9 9 0 1 0 20.8 13Z"/></svg></button></nav>
+  <main id="main">
+    <div class="pv-opening" id="top">
+      <header class="pv-header pv-shell">
+        <p class="eyebrow pv-enter">arXiv</p>
+        <p class="pv-wordmark pv-enter">Proto<span>Cast</span><span class="pv-wordmark-dot" aria-hidden="true"></span></p>
+        <h1 class="pv-enter">Interpretable Prototype-Conditioned<br class="pv-wide-break"> Adaptation for Weather Forecasting</h1>
+        <p class="pv-authors pv-enter"><span class="pv-author"><a href="https://zhixuanli.github.io/">Zhixuan Li</a><sup>1</sup></span><span class="pv-author-separator" aria-hidden="true">·</span><span class="pv-author"><a href="https://openreview.net/profile?id=~Hao_Jiang59">Hao Jiang</a><sup>1</sup></span><span class="pv-author-separator" aria-hidden="true">·</span><span class="pv-author"><a href="https://scholar.google.com/citations?hl=en&amp;user=33MsN_4AAAAJ">Chen Hui</a><sup>2</sup></span><span class="pv-author-separator" aria-hidden="true">·</span><span class="pv-author"><a href="https://openreview.net/profile?id=~Kai_Geng1">Kai Geng</a><sup>2</sup></span><span class="pv-author-separator" aria-hidden="true">·</span><span class="pv-author"><a href="https://dr.ntu.edu.sg/entities/person/Lin-Weisi">Weisi Lin</a><sup>1*</sup></span></p>
+        <div class="pv-affiliations pv-enter"><span><sup>1</sup>Nanyang Technological University, Singapore</span><span><sup>2</sup>Nanjing University of Information Science and Technology, China</span></div>
+        <p class="pv-corresponding pv-enter"><sup>*</sup>Corresponding author</p>
+        <div class="pv-header-actions pv-enter">
+          <a class="project-command primary" href="https://arxiv.org/abs/2611.25848">Paper <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8ZM14 2v6h6M8 13h8M8 17h6"/></svg></a>
+          <a class="project-command" role="link" aria-disabled="true">Code <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 6-6 6 6 6m8-12 6 6-6 6m-2-15-4 18"/></svg></a>
+          <a class="project-command" href="#citation">BibTeX <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4H7a2 2 0 0 0-2 2v4a2 2 0 0 1-2 2 2 2 0 0 1 2 2v4a2 2 0 0 0 2 2h2m6-16h2a2 2 0 0 1 2 2v4a2 2 0 0 0 2 2 2 2 0 0 0-2 2v4a2 2 0 0 1-2 2h-2"/></svg></a>
+        </div>
+      </header>
+
+      <section class="pv-shell pv-reel-wrap" id="reel" aria-label="Research preview">
+        <div class="pv-reel pv-reveal">
+          <div class="pv-reel-heading"><span class="pv-kicker">01 · Forecasts in focus</span><span class="pv-reel-source"><span class="pv-reel-view is-active" data-scene="0">GlobalForecast</span><span class="pv-reel-view" data-scene="1" aria-hidden="true" inert>T2M · 12-hour forecast · same color scale</span><span class="pv-reel-view" data-scene="2" aria-hidden="true" inert>Doksuri · 10 initializations · +3h centers</span></span></div>
+          <div class="pv-reel-body">
+            <div class="pv-reel-art">
+              <div class="pv-reel-scene pv-reel-view is-active" data-scene="0"><div class="pv-reel-image-labels"><span>Ground truth</span><span>ProtoCast</span></div><div class="pv-wipe pv-reel-wipe" id="reel-wipe" style="--wipe:50%"><img src="static/images/16212-temperature-A5.png" alt="ProtoCast 12-hour temperature forecast from the main paper" width="64" height="32"><img class="pv-wipe-gt" src="static/images/16212-temperature-GT.png" alt="Ground-truth temperature at the same forecast lead" width="64" height="32"><span class="pv-wipe-line" aria-hidden="true"><span>↔</span></span></div><p class="pv-reel-art-note">2-m temperature · +12h · original 32 × 64 grid</p></div>
+              <div class="pv-reel-scene pv-reel-view" data-scene="1" aria-hidden="true" inert><div class="pv-reel-errors" id="reel-errors"><figure><figcaption>PredFormer</figcaption><div class="pv-reel-error-map"><img src="static/images/16212-temperature-PredFormer-error.png" alt="PredFormer absolute error from the paper" width="64" height="32"><span class="pv-reel-error-scan" aria-hidden="true"></span></div><p><span>MAE&nbsp;↓</span><strong>0.8215 <span>K</span></strong></p></figure><figure><figcaption>ProtoCast</figcaption><div class="pv-reel-error-map"><img src="static/images/16212-temperature-A5-error.png" alt="ProtoCast absolute error from the paper" width="64" height="32"><span class="pv-reel-error-scan" aria-hidden="true"></span></div><p><span>MAE&nbsp;↓</span><strong>0.7515 <span>K</span></strong></p></figure></div><div class="pv-reel-error-scale"><span>0</span><img src="static/images/temperature-error-scale.png" alt="Shared absolute error scale" width="256" height="12"><span>13.72 K</span></div><p class="pv-reel-art-note">Absolute errors · same scale · same paper example</p></div>
+              <div class="pv-reel-scene pv-reel-view" data-scene="2" aria-hidden="true" inert><div class="pv-reel-storm" id="reel-storm"><img src="static/images/doksuri-paper.png" alt="Doksuri forecast positions and mean error curves, as shown in the paper" width="2400" height="1220"></div><p class="pv-reel-art-note" id="reel-storm-time">Doksuri · +3h centers across six-hourly initializations</p></div>
+            </div>
+            <div class="pv-reel-copy">
+              <div class="pv-reel-copy-panel pv-reel-view is-active" data-scene="0">
+                <p class="pv-scene-index">01 / 03</p>
+                <h2>A forecast.<br><span>A closer look.</span></h2>
+                <p>Compare the same weather field, then look at the errors that separate two predictions.</p>
+                <a class="pv-inline-link" href="#forecasts">Explore this example <span aria-hidden="true">↗</span></a>
+              </div>
+              <div class="pv-reel-copy-panel pv-reel-view" data-scene="1" aria-hidden="true" inert>
+                <p class="pv-scene-index">02 / 03</p>
+                <h2>Small differences.<br><span>Visible errors.</span></h2>
+                <p>The full-field errors reveal differences that are subtle in the weather fields. Both maps use the same scale.</p>
+                <a class="pv-inline-link" href="#forecasts">Inspect the error <span aria-hidden="true">↗</span></a>
+              </div>
+              <div class="pv-reel-copy-panel pv-reel-view" data-scene="2" aria-hidden="true" inert>
+                <p class="pv-scene-index">03 / 03</p>
+                <h2>A moving storm.<br><span>A local prediction.</span></h2>
+                <p>Each highlighted point is a +3h center from a separate six-hourly initialization. These are the original paper markers.</p>
+                <a class="pv-inline-link" href="#tracks">Explore the track <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="pv-reel-controls"><button type="button" class="pv-play" id="reel-play" aria-label="Play research preview"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 11 7-11 7Z"/></svg></button><div class="pv-tabs pv-reel-tabs" id="reel-tabs" role="group" aria-label="Preview chapter"><span class="pv-tab-thumb" aria-hidden="true"></span><button type="button" data-scene-button="0" aria-pressed="true">Forecast</button><button type="button" data-scene-button="1" aria-pressed="false">Error</button><button type="button" data-scene-button="2" aria-pressed="false">Track</button></div><button type="button" class="pv-replay" id="reel-restart" aria-label="Replay research preview">↻</button></div>
+          <div class="pv-reel-progress" role="progressbar" aria-label="Research preview progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="reel-progress"></span></div>
+        </div>
+      </section>
+    </div>
+
+    <section id="findings" class="pv-shell pv-findings pv-reveal" aria-label="Key findings from the paper"><div><p class="pv-kicker">GlobalForecast</p><strong><span class="sr-only">18.30%</span><span class="pv-count" data-count="18.30" aria-hidden="true"><span class="pv-count-current">18.30</span></span><span class="pv-count-unit" aria-hidden="true">%</span></strong><h2>Lower temperature MSE&nbsp;↓</h2><p>0.9608 → 0.7850, compared with Met²Net.</p></div><div><p class="pv-kicker">TyphoonTracking</p><strong><span class="sr-only">25.95%</span><span class="pv-count" data-count="25.95" aria-hidden="true"><span class="pv-count-current">25.95</span></span><span class="pv-count-unit" aria-hidden="true">%</span></strong><h2>Lower temperature MSE&nbsp;↓</h2><p>0.7467 → 0.5529, compared with TAU.</p></div><div class="pv-findings-note"><span class="pv-mini-grid" aria-hidden="true"></span><h2>Local patterns.<br>Explicit contributions.</h2><p>Group-specific prototype banks help adapt local features while accounting for cross-variable dependencies.</p><a class="pv-inline-link" href="#prototype-lab">See one contribution <span aria-hidden="true">↓</span></a></div></section>
+
+    <section class="pv-section pv-tinted" id="prototype-lab" aria-labelledby="prototype-title"><div class="pv-shell">
+      <div class="pv-section-heading pv-reveal"><p class="pv-kicker">02 · Why prototypes?</p><h2 id="prototype-title">What does one<br><span>prototype change?</span></h2><p>Follow the paper’s T2M example from a matched pattern to a measurable contribution.</p></div>
+      <div class="pv-prototype-layout">
+        <div class="pv-prototype-stage">
+          <div class="pv-prototype-visual">
+            <div class="pv-tabs pv-prototype-tabs" id="prototype-tabs" role="group" aria-label="Prototype explanation step"><span class="pv-tab-thumb" aria-hidden="true"></span><button type="button" data-prototype-step="0" aria-pressed="true">01 · Match</button><button type="button" data-prototype-step="1" aria-pressed="false">02 · Recall</button><button type="button" data-prototype-step="2" aria-pressed="false">03 · Test</button></div>
+            <div class="pv-prototype-panels" id="prototype-panels">
+              <div class="pv-prototype-panel is-active" data-prototype-panel="0" id="prototype-space">
+                <div class="pv-prototype-plot"><div class="pv-space-widget" id="prototype-space-widget"><div class="pv-space-toolbar"><div class="pv-space-actions"><button type="button" class="pv-space-button" id="space-rotate" aria-label="Rotate 3D prototype space" aria-pressed="false">Rotate</button><button type="button" class="pv-space-button" id="space-reset" aria-label="Reset 3D view">Reset</button></div></div><div class="pv-space-stage"><div class="pv-space-3d"><canvas id="prototype-space-canvas" tabindex="0" role="img" aria-label="Interactive 3D PCA of the paper's training queries, prototypes and current input. Drag or use arrow keys to rotate; plus and minus zoom; Home resets."></canvas><div class="pv-space-zoom"><button type="button" class="pv-space-button" id="space-zoom-in" aria-label="Zoom in 3D prototype space">+</button><button type="button" class="pv-space-button" id="space-zoom-out" aria-label="Zoom out 3D prototype space">−</button></div><div class="pv-space-legend" aria-hidden="true"><span><i></i>Training queries</span><span><b class="pv-key-symbol">✶</b>Prototypes</span><span><b class="pv-input-symbol">◇</b>Current input</span></div><p class="pv-space-hint">Drag to rotate · Pinch or +/− to zoom</p><div class="pv-space-tooltip" id="space-tooltip" hidden></div></div></div><p class="pv-space-status" id="space-status" role="status"></p></div></div>
+                <div class="pv-figure-footer">Interactive 3D PCA</div>
+              </div>
+              <div class="pv-prototype-panel" data-prototype-panel="1" id="prototype-history" aria-hidden="true" inert>
+                <div class="pv-prototype-plot" id="history-stage"></div>
+                <div class="pv-history-controls"><span>History time <output id="history-time">−11h</output></span><button type="button" class="pv-inline-button pv-figure-play" id="history-play" aria-label="Play prototype history animation">Play</button></div>
+              </div>
+              <div class="pv-prototype-panel" data-prototype-panel="2" aria-hidden="true" inert>
+                <div class="pv-prototype-plot" id="prototype-intervention"></div>
+                <div class="pv-prototype-inspector" id="prototype-inspector"><div class="pv-prototype-lead-toolbar"><label class="pv-prototype-lead-label" for="prototype-lead">Forecast lead <output id="prototype-lead-label">12h</output></label><button type="button" class="pv-inline-button pv-figure-play" id="prototype-play" aria-label="Play forecast error animation">Play</button></div><input type="range" id="prototype-lead" min="1" max="12" step="1" value="12" aria-label="Prototype analysis forecast lead"><div class="pv-prototype-readout"><span>Full prediction <strong id="prototype-full" class="pv-lower-value" title="T2M MAE, lower is better">0.2884 K</strong></span><span>P27 removed <strong id="prototype-removed" class="pv-lower-value" title="T2M MAE, lower is better">0.9352 K</strong></span></div></div>
+                <div class="pv-figure-footer pv-intervention-note">Published fixed-model intervention · local 4 × 4 patch</div>
+              </div>
+            </div>
+          </div>
+          <div class="pv-prototype-story"><article data-story-step="0" class="is-active"><span>01</span><h3>Find a local match.</h3><p>The current input is matched against learned prototypes. In this example, P27 and P31 provide the explicit pattern references.</p><div class="pv-weight-pair"><span><i style="--weight-color:#76629f"></i>P27 <strong>0.88</strong></span><span><i style="--weight-color:#2d8690"></i>P31 <strong>0.12</strong></span></div></article><article data-story-step="1" aria-hidden="true" inert><span>02</span><h3>Read its history.</h3><p>Associated training histories give the matched prototypes a concrete temporal context. Compare the current input with the purple and teal history curves.</p><p class="pv-story-note">The same histories and weights displayed in the paper.</p></article><article data-story-step="2" aria-hidden="true" inert><span>03</span><h3>Test the contribution.</h3><p>Remove the selected weighted P27 contribution while keeping the model fixed. The displayed patch error increases at every forecast lead in this example.</p><p class="pv-story-note">Measured MAE over the local 4 × 4 patch. Both conditions are from the paper; no retraining is involved.</p><button type="button" class="pv-inline-button" id="jump-intervention">Try the intervention ↗</button></article></div>
+        </div>
+      </div>
+    </div></section>
+
+    <section class="pv-section" id="forecasts" aria-labelledby="forecast-title"><div class="pv-shell">
+      <div class="pv-section-heading pv-reveal"><p class="pv-kicker">03 · Global forecasts</p><h2 id="forecast-title">Same field.<br><span>See the difference.</span></h2><p>Compare ground truth and a prediction in place. Drag the divider to inspect the same grid cells.</p></div>
+      <div class="pv-explorer pv-reveal" id="forecast-explorer" aria-busy="true">
+        <div class="pv-explorer-toolbar"><div class="pv-tabs" id="variable-tabs" role="group" aria-label="Weather variable"><span class="pv-tab-thumb" aria-hidden="true"></span><button type="button" data-variable="temperature" aria-pressed="true">T2M</button><button type="button" data-variable="wind" aria-pressed="false">UV10</button><button type="button" data-variable="cloud" aria-pressed="false">TCC</button><button type="button" data-variable="humidity" aria-pressed="false">R</button></div></div>
+        <div class="pv-explorer-title"><div><h3 id="variable-title">2-m temperature</h3><p id="forecast-date">+12h · original 32 × 64 grid</p></div><span class="pv-forecast-method">ProtoCast</span></div>
+        <div class="pv-comparison-layout"><div class="pv-comparison-main"><div class="pv-wipe-labels"><span>Ground truth</span><span id="prediction-label">ProtoCast</span></div><div class="pv-wipe pv-forecast-wipe" id="forecast-wipe" style="--wipe:50%"><img id="forecast-prediction" src="static/images/16212-temperature-A5.png" alt="ProtoCast temperature forecast" width="64" height="32"><img id="forecast-target" class="pv-wipe-gt" src="static/images/16212-temperature-GT.png" alt="Ground-truth temperature" width="64" height="32"><span class="pv-wipe-line" id="forecast-handle" aria-hidden="true"><span>↔</span></span></div><div class="pv-forecast-playback"><label class="pv-wipe-range-label" for="forecast-divider"><span>Ground truth</span><span>Prediction</span></label><button type="button" class="pv-inline-button pv-figure-play" id="forecast-play" aria-label="Play forecast comparison">Play</button></div><input id="forecast-divider" type="range" min="0" max="100" step="0.1" value="50" aria-label="Ground truth and prediction comparison divider"><div class="pv-color-scale"><span id="field-low">201.61</span><img id="field-scale" src="static/images/temperature-scale.png" alt="Field color scale shared across methods and cases" width="256" height="12"><span id="field-high">321.17 K</span></div></div>
+        <aside class="pv-error-comparison"><div class="pv-error-heading"><h4>Absolute error&nbsp;↓</h4><span id="error-unit">K</span></div><figure><figcaption><span>ProtoCast</span><strong id="error-ours-value" class="pv-lower-value" title="Full-field MAE, lower is better">0.7515 K</strong></figcaption><div class="pv-error-map"><img id="error-ours-image" src="static/images/16212-temperature-A5-error.png" alt="ProtoCast absolute error" width="64" height="32"></div></figure><figure><figcaption><span id="error-baseline-name">PredFormer</span><strong id="error-baseline-value" class="pv-lower-value" title="Full-field MAE, lower is better">0.8215 K</strong></figcaption><div class="pv-error-map"><img id="error-baseline-image" src="static/images/16212-temperature-PredFormer-error.png" alt="PredFormer absolute error" width="64" height="32"></div></figure><div class="pv-color-scale"><span>0</span><img id="error-scale" src="static/images/temperature-error-scale.png" alt="Shared error color scale" width="256" height="12"><span id="error-high">13.72</span></div><p>Values above are full-field MAE.</p></aside></div>
+        <div class="pv-figure-footer"><span id="forecast-context">Selected paper example · physical units after inverse normalization</span></div>
+      </div><p class="pv-caption">Identical color scales are retained across methods and cases. UV10 shows wind speed; its error averages absolute U10 and V10 component errors. These selected examples are distinct from the aggregate benchmark results.</p>
+    </div></section>
+
+    <section class="pv-section pv-tinted" id="tracks" aria-labelledby="tracks-title"><div class="pv-shell">
+      <div class="pv-section-heading pv-reveal"><p class="pv-kicker">04 · Typhoon tracking</p><h2 id="tracks-title">Keep the storm<br><span>in focus.</span></h2><p>Replay the original Doksuri and Mawar forecast centers. Each map point is a +3h forecast from a separate six-hourly initialization.</p></div>
+      <div class="pv-track-explorer pv-reveal"><div class="pv-track-toolbar"><div class="pv-tabs" id="storm-tabs" role="group" aria-label="Typhoon case"><span class="pv-tab-thumb" aria-hidden="true"></span><button type="button" data-storm="Doksuri" aria-pressed="true">Doksuri</button><button type="button" data-storm="Mawar" aria-pressed="false">Mawar</button></div><span id="storm-meta">10 initializations · ProtoCast vs. Met²Net</span></div><p class="pv-pan-hint">Swipe the figure to inspect the map and error curve ↔</p><div class="pv-track-stage" id="track-stage"><img src="static/images/typhoon-doksuri-aligned.png" alt="Doksuri map and mean error curves from the paper" width="2400" height="1200"></div><div class="pv-track-controls"><button type="button" class="pv-play pv-play-wide" id="track-play" aria-label="Play track replay"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 11 7-11 7Z"/></svg><span>Play</span></button><div class="pv-track-timeline"><div><span class="pv-track-clock"><span class="pv-time-phase" id="track-day-icon" aria-hidden="true"></span><span id="track-time">22 Jul 2023 · 12:00 UTC</span></span><span id="track-count">1 / 10</span></div><input type="range" min="0" max="9" value="0" step="1" id="track-range" aria-label="Forecast initialization replay"><div class="pv-day-cycle" id="track-day-cycle" role="img" aria-label="Day and night markers, UTC+8"></div><span class="pv-day-zone">UTC+8</span></div></div></div>
+
+    </div></section>
+
+    <section class="pv-section" id="method" aria-labelledby="method-title"><div class="pv-shell"><div class="pv-section-heading pv-reveal"><p class="pv-kicker">05 · How it works</p><h2 id="method-title">Match locally.<br><span>Exchange across variables.</span></h2><p>Historical features, temporal changes, and forecast context guide sparse prototype matching. Weighted low-rank operators produce explicit local contributions before gated cross-variable fusion.</p></div><figure class="pv-paper-figure pv-reveal pv-method-figure" id="method-figure">
+        <div class="pv-method-controls">
+          <span class="pv-method-phases" id="method-phases"><span class="pv-method-phase" data-method-phase="encode">Encode</span><b aria-hidden="true">→</b><span class="pv-method-phase" data-method-phase="match">Match</span><b aria-hidden="true">→</b><span class="pv-method-phase" data-method-phase="update">Update</span><b aria-hidden="true">→</b><span class="pv-method-phase" data-method-phase="fuse">Fuse</span></span>
+          <button type="button" class="pv-inline-button pv-figure-play" id="method-play" aria-label="Play method animation">Play</button>
+        </div>
+        <button type="button" data-original="method.png" data-caption="Original ProtoCast method figure" class="pv-image-button" aria-label="Enlarge the method figure">
+          <img src="static/images/method.png" alt="ProtoCast architecture, unchanged from the paper" width="2400" height="1869" loading="lazy">
+          <span class="pv-method-highlights" aria-hidden="true">
+            <i class="pv-method-focus"></i>
+            <i class="pv-method-detail"></i>
+            <i class="pv-method-trace pv-trace-encode" data-method-phase="encode"></i>
+            <i class="pv-method-trace pv-trace-match" data-method-phase="match"></i>
+            <i class="pv-method-trace pv-trace-update" data-method-phase="update"></i>
+            <i class="pv-method-trace pv-trace-fuse" data-method-phase="fuse"></i>
+          </span>
+        </button>
+      </figure></div></section>
+
+    <section class="pv-section pv-tinted" id="results" aria-labelledby="results-title"><div class="pv-shell"><div class="pv-section-heading pv-reveal"><p class="pv-kicker">06 · Results</p><h2 id="results-title">Every lead.<br><span>A closer comparison.</span></h2><p>Inspect the exact four example-specific curves shown in the main paper. Each variable uses its own displayed test case.</p></div>
+      <div class="pv-lead-explorer pv-reveal"><div class="pv-lead-toolbar"><div class="pv-tabs" id="lead-variable-tabs" role="group" aria-label="Lead-wise error variable"><span class="pv-tab-thumb" aria-hidden="true"></span><button type="button" data-lead-variable="UV10" aria-pressed="true">UV10</button><button type="button" data-lead-variable="T2M" aria-pressed="false">T2M</button><button type="button" data-lead-variable="TCC" aria-pressed="false">TCC</button><button type="button" data-lead-variable="R" aria-pressed="false">R</button></div><span id="lead-case-label">UV10</span></div><div id="lead-stage" class="pv-lead-stage"></div><div class="pv-curve-values" id="lead-values"></div><div class="pv-lead-playback"><label class="pv-lead-input-label" for="lead-range">Forecast lead <output id="lead-hour">12h</output></label><button type="button" class="pv-inline-button pv-figure-play" id="lead-play" aria-label="Play lead-wise MSE animation">Play</button></div><input type="range" id="lead-range" min="1" max="12" step="1" value="12" aria-label="Lead-wise MSE forecast hour"><div class="pv-figure-footer"><span>Full-field MSE after inverse normalization. Drag the lead control to pause and inspect.</span></div></div>
+      <div class="pv-benchmark pv-reveal" id="benchmarks"><div class="pv-benchmark-heading"><div><p class="pv-kicker">Aggregate benchmarks</p><h3>Global and regional forecasting.</h3></div><div class="pv-tabs" id="benchmark-tabs" role="group" aria-label="Benchmark dataset"><span class="pv-tab-thumb" aria-hidden="true"></span><button type="button" data-benchmark="globalForecast" aria-pressed="true">Global</button><button type="button" data-benchmark="regional" aria-pressed="false">Regional</button></div></div><div class="pv-table-wrap"><table id="benchmark-table"><caption>MAE&nbsp;↓ · lower is better · selected compared methods</caption><thead></thead><tbody></tbody></table></div><p class="pv-benchmark-summary" id="benchmark-summary">ProtoCast achieves the lowest MAE on all four GlobalForecast variables.</p><p class="pv-caption">The compact table displays MAE only. The full paper reports MSE, MAE, RMSE, and R² for all compared methods.</p></div>
+    </div></section>
+
+    <section class="pv-section pv-reading"><div class="pv-shell"><section id="citation" class="pv-citation"><div><p class="pv-kicker">Citation</p><h2>BibTeX</h2></div><div><div class="pv-citation-toolbar"><span>arXiv:2611.25848 · 2026</span><button type="button" class="copy-button" id="copy-bibtex"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h4"/></svg><span>Copy</span></button></div><pre><code id="bibtex-code">@article{li2026protocast,
+  title={Interpretable Prototype-Conditioned Adaptation for Weather Forecasting},
+  author={Li, Zhixuan and Jiang, Hao and Hui, Chen and Geng, Kai and Lin, Weisi},
+  journal={arXiv preprint arXiv:2611.25848},
+  year={2026}
+}</code></pre></div></section>
+      <a class="project-command pv-back-to-top" href="#top">
+        Back to top <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5m-6 6 6-6 6 6"/></svg>
+      </a>
+    </div></section>
+  </main>
+  <p class="pv-status" id="page-status" role="status"></p>
+  <dialog id="figure-dialog" class="pv-dialog" aria-labelledby="dialog-title"><div class="pv-dialog-header"><h2 id="dialog-title">Paper figure</h2><button type="button" class="icon-button" id="dialog-close" aria-label="Close figure"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button></div><div id="dialog-content"></div></dialog>
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="../project-theme.js?v=2"></script>
+</body>
+</html>

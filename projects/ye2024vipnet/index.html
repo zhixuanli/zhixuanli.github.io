@@ -1,0 +1,139 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="VIPNet uses viewpoint information and shape priors for instant multi-view 3D reconstruction.">
+  <meta property="og:title" content="VIPNet: Combining Viewpoint Information and Shape Priors for Instant Multi-View 3D Reconstruction">
+  <meta property="og:description" content="VIPNet uses viewpoint information and shape priors for instant multi-view 3D reconstruction.">
+  <meta property="og:url" content="https://zhixuanli.github.io/projects/ye2024vipnet/">
+  <meta property="og:image" content="https://zhixuanli.github.io/projects/ye2024vipnet/static/images/vipnet_overview.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="VIPNet: Combining Viewpoint Information and Shape Priors for Instant Multi-View 3D Reconstruction">
+  <meta name="twitter:description" content="VIPNet uses viewpoint information and shape priors for instant multi-view 3D reconstruction.">
+  <meta name="twitter:image" content="https://zhixuanli.github.io/projects/ye2024vipnet/static/images/vipnet_overview.jpg">
+  <title>VIPNet: Combining Viewpoint Information and Shape Priors for Instant Multi-View 3D Reconstruction</title>
+  <script>
+    (function () {
+      var savedTheme = localStorage.getItem("zl-theme");
+      if (savedTheme === "light" || savedTheme === "dark") {
+        document.documentElement.dataset.theme = savedTheme;
+      } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.documentElement.dataset.theme = "dark";
+      }
+    }());
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Libre+Caslon+Display&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css?v=19">
+  <link rel="stylesheet" href="../project-theme.css?v=3">
+  <link rel="stylesheet" href="../project-glass.css?v=2">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="project-nav" aria-label="Project navigation">
+    <a class="icon-button" href="../../" aria-label="Back to Zhixuan Li's homepage" title="Back to homepage"><i data-lucide="arrow-left" aria-hidden="true"></i></a>
+    <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode"><i data-lucide="moon" aria-hidden="true"></i></button>
+  </nav>
+
+  <main id="main">
+    <header class="project-hero">
+      <div class="project-shell hero-shell">
+        <p class="eyebrow">ACCV</p>
+        <h1>VIPNet: Combining Viewpoint Information and Shape Priors for Instant Multi-View 3D Reconstruction</h1>
+        <p class="author-line"><span class="author-block">Weining Ye<sup>1</sup>,</span> <span class="author-block">Zhixuan Li<sup>2</sup>,</span> <span class="author-block">Tingting Jiang<sup>3</sup></span></p>
+        <div class="affiliations" aria-label="Author affiliations">
+          <p><span class="author-block"><sup>1</sup>Peking University</span></p>
+          <p><span class="author-block"><sup>2</sup>Nanyang Technological University</span></p>
+          <p><span class="author-block"><sup>3</sup>National Engineering Research Center of Visual Technology, Peking University</span></p>
+        </div>
+        <div class="project-actions" aria-label="Paper resources">
+          <a class="project-command primary" href="https://openaccess.thecvf.com/content/ACCV2024/html/Ye_VIPNet_Combining_Viewpoint_Information_and_Shape_Priors_for_Instant_Multi-View_ACCV_2024_paper.html"><span>Paper</span><i data-lucide="file-text" aria-hidden="true"></i></a>
+          <a class="project-command" href="#bibtex"><span>BibTeX</span><i data-lucide="braces" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="project-band tinted" id="abstract">
+      <div class="project-shell text-layout">
+        <p class="section-label">Abstract</p>
+        <div>
+          <h2>Overview</h2>
+          <p class="abstract-copy">Existing multi-view reconstruction methods often fuse image features without explicitly using camera viewpoint, making it difficult to associate corresponding object parts. VIPNet introduces a viewpoint estimator that provides geometric context to each view and a shape-prior module that retrieves category knowledge when only a few observations are available. The resulting network reconstructs high-quality 3D point clouds in a single forward pass and generalizes to real-world images.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-band" id="figure-1">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">01 · Figure</p>
+          <h2>VIPNet explicitly estimates camera viewpoints to associate features across views and retrieves shape priors to compensate for sparse observations, enabling fast and accurate 3D reconstruction.</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/vipnet_overview.jpg" alt="Overview of the VIPNet architecture.">
+          <figcaption>VIPNet explicitly estimates camera viewpoints to associate features across views and retrieves shape priors to compensate for sparse observations, enabling fast and accurate 3D reconstruction.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted" id="figure-2">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">02 · Figure</p>
+          <h2>Why Viewpoint Matters</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/viewpoint_comparison.jpg" alt="VIPNet comparison with a baseline at different numbers of input views.">
+          <figcaption>Viewpoint-aware association prevents geometrically distinct parts, such as the bow and stern of an airplane, from being confused during feature fusion.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band" id="figure-3">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">03 · Figure</p>
+          <h2>Shape-Prior Retrieval</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/retrieved_priors.jpg" alt="Partial shape priors retrieved by VIPNet.">
+          <figcaption>The shape-prior dictionary supplies plausible missing structure when the available views cover only part of the object.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted" id="figure-4">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">04 · Figure</p>
+          <h2>Real-World Generalization</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/real_world_results.jpg" alt="VIPNet reconstructions from real-world multi-view images.">
+          <figcaption>VIPNet transfers from synthetic training data to real photographs and reconstructs coherent object geometry from sparse views.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted bibtex-band" id="bibtex">
+      <div class="project-shell text-layout">
+        <p class="section-label">Citation</p>
+        <div>
+          <div class="bibtex-heading">
+            <h2>BibTeX</h2>
+            <button class="copy-button" id="copy-bibtex" type="button"><i data-lucide="copy" aria-hidden="true"></i><span>Copy</span></button>
+          </div>
+          <pre><code id="bibtex-code">@inproceedings{ye2024vipnet,
+  title={{VIPNet}: Combining Viewpoint Information and Shape Priors for Instant Multi-view 3D Reconstruction},
+  author={Ye, Weining and Li, Zhixuan and Jiang, Tingting},
+  booktitle={Proceedings of the Asian Conference on Computer Vision},
+  pages={3379--3395},
+  year={2024}
+}</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="../project-theme.js?v=2"></script>
+</body>
+</html>

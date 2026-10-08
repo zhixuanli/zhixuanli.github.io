@@ -1,0 +1,268 @@
+---
+---
+
+/*
+ *    Minimal Mistakes Jekyll Theme
+ *
+ *  - Michael Rose
+ *  - mademistakes.com
+ *  - https://twitter.com/mmistakes
+ *
+*/
+
+@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "variables";
+@import "mixins";
+@import "vendor/susy/susy";
+
+@import "reset";
+@import "base";
+
+@import "utilities";
+@import "animations";
+@import "tables";
+@import "buttons";
+@import "notices";
+@import "masthead";
+@import "navigation";
+@import "footer";
+@import "syntax";
+
+@import "forms";
+
+$max-width: 1200px;
+
+@import "page";
+@import "archive";
+@import "sidebar";
+
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
+@import "vendor/magnific-popup/magnific-popup";
+@import "print";
+
+.paper-box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px #efefef solid;
+    padding: 2em 0 2em 0;
+    max-width: $max-width;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    .paper-box-image{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        order: 2;
+        img {
+            max-width: 400px;
+            box-shadow: 3px 3px 6px #888;
+            object-fit: cover;
+        }
+    }
+    
+    .paper-box-text{
+        max-width: 100%;
+        min-width: 0;
+        order: 1;
+    }
+    
+    @include breakpoint($medium) {
+        .paper-box-image{
+            justify-content: left;
+            min-width: 200px;
+            max-width: 20%;
+            order: 1;
+        }
+        
+        .paper-box-text{
+            justify-content: left;
+            padding-left: 2em;
+            max-width: calc(80% - 2em);
+            order: 2;
+        }
+
+    }
+
+
+}
+
+$scroll_offset : 2em;
+h1:before, .anchor:before { 
+    content: ''; 
+    display: block; 
+    position: relative; 
+    width: 0; 
+    height: $scroll_offset; 
+    margin-top: -$scroll_offset;
+}
+
+.badge {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    margin-top: .5em;
+    margin-left: -.5em;
+    color: white;
+    background-color: #00369f;
+    font-size: .8em;
+}
+
+:root {
+    color-scheme: light dark;
+}
+
+@mixin dark-theme {
+    &,
+    body {
+        background-color: #111418;
+        color: #d7dde3;
+    }
+
+    ::selection {
+        color: #111418;
+        background: #d7dde3;
+    }
+
+    a {
+        color: #7bb7ff;
+    }
+
+    a:hover,
+    a:active {
+        color: #a8cffb;
+    }
+
+    .masthead,
+    .greedy-nav,
+    .author__urls,
+    .modal,
+    .theme-toggle {
+        background-color: #111418;
+    }
+
+    .masthead,
+    .paper-box,
+    hr,
+    .page__content h1,
+    .page__share,
+    .page__related,
+    .page__comments-title,
+    .author__urls,
+    .modal,
+    .theme-toggle {
+        border-color: #2a3138;
+    }
+
+    .greedy-nav a,
+    .sidebar,
+    .author__urls,
+    .page__content,
+    .archive,
+    .page__meta,
+    .comment__date,
+    .page__content p,
+    .page__content li,
+    .page__content dl {
+        color: #d7dde3;
+    }
+
+    .greedy-nav a:hover,
+    .author__urls a:hover,
+    .page__content a:hover,
+    .archive a:hover {
+        color: #ffffff;
+    }
+
+    .social-icons .fa {
+        color: #d7dde3;
+    }
+
+    .theme-toggle {
+        color: #d7dde3;
+    }
+
+    .theme-toggle:hover {
+        color: #ffffff;
+        border-color: #7bb7ff;
+    }
+
+    .author__avatar img,
+    .paper-box .paper-box-image img {
+        border-color: #2a3138;
+    }
+
+    .paper-box .paper-box-image img {
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.65);
+    }
+
+    .author__urls:after {
+        border-color: #111418 transparent;
+    }
+
+    .author__urls:before {
+        border-color: #2a3138 transparent;
+    }
+
+    code,
+    p > code,
+    a > code,
+    li > code,
+    figcaption > code,
+    td > code {
+        color: #e6edf3;
+        background: #1b2026;
+        border-color: #2a3138;
+    }
+
+    table,
+    td {
+        border-color: #2a3138;
+    }
+
+    thead,
+    .notice,
+    .notice--primary,
+    .well {
+        background-color: #1b2026;
+    }
+
+    .notice,
+    .notice--primary,
+    .well {
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+    }
+
+    .screen-reader-text:focus,
+    .screen-reader-shortcut:focus {
+        color: #e6edf3;
+        background: #1b2026;
+        box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.25);
+    }
+
+    .flag {
+        box-shadow: 0 0 1px #d7dde3;
+    }
+}
+
+html[data-theme="light"] {
+    color-scheme: light;
+}
+
+html[data-theme="dark"] {
+    color-scheme: dark;
+    @include dark-theme;
+}
+
+@media (prefers-color-scheme: dark) {
+    html:not([data-theme]) {
+        @include dark-theme;
+    }
+}

@@ -1,0 +1,278 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360 237.6" version="1.1" role="img" aria-label="UV10 lead-wise MSE, same example and observations as the paper" class="pv-data-svg">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="lead-uv10-mobile-figure_1">
+  <g id="lead-uv10-mobile-patch_1">
+   <path d="M 0 237.6  L 360 237.6  L 360 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="lead-uv10-mobile-axes_1">
+   <g id="lead-uv10-mobile-patch_2">
+    <path d="M 61.2 180.576  L 349.2 180.576  L 349.2 14.256  L 61.2 14.256  z " style="fill: #ffffff" />
+   </g>
+   <g id="lead-uv10-mobile-matplotlib.axis_1">
+    <g id="lead-uv10-mobile-xtick_1">
+     <g id="lead-uv10-mobile-line2d_1">
+      <path d="M 66.252632 180.576  L 66.252632 14.256  " clip-path="url(#lead-uv10-mobile-pfb313e89a7)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-mobile-line2d_2">
+      <defs>
+       <path id="lead-uv10-mobile-m7537a0b9bd" d="M 0 0  L 0 3.5  " style="stroke: #707986; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use xlink:href="#lead-uv10-mobile-m7537a0b9bd" x="66.252632" y="180.576" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-mobile-text_1">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #707986" x="66.252632" y="194.733812" transform="rotate(-0 66.252632 194.733812)">1</text>
+     </g>
+    </g>
+    <g id="lead-uv10-mobile-xtick_2">
+     <g id="lead-uv10-mobile-line2d_3">
+      <path d="M 116.778947 180.576  L 116.778947 14.256  " clip-path="url(#lead-uv10-mobile-pfb313e89a7)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-mobile-line2d_4">
+      <g>
+       <use xlink:href="#lead-uv10-mobile-m7537a0b9bd" x="116.778947" y="180.576" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-mobile-text_2">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #707986" x="116.778947" y="194.733812" transform="rotate(-0 116.778947 194.733812)">3</text>
+     </g>
+    </g>
+    <g id="lead-uv10-mobile-xtick_3">
+     <g id="lead-uv10-mobile-line2d_5">
+      <path d="M 192.568421 180.576  L 192.568421 14.256  " clip-path="url(#lead-uv10-mobile-pfb313e89a7)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-mobile-line2d_6">
+      <g>
+       <use xlink:href="#lead-uv10-mobile-m7537a0b9bd" x="192.568421" y="180.576" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-mobile-text_3">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #707986" x="192.568421" y="194.733812" transform="rotate(-0 192.568421 194.733812)">6</text>
+     </g>
+    </g>
+    <g id="lead-uv10-mobile-xtick_4">
+     <g id="lead-uv10-mobile-line2d_7">
+      <path d="M 268.357895 180.576  L 268.357895 14.256  " clip-path="url(#lead-uv10-mobile-pfb313e89a7)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-mobile-line2d_8">
+      <g>
+       <use xlink:href="#lead-uv10-mobile-m7537a0b9bd" x="268.357895" y="180.576" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-mobile-text_4">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #707986" x="268.357895" y="194.733812" transform="rotate(-0 268.357895 194.733812)">9</text>
+     </g>
+    </g>
+    <g id="lead-uv10-mobile-xtick_5">
+     <g id="lead-uv10-mobile-line2d_9">
+      <path d="M 344.147368 180.576  L 344.147368 14.256  " clip-path="url(#lead-uv10-mobile-pfb313e89a7)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-mobile-line2d_10">
+      <g>
+       <use xlink:href="#lead-uv10-mobile-m7537a0b9bd" x="344.147368" y="180.576" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-mobile-text_5">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #707986" x="344.147368" y="194.733812" transform="rotate(-0 344.147368 194.733812)">12</text>
+     </g>
+    </g>
+    <g id="lead-uv10-mobile-text_6">
+     <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5a6270" x="205.2" y="211.001" transform="rotate(-0 205.2 211.001)">Forecast lead (h)</text>
+    </g>
+   </g>
+   <g id="lead-uv10-mobile-matplotlib.axis_2">
+    <g id="lead-uv10-mobile-ytick_1">
+     <g id="lead-uv10-mobile-line2d_11">
+      <path d="M 61.2 180.576  L 349.2 180.576  " clip-path="url(#lead-uv10-mobile-pfb313e89a7)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-mobile-line2d_12">
+      <defs>
+       <path id="lead-uv10-mobile-m9180a8e39e" d="M 0 0  L -3.5 0  " style="stroke: #707986; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use xlink:href="#lead-uv10-mobile-m9180a8e39e" x="61.2" y="180.576" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-mobile-text_7">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="54.2" y="184.154906" transform="rotate(-0 54.2 184.154906)">0.0</text>
+     </g>
+    </g>
+    <g id="lead-uv10-mobile-ytick_2">
+     <g id="lead-uv10-mobile-line2d_13">
+      <path d="M 61.2 154.054197  L 349.2 154.054197  " clip-path="url(#lead-uv10-mobile-pfb313e89a7)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-mobile-line2d_14">
+      <g>
+       <use xlink:href="#lead-uv10-mobile-m9180a8e39e" x="61.2" y="154.054197" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-mobile-text_8">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="54.2" y="157.633103" transform="rotate(-0 54.2 157.633103)">0.5</text>
+     </g>
+    </g>
+    <g id="lead-uv10-mobile-ytick_3">
+     <g id="lead-uv10-mobile-line2d_15">
+      <path d="M 61.2 127.532394  L 349.2 127.532394  " clip-path="url(#lead-uv10-mobile-pfb313e89a7)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-mobile-line2d_16">
+      <g>
+       <use xlink:href="#lead-uv10-mobile-m9180a8e39e" x="61.2" y="127.532394" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-mobile-text_9">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="54.2" y="131.111301" transform="rotate(-0 54.2 131.111301)">1.0</text>
+     </g>
+    </g>
+    <g id="lead-uv10-mobile-ytick_4">
+     <g id="lead-uv10-mobile-line2d_17">
+      <path d="M 61.2 101.010592  L 349.2 101.010592  " clip-path="url(#lead-uv10-mobile-pfb313e89a7)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-mobile-line2d_18">
+      <g>
+       <use xlink:href="#lead-uv10-mobile-m9180a8e39e" x="61.2" y="101.010592" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-mobile-text_10">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="54.2" y="104.589498" transform="rotate(-0 54.2 104.589498)">1.5</text>
+     </g>
+    </g>
+    <g id="lead-uv10-mobile-ytick_5">
+     <g id="lead-uv10-mobile-line2d_19">
+      <path d="M 61.2 74.488789  L 349.2 74.488789  " clip-path="url(#lead-uv10-mobile-pfb313e89a7)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-mobile-line2d_20">
+      <g>
+       <use xlink:href="#lead-uv10-mobile-m9180a8e39e" x="61.2" y="74.488789" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-mobile-text_11">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="54.2" y="78.067695" transform="rotate(-0 54.2 78.067695)">2.0</text>
+     </g>
+    </g>
+    <g id="lead-uv10-mobile-ytick_6">
+     <g id="lead-uv10-mobile-line2d_21">
+      <path d="M 61.2 47.966986  L 349.2 47.966986  " clip-path="url(#lead-uv10-mobile-pfb313e89a7)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-mobile-line2d_22">
+      <g>
+       <use xlink:href="#lead-uv10-mobile-m9180a8e39e" x="61.2" y="47.966986" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-mobile-text_12">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="54.2" y="51.545892" transform="rotate(-0 54.2 51.545892)">2.5</text>
+     </g>
+    </g>
+    <g id="lead-uv10-mobile-ytick_7">
+     <g id="lead-uv10-mobile-line2d_23">
+      <path d="M 61.2 21.445183  L 349.2 21.445183  " clip-path="url(#lead-uv10-mobile-pfb313e89a7)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-mobile-line2d_24">
+      <g>
+       <use xlink:href="#lead-uv10-mobile-m9180a8e39e" x="61.2" y="21.445183" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-mobile-text_13">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="54.2" y="25.024089" transform="rotate(-0 54.2 25.024089)">3.0</text>
+     </g>
+    </g>
+    <g id="lead-uv10-mobile-text_14">
+     <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5a6270" x="31.195312" y="97.416" transform="rotate(-90 31.195312 97.416)">MSE (m²/s²)</text>
+    </g>
+   </g>
+   <g id="lead-uv10-mobile-curve-TAU">
+    <path d="M 66.252632 122.866432  L 91.515789 122.421711  L 116.778947 118.82039  L 142.042105 113.588532  L 167.305263 106.677901  L 192.568421 96.470599  L 217.831579 83.787073  L 243.094737 73.105221  L 268.357895 63.758107  L 293.621053 54.13932  L 318.884211 41.52449  L 344.147368 29.376  " clip-path="url(#lead-uv10-mobile-pfb313e89a7)" style="fill: none; stroke-dasharray: 4.255,1.84; stroke-dashoffset: 0; stroke: #6b94af; stroke-width: 1.15" />
+    <defs>
+     <path id="lead-uv10-mobile-m48fe0b30aa" d="M -1.7 1.7  L 1.7 1.7  L 1.7 -1.7  L -1.7 -1.7  z " style="stroke: #6b94af; stroke-linejoin: miter" />
+    </defs>
+    <g clip-path="url(#lead-uv10-mobile-pfb313e89a7)">
+     <use xlink:href="#lead-uv10-mobile-m48fe0b30aa" x="66.252632" y="122.866432" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-m48fe0b30aa" x="91.515789" y="122.421711" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-m48fe0b30aa" x="116.778947" y="118.82039" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-m48fe0b30aa" x="142.042105" y="113.588532" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-m48fe0b30aa" x="167.305263" y="106.677901" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-m48fe0b30aa" x="192.568421" y="96.470599" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-m48fe0b30aa" x="217.831579" y="83.787073" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-m48fe0b30aa" x="243.094737" y="73.105221" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-m48fe0b30aa" x="268.357895" y="63.758107" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-m48fe0b30aa" x="293.621053" y="54.13932" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-m48fe0b30aa" x="318.884211" y="41.52449" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-m48fe0b30aa" x="344.147368" y="29.376" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+    </g>
+   </g>
+   <g id="lead-uv10-mobile-curve-Met2Net">
+    <path d="M 66.252632 159.722872  L 91.515789 156.04316  L 116.778947 150.436733  L 142.042105 143.723563  L 167.305263 136.666283  L 192.568421 128.093638  L 217.831579 117.909912  L 243.094737 109.251545  L 268.357895 102.093101  L 293.621053 93.085438  L 318.884211 82.749484  L 344.147368 66.594727  " clip-path="url(#lead-uv10-mobile-pfb313e89a7)" style="fill: none; stroke-dasharray: 7.36,1.84,1.15,1.84; stroke-dashoffset: 0; stroke: #be8864; stroke-width: 1.15" />
+    <defs>
+     <path id="lead-uv10-mobile-mc865cf99b6" d="M 0 -1.7  L -1.7 1.7  L 1.7 1.7  z " style="stroke: #be8864; stroke-linejoin: miter" />
+    </defs>
+    <g clip-path="url(#lead-uv10-mobile-pfb313e89a7)">
+     <use xlink:href="#lead-uv10-mobile-mc865cf99b6" x="66.252632" y="159.722872" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-mc865cf99b6" x="91.515789" y="156.04316" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-mc865cf99b6" x="116.778947" y="150.436733" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-mc865cf99b6" x="142.042105" y="143.723563" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-mc865cf99b6" x="167.305263" y="136.666283" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-mc865cf99b6" x="192.568421" y="128.093638" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-mc865cf99b6" x="217.831579" y="117.909912" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-mc865cf99b6" x="243.094737" y="109.251545" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-mc865cf99b6" x="268.357895" y="102.093101" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-mc865cf99b6" x="293.621053" y="93.085438" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-mc865cf99b6" x="318.884211" y="82.749484" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-mc865cf99b6" x="344.147368" y="66.594727" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+    </g>
+   </g>
+   <g id="lead-uv10-mobile-curve-PredFormer">
+    <path d="M 66.252632 174.606026  L 91.515789 168.868104  L 116.778947 161.198048  L 142.042105 153.783739  L 167.305263 146.243031  L 192.568421 137.570584  L 217.831579 127.359719  L 243.094737 118.88463  L 268.357895 110.650828  L 293.621053 99.793729  L 318.884211 88.451864  L 344.147368 73.867391  " clip-path="url(#lead-uv10-mobile-pfb313e89a7)" style="fill: none; stroke-dasharray: 1.15,1.8975; stroke-dashoffset: 0; stroke: #8c81a4; stroke-width: 1.15" />
+    <defs>
+     <path id="lead-uv10-mobile-m7d22e7b13e" d="M -0 2.404163  L 2.404163 0  L 0 -2.404163  L -2.404163 -0  z " style="stroke: #8c81a4; stroke-linejoin: miter" />
+    </defs>
+    <g clip-path="url(#lead-uv10-mobile-pfb313e89a7)">
+     <use xlink:href="#lead-uv10-mobile-m7d22e7b13e" x="66.252632" y="174.606026" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-m7d22e7b13e" x="91.515789" y="168.868104" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-m7d22e7b13e" x="116.778947" y="161.198048" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-m7d22e7b13e" x="142.042105" y="153.783739" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-m7d22e7b13e" x="167.305263" y="146.243031" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-m7d22e7b13e" x="192.568421" y="137.570584" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-m7d22e7b13e" x="217.831579" y="127.359719" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-m7d22e7b13e" x="243.094737" y="118.88463" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-m7d22e7b13e" x="268.357895" y="110.650828" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-m7d22e7b13e" x="293.621053" y="99.793729" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-m7d22e7b13e" x="318.884211" y="88.451864" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mobile-m7d22e7b13e" x="344.147368" y="73.867391" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+    </g>
+   </g>
+   <g id="lead-uv10-mobile-curve-A5">
+    <path d="M 66.252632 176.512296  L 91.515789 170.494068  L 116.778947 163.095233  L 142.042105 155.609359  L 167.305263 148.090466  L 192.568421 139.714631  L 217.831579 133.663485  L 243.094737 126.838697  L 268.357895 118.574787  L 293.621053 112.763401  L 318.884211 99.668351  L 344.147368 90.730201  " clip-path="url(#lead-uv10-mobile-pfb313e89a7)" style="fill: none; stroke: #b05c5c; stroke-width: 1.8; stroke-linecap: square" />
+    <defs>
+     <path id="lead-uv10-mobile-m681ff99ea5" d="M 0 1.7  C 0.450845 1.7 0.883286 1.520877 1.202082 1.202082  C 1.520877 0.883286 1.7 0.450845 1.7 0  C 1.7 -0.450845 1.520877 -0.883286 1.202082 -1.202082  C 0.883286 -1.520877 0.450845 -1.7 0 -1.7  C -0.450845 -1.7 -0.883286 -1.520877 -1.202082 -1.202082  C -1.520877 -0.883286 -1.7 -0.450845 -1.7 0  C -1.7 0.450845 -1.520877 0.883286 -1.202082 1.202082  C -0.883286 1.520877 -0.450845 1.7 0 1.7  z " style="stroke: #b05c5c" />
+    </defs>
+    <g clip-path="url(#lead-uv10-mobile-pfb313e89a7)">
+     <use xlink:href="#lead-uv10-mobile-m681ff99ea5" x="66.252632" y="176.512296" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-uv10-mobile-m681ff99ea5" x="91.515789" y="170.494068" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-uv10-mobile-m681ff99ea5" x="116.778947" y="163.095233" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-uv10-mobile-m681ff99ea5" x="142.042105" y="155.609359" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-uv10-mobile-m681ff99ea5" x="167.305263" y="148.090466" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-uv10-mobile-m681ff99ea5" x="192.568421" y="139.714631" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-uv10-mobile-m681ff99ea5" x="217.831579" y="133.663485" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-uv10-mobile-m681ff99ea5" x="243.094737" y="126.838697" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-uv10-mobile-m681ff99ea5" x="268.357895" y="118.574787" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-uv10-mobile-m681ff99ea5" x="293.621053" y="112.763401" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-uv10-mobile-m681ff99ea5" x="318.884211" y="99.668351" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-uv10-mobile-m681ff99ea5" x="344.147368" y="90.730201" style="fill: #b05c5c; stroke: #b05c5c" />
+    </g>
+   </g>
+   <g id="lead-uv10-mobile-patch_3">
+    <path d="M 61.2 180.576  L 61.2 14.256  " style="fill: none; stroke: #a6abb3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="lead-uv10-mobile-patch_4">
+    <path d="M 61.2 180.576  L 349.2 180.576  " style="fill: none; stroke: #a6abb3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="lead-uv10-mobile-pfb313e89a7">
+   <rect x="61.2" y="14.256" width="288" height="166.32" />
+  </clipPath>
+ </defs>
+<g id="lead-uv10-mobile-hover-cursor" style="display:none;pointer-events:none"><line id="lead-uv10-mobile-cursor-line" x1="0" x2="0" y1="14.256000000000007" y2="180.576" stroke="#aab2bc" stroke-width=".8" stroke-dasharray="2 3" /><circle id="lead-uv10-mobile-cursor-TAU" r="3.1" fill="#6b94af" stroke="white" stroke-width="1" /><circle id="lead-uv10-mobile-cursor-Met2Net" r="3.1" fill="#be8864" stroke="white" stroke-width="1" /><circle id="lead-uv10-mobile-cursor-PredFormer" r="3.1" fill="#8c81a4" stroke="white" stroke-width="1" /><circle id="lead-uv10-mobile-cursor-A5" r="3.1" fill="#b05c5c" stroke="white" stroke-width="1" /></g></svg>

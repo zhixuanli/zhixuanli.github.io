@@ -1,0 +1,46 @@
+.pv-space-widget {
+  --pv-space-axis:#aab6c3;
+  --pv-space-cloud:rgba(128,148,166,.23);
+  --pv-space-p27:#76629f;
+  --pv-space-p31:#2d8690;
+  position:relative; height:100%; color:var(--ink);
+}
+html[data-theme=dark] .pv-space-widget {
+  --pv-space-axis:#788592;
+  --pv-space-cloud:rgba(164,184,202,.27);
+  --pv-space-p27:#b9a8e1;
+  --pv-space-p31:#77c8cf;
+}
+.pv-space-toolbar { display:flex; align-items:center; justify-content:flex-end; gap:8px; height:43px; padding:5px 9px; }
+.pv-space-button { position:relative; z-index:1; min-height:30px; border:0; border-radius:999px; background:transparent; color:var(--muted); font-size:10px; font-weight:500; cursor:pointer; }
+.protocast-v2 .pv-space-button { font:500 11px/1.2 -apple-system,BlinkMacSystemFont,Arial,sans-serif; }
+.pv-space-actions { display:flex; gap:3px; padding:3px; border-radius:999px; }
+.pv-space-actions .pv-space-button { min-width:58px; }
+.pv-space-button { padding:6px 10px; transition:background 160ms,transform 120ms; }
+.pv-space-button:hover { background:var(--project-control-hover); }
+.pv-space-button:active { transform:scale(.96); }
+#space-rotate[aria-pressed="true"] { color:var(--blue); }
+.pv-space-stage { position:relative; height:calc(100% - 43px); }
+.pv-space-3d { position:relative; height:100%; }
+.pv-space-3d canvas { display:block; width:100%; height:calc(100% - 43px); cursor:grab; touch-action:none; }
+.pv-space-3d canvas.is-grabbing { cursor:grabbing; }
+.pv-space-3d canvas:focus-visible { outline:2px solid #0071e3; outline-offset:-2px; border-radius:8px; }
+.pv-space-legend { position:absolute; left:0; right:0; bottom:22px; display:flex; justify-content:center; align-items:center; gap:15px; color:var(--muted); font-size:9px; pointer-events:none; }
+.pv-space-legend span { display:flex; align-items:center; gap:5px; }
+.pv-space-legend i { width:5px; height:5px; border-radius:50%; background:#9cabbb; }
+.pv-space-legend .pv-key-symbol { font-size:13px; line-height:1; color:#a0afbd; }
+.pv-space-legend .pv-input-symbol { color:var(--ink); font-size:13px; line-height:1; }
+.pv-space-hint { position:absolute; left:5px; right:5px; bottom:5px; margin:0; text-align:center; color:var(--muted); font-size:9px; pointer-events:none; }
+.pv-space-zoom { position:absolute; right:9px; bottom:55px; display:flex; flex-direction:column; padding:3px; border-radius:999px; }
+.pv-space-zoom button { width:28px; height:28px; padding:0; font-size:15px; }
+.protocast-v2 .pv-space-zoom button { font-size:16px; }
+.pv-space-tooltip { position:absolute; z-index:4; padding:7px 9px; border-radius:9px; background:#26313ce8; color:#fff; font-size:10px; pointer-events:none; box-shadow:0 3px 15px #1e2d5020; white-space:nowrap; }
+.pv-space-status { position:absolute; z-index:3; bottom:2px; left:10px; right:10px; color:var(--muted); font-size:10px; background:var(--pv-section-surface); }
+.pv-space-status:empty { display:none; }
+@media(max-width:384px) {
+  .pv-space-toolbar { padding-inline:5px; gap:4px; }
+  .pv-space-button { padding-inline:8px; }
+  .pv-space-legend { gap:10px; font-size:8.5px; }
+  .pv-space-hint { font-size:8px; }
+}
+@media(prefers-reduced-motion:reduce) { .pv-space-button { transition:none; } }

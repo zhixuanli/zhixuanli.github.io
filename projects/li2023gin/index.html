@@ -1,0 +1,139 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GIN learns a transformation-invariant shape prior for amodal instance segmentation.">
+  <meta property="og:title" content="GIN: Generative INvariant Shape Prior for Amodal Instance Segmentation">
+  <meta property="og:description" content="GIN learns a transformation-invariant shape prior for amodal instance segmentation.">
+  <meta property="og:url" content="https://zhixuanli.github.io/projects/li2023gin/">
+  <meta property="og:image" content="https://zhixuanli.github.io/projects/li2023gin/static/images/shape_prior_overview.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="GIN: Generative INvariant Shape Prior for Amodal Instance Segmentation">
+  <meta name="twitter:description" content="GIN learns a transformation-invariant shape prior for amodal instance segmentation.">
+  <meta name="twitter:image" content="https://zhixuanli.github.io/projects/li2023gin/static/images/shape_prior_overview.jpg">
+  <title>GIN: Generative INvariant Shape Prior for Amodal Instance Segmentation</title>
+  <script>
+    (function () {
+      var savedTheme = localStorage.getItem("zl-theme");
+      if (savedTheme === "light" || savedTheme === "dark") {
+        document.documentElement.dataset.theme = savedTheme;
+      } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.documentElement.dataset.theme = "dark";
+      }
+    }());
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Libre+Caslon+Display&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css?v=19">
+  <link rel="stylesheet" href="../project-theme.css?v=3">
+  <link rel="stylesheet" href="../project-glass.css?v=2">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="project-nav" aria-label="Project navigation">
+    <a class="icon-button" href="../../" aria-label="Back to Zhixuan Li's homepage" title="Back to homepage"><i data-lucide="arrow-left" aria-hidden="true"></i></a>
+    <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode"><i data-lucide="moon" aria-hidden="true"></i></button>
+  </nav>
+
+  <main id="main">
+    <header class="project-hero">
+      <div class="project-shell hero-shell">
+        <p class="eyebrow">TMM</p>
+        <h1>GIN: Generative INvariant Shape Prior for Amodal Instance Segmentation</h1>
+        <p class="author-line"><span class="author-block"><a href="https://zhixuanli.github.io/">Zhixuan Li</a><sup>1</sup>,</span> <span class="author-block">Weining Ye<sup>1</sup>,</span> <span class="author-block"><a href="https://idm.pku.edu.cn/info/1017/1044.htm">Tingting Jiang</a><sup>1&dagger;</sup>,</span> <span class="author-block"><a href="https://idm.pku.edu.cn/info/1017/1040.htm">Tiejun Huang</a><sup>1,2</sup></span></p>
+        <div class="affiliations" aria-label="Author affiliations">
+          <p><span class="author-block"><sup>1</sup>National Engineering Research Center of Visual Technology, National Key Laboratory for Multimedia Information Processing, School of Computer Science, Peking University</span></p>
+          <p><span class="author-block"><sup>2</sup>Beijing Academy of Artificial Intelligence</span></p>
+        </div>
+        <p class="corresponding"><sup>&dagger;</sup>Corresponding author</p>
+        <div class="project-actions" aria-label="Paper resources">
+          <a class="project-command primary" href="https://ieeexplore.ieee.org/document/10258334"><span>Paper</span><i data-lucide="file-text" aria-hidden="true"></i></a>
+          <a class="project-command" href="#bibtex"><span>BibTeX</span><i data-lucide="braces" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="project-band tinted" id="abstract">
+      <div class="project-shell text-layout">
+        <p class="section-label">Abstract</p>
+        <div>
+          <h2>Overview</h2>
+          <p class="abstract-copy">Amodal instance segmentation predicts the complete shape of an occluded object, including both its visible and occluded regions. Because visual clues are unavailable for the hidden region, shape-prior knowledge is especially valuable. Previous 2D approaches establish a shape dictionary and retrieve the closest stored mask, but cannot provide priors outside that dictionary. We propose the generative invariant shape-prior network (GIN), which learns a basic shape invariant to translation, rotation, and scaling. By decoupling shape-prior learning from transformation, GIN is end-to-end trainable, requires no dictionary construction, and generalizes more effectively. GIN outperforms state-of-the-art methods by large margins on D2SA, COCOA-cls, and KINS.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-band" id="figure-1">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">01 · Figure</p>
+          <h2>Dictionary-based methods memorize a finite set of masks and cannot retrieve an unseen shape. GIN instead learns a basic shape independent of translation, rotation, and scaling, then dynamically generates a suitable shape prior for each instance.</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/shape_prior_overview.jpg" alt="Comparison between dictionary-based shape priors and the proposed invariant shape-prior learning.">
+          <figcaption>Dictionary-based methods memorize a finite set of masks and cannot retrieve an unseen shape. GIN instead learns a basic shape independent of translation, rotation, and scaling, then dynamically generates a suitable shape prior for each instance.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted" id="figure-2">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">02 · Figure</p>
+          <h2>The Proposed GIN Approach</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/gin_architecture.jpg" alt="Overview of the GIN architecture.">
+          <figcaption>GIN first extracts an instance feature with a backbone and ROI-Align. Its invariant amodal learning branch predicts a transformation, normalizes the feature, and learns an invariant shape prior. A complementary vanilla mask branch preserves residual appearance information. The feature refinement network combines both branches to produce the final amodal mask.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band" id="figure-3">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">03 · Figure</p>
+          <h2>Qualitative Results on D2SA</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/d2sa_results.jpg" alt="Qualitative comparison of GIN with amodal segmentation baselines on D2SA.">
+          <figcaption>On densely occluded supermarket objects, GIN reconstructs complete object shapes with cleaner boundaries than ORCNN, Mask-RCNN, and the dictionary-based ShapeDict method.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted" id="figure-4">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">04 · Figure</p>
+          <h2>Generalization Across Datasets</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/cocoa_kins_results.jpg" alt="Qualitative comparison of GIN on COCOA-cls and KINS.">
+          <figcaption>Results on COCOA-cls and KINS demonstrate that the learned invariant prior transfers from everyday objects to complex street scenes, including challenging people and vehicles with severe occlusion.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted bibtex-band" id="bibtex">
+      <div class="project-shell text-layout">
+        <p class="section-label">Citation</p>
+        <div>
+          <div class="bibtex-heading">
+            <h2>BibTeX</h2>
+            <button class="copy-button" id="copy-bibtex" type="button"><i data-lucide="copy" aria-hidden="true"></i><span>Copy</span></button>
+          </div>
+          <pre><code id="bibtex-code">@inproceedings{li2023gin,
+  author={Li, Zhixuan and Ye, Weining and Jiang, Tingting and Huang, Tiejun},
+  title={{GIN}: Generative INvariant Shape Prior for Amodal Instance Segmentation},
+  booktitle={IEEE Transactions on Multimedia},
+  pages={3924--3936},
+  year={2023}
+}</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="../project-theme.js?v=2"></script>
+</body>
+</html>

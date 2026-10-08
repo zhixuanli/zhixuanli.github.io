@@ -1,0 +1,96 @@
+/* ==========================================================================
+   MASTHEAD
+   ========================================================================== */
+
+.masthead {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid $border-color;
+  -webkit-animation: intro 0.3s both;
+          animation: intro 0.3s both;
+  -webkit-animation-delay: 0.15s;
+          animation-delay: 0.15s;
+  z-index: 20;
+
+  &__inner-wrap {
+    @include container;
+    @include clearfix;
+    position: relative;
+    padding: .5em 3.5em .5em .5em;
+    font-family: $sans-serif-narrow;
+
+    @include breakpoint($x-large) {
+      max-width: $x-large;
+    }
+
+    nav {
+      z-index: 10;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 50%;
+  right: .5em;
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 0;
+  transform: translateY(-50%);
+  border: 1px solid $border-color;
+  border-radius: 50%;
+  background: $background-color;
+  color: $text-color;
+  cursor: pointer;
+
+  &:hover {
+    color: $link-color-hover;
+    border-color: $link-color-hover;
+  }
+
+  &:focus {
+    outline: 2px solid $link-color;
+    outline-offset: 2px;
+  }
+
+  i {
+    width: 1em;
+    line-height: 1;
+    text-align: center;
+  }
+}
+
+.masthead__menu {
+
+  ul {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    list-style-type: none;
+  }
+}
+
+.masthead__menu-home-item {
+  @include breakpoint($medium) {
+    display: block !important;
+  }
+  display: none !important;
+}
+
+.masthead__menu-item {
+  display: block;
+  list-style-type: none;
+  white-space: nowrap;
+
+  &--lg {
+    padding-right: 2em;
+    font-weight: 700;
+  }
+}
+
+

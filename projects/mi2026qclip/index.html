@@ -1,0 +1,140 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Q-CLIP adapts vision-language models to video quality assessment through shared cross-modal adapters.">
+  <meta property="og:title" content="Q-CLIP: Unleashing the Power of Vision-Language Models for Video Quality Assessment through Unified Cross-Modal Adaptation">
+  <meta property="og:description" content="Q-CLIP adapts vision-language models to video quality assessment through shared cross-modal adapters.">
+  <meta property="og:url" content="https://zhixuanli.github.io/projects/mi2026qclip/">
+  <meta property="og:image" content="https://zhixuanli.github.io/projects/mi2026qclip/static/images/qclip_overview.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Q-CLIP: Unleashing the Power of Vision-Language Models for Video Quality Assessment through Unified Cross-Modal Adaptation">
+  <meta name="twitter:description" content="Q-CLIP adapts vision-language models to video quality assessment through shared cross-modal adapters.">
+  <meta name="twitter:image" content="https://zhixuanli.github.io/projects/mi2026qclip/static/images/qclip_overview.jpg">
+  <title>Q-CLIP: Unleashing the Power of Vision-Language Models for Video Quality Assessment through Unified Cross-Modal Adaptation</title>
+  <script>
+    (function () {
+      var savedTheme = localStorage.getItem("zl-theme");
+      if (savedTheme === "light" || savedTheme === "dark") {
+        document.documentElement.dataset.theme = savedTheme;
+      } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.documentElement.dataset.theme = "dark";
+      }
+    }());
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Libre+Caslon+Display&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css?v=19">
+  <link rel="stylesheet" href="../project-theme.css?v=3">
+  <link rel="stylesheet" href="../project-glass.css?v=2">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="project-nav" aria-label="Project navigation">
+    <a class="icon-button" href="../../" aria-label="Back to Zhixuan Li's homepage" title="Back to homepage"><i data-lucide="arrow-left" aria-hidden="true"></i></a>
+    <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode"><i data-lucide="moon" aria-hidden="true"></i></button>
+  </nav>
+
+  <main id="main">
+    <header class="project-hero">
+      <div class="project-shell hero-shell">
+        <p class="eyebrow">ICML</p>
+        <h1>Q-CLIP: Unleashing the Power of Vision-Language Models for Video Quality Assessment through Unified Cross-Modal Adaptation</h1>
+        <p class="author-line"><span class="author-block">Yachun Mi<sup>1,2</sup>,</span> <span class="author-block">Yu Li<sup>1</sup>,</span> <span class="author-block">Yanting Li<sup>1</sup>,</span> <span class="author-block">Chen Hui<sup>3</sup>,</span> <span class="author-block">Tong Zhang<sup>1</sup>,</span> <span class="author-block">Zhixuan Li<sup>2</sup>,</span> <span class="author-block">Chenyue Song<sup>1</sup>,</span> <span class="author-block">Wei Yang Bryan Lim<sup>2</sup>,</span> <span class="author-block">Shaohui Liu<sup>1&dagger;</sup></span></p>
+        <div class="affiliations" aria-label="Author affiliations">
+          <p><span class="author-block"><sup>1</sup>Harbin Institute of Technology</span></p>
+          <p><span class="author-block"><sup>2</sup>Nanyang Technological University</span></p>
+          <p><span class="author-block"><sup>3</sup>Nanjing University of Information Science and Technology</span></p>
+        </div>
+        <p class="corresponding"><sup>&dagger;</sup>Corresponding author</p>
+        <div class="project-actions" aria-label="Paper resources">
+          <a class="project-command primary" href="https://arxiv.org/abs/2508.06092"><span>Paper</span><i data-lucide="file-text" aria-hidden="true"></i></a>
+          <a class="project-command" href="https://github.com/xiao-mi-d/Q-CLIP"><span>Code</span><i data-lucide="github" aria-hidden="true"></i></a>
+          <a class="project-command" href="#bibtex"><span>BibTeX</span><i data-lucide="braces" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="project-band tinted" id="abstract">
+      <div class="project-shell text-layout">
+        <p class="section-label">Abstract</p>
+        <div>
+          <h2>Overview</h2>
+          <p class="abstract-copy">Q-CLIP is a vision-language framework for video quality assessment that preserves the broad semantic knowledge of pretrained encoders while adapting them efficiently to visual quality. It introduces shared cross-modal adapters for both image and text branches, learnable quality-level prompts, and frame-difference-guided sampling. The resulting model trains only a small fraction of its parameters and achieves strong performance across in-domain and cross-dataset VQA benchmarks.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-band" id="figure-1">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">01 · Figure</p>
+          <h2>Q-CLIP turns video quality assessment into cross-modal quality matching, adapting frozen vision-language encoders with a compact Shared Cross-Modal Adapter and learnable quality prompts.</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/qclip_overview.jpg" alt="Overview of the Q-CLIP framework.">
+          <figcaption>Q-CLIP turns video quality assessment into cross-modal quality matching, adapting frozen vision-language encoders with a compact Shared Cross-Modal Adapter and learnable quality prompts.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted" id="figure-2">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">02 · Figure</p>
+          <h2>Shared Cross-Modal Adaptation</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/scma.jpg" alt="Architecture of the Shared Cross-Modal Adapter.">
+          <figcaption>E-SCMA shares lightweight parameters across encoder layers, while P-SCMA adapts the projection heads. Together they align visual evidence with ordered quality concepts without fully fine-tuning the foundation model.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band" id="figure-3">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">03 · Figure</p>
+          <h2>Quality-Aware Frame Sampling</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/frame_sampling.jpg" alt="Comparison of video frame-sampling strategies.">
+          <figcaption>Frame-difference-guided sampling selects frames from intervals with diverse temporal change, giving the model more informative quality observations than uniform or random sampling.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted" id="figure-4">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">04 · Figure</p>
+          <h2>What the Model Sees</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/attention.jpg" alt="Attention visualizations comparing Q-CLIP and CLIP.">
+          <figcaption>Attention maps show that Q-CLIP focuses more consistently on regions related to perceptual degradation, while retaining the semantic awareness inherited from CLIP.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted bibtex-band" id="bibtex">
+      <div class="project-shell text-layout">
+        <p class="section-label">Citation</p>
+        <div>
+          <div class="bibtex-heading">
+            <h2>BibTeX</h2>
+            <button class="copy-button" id="copy-bibtex" type="button"><i data-lucide="copy" aria-hidden="true"></i><span>Copy</span></button>
+          </div>
+          <pre><code id="bibtex-code">@inproceedings{mi2026qclip,
+  title={{Q-CLIP}: Unleashing the Power of Vision-Language Models for Video Quality Assessment through Unified Cross-Modal Adaptation},
+  author={Mi, Yachun and Li, Yu and Li, Yanting and Hui, Chen and Zhang, Tong and Li, Zhixuan and Song, Chenyue and Lim, Wei Yang Bryan and Liu, Shaohui},
+  booktitle={International Conference on Machine Learning},
+  year={2026}
+}</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="../project-theme.js?v=2"></script>
+</body>
+</html>

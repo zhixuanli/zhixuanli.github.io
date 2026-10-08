@@ -1,0 +1,337 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="351 0 167.4 127.44" version="1.1" overflow="hidden" role="img" aria-label="Hourly patch error with and without the P27 contribution" class="pv-data-svg">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <clipPath id="p27-progress-reveal"><rect x="384.079223" y="0" width="6" height="127.44" data-prototype-reveal="" data-start="384.079223" data-end="510.789727" /></clipPath><clipPath id="p27-progress-future"><rect x="390.079223" y="0" width="120.71050400000001" height="127.44" data-prototype-future="" data-start="384.079223" data-end="510.789727" /></clipPath></defs>
+ <g id="p27-intervention-figure_1">
+  <g id="p27-intervention-patch_1">
+   <path d="M 0 127.44  L 518.4 127.44  L 518.4 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="p27-intervention-axes_3">
+   <g id="p27-intervention-patch_14">
+    <path d="M 382.68975 91.1196  L 512.1792 91.1196  L 512.1792 31.2228  L 382.68975 31.2228  z " style="fill: #ffffff" />
+   </g>
+   <g clip-path="url(#p27-progress-future)"><g class="pv-prototype-future">
+    <path d="M 387.079223 72.067197  L 387.079223 82.231463  L 398.052905 80.86683  L 409.026587 77.973368  L 420.000269 81.25657  L 430.973951 81.90941  L 441.947634 72.979308  L 452.921316 77.915488  L 463.894998 77.4133  L 474.86868 72.292776  L 485.842363 79.184972  L 496.816045 73.314188  L 507.789727 75.466649  L 507.789727 40.369557  L 507.789727 40.369557  L 496.816045 50.995397  L 485.842363 47.098241  L 474.86868 47.344173  L 463.894998 42.66421  L 452.921316 41.032924  L 441.947634 41.352634  L 430.973951 37.640314  L 420.000269 40.470176  L 409.026587 53.621315  L 398.052905 60.239992  L 387.079223 72.067197  z " clip-path="url(#p27-intervention-pb55e6074dd)" style="fill: #24749a; fill-opacity: 0.065" />
+   </g>
+   </g><g clip-path="url(#p27-progress-reveal)"><g id="p27-intervention-FillBetweenPolyCollection_1">
+    <path d="M 387.079223 72.067197  L 387.079223 82.231463  L 398.052905 80.86683  L 409.026587 77.973368  L 420.000269 81.25657  L 430.973951 81.90941  L 441.947634 72.979308  L 452.921316 77.915488  L 463.894998 77.4133  L 474.86868 72.292776  L 485.842363 79.184972  L 496.816045 73.314188  L 507.789727 75.466649  L 507.789727 40.369557  L 507.789727 40.369557  L 496.816045 50.995397  L 485.842363 47.098241  L 474.86868 47.344173  L 463.894998 42.66421  L 452.921316 41.032924  L 441.947634 41.352634  L 430.973951 37.640314  L 420.000269 40.470176  L 409.026587 53.621315  L 398.052905 60.239992  L 387.079223 72.067197  z " clip-path="url(#p27-intervention-pb55e6074dd)" style="fill: #24749a; fill-opacity: 0.065" />
+   </g>
+   </g><g id="p27-intervention-matplotlib.axis_5">
+    <g id="p27-intervention-xtick_16">
+     <g id="p27-intervention-line2d_53">
+      <path d="M 387.079223 91.1196  L 387.079223 31.2228  " clip-path="url(#p27-intervention-pb55e6074dd)" style="fill: none; stroke-dasharray: 0.4,1.2; stroke-dashoffset: 0; stroke: #dce2e8; stroke-width: 0.4" />
+     </g>
+     <g id="p27-intervention-line2d_54">
+      <g>
+       <use xlink:href="#p27-intervention-m9c04cbfb95" x="387.079223" y="91.1196" style="fill: #727b84; stroke: #727b84; stroke-width: 0.55" />
+      </g>
+     </g>
+     <g id="p27-intervention-text_26">
+      <text style="font-size: 6.6px; font-family: 'Arial'; text-anchor: middle" x="387.079223" y="100.22458" transform="rotate(-0 387.079223 100.22458)">1</text>
+     </g>
+    </g>
+    <g id="p27-intervention-xtick_17">
+     <g id="p27-intervention-line2d_55">
+      <path d="M 409.026587 91.1196  L 409.026587 31.2228  " clip-path="url(#p27-intervention-pb55e6074dd)" style="fill: none; stroke-dasharray: 0.4,1.2; stroke-dashoffset: 0; stroke: #dce2e8; stroke-width: 0.4" />
+     </g>
+     <g id="p27-intervention-line2d_56">
+      <g>
+       <use xlink:href="#p27-intervention-m9c04cbfb95" x="409.026587" y="91.1196" style="fill: #727b84; stroke: #727b84; stroke-width: 0.55" />
+      </g>
+     </g>
+     <g id="p27-intervention-text_27">
+      <text style="font-size: 6.6px; font-family: 'Arial'; text-anchor: middle" x="409.026587" y="100.22458" transform="rotate(-0 409.026587 100.22458)">3</text>
+     </g>
+    </g>
+    <g id="p27-intervention-xtick_18">
+     <g id="p27-intervention-line2d_57">
+      <path d="M 441.947634 91.1196  L 441.947634 31.2228  " clip-path="url(#p27-intervention-pb55e6074dd)" style="fill: none; stroke-dasharray: 0.4,1.2; stroke-dashoffset: 0; stroke: #dce2e8; stroke-width: 0.4" />
+     </g>
+     <g id="p27-intervention-line2d_58">
+      <g>
+       <use xlink:href="#p27-intervention-m9c04cbfb95" x="441.947634" y="91.1196" style="fill: #727b84; stroke: #727b84; stroke-width: 0.55" />
+      </g>
+     </g>
+     <g id="p27-intervention-text_28">
+      <text style="font-size: 6.6px; font-family: 'Arial'; text-anchor: middle" x="441.947634" y="100.22458" transform="rotate(-0 441.947634 100.22458)">6</text>
+     </g>
+    </g>
+    <g id="p27-intervention-xtick_19">
+     <g id="p27-intervention-line2d_59">
+      <path d="M 474.86868 91.1196  L 474.86868 31.2228  " clip-path="url(#p27-intervention-pb55e6074dd)" style="fill: none; stroke-dasharray: 0.4,1.2; stroke-dashoffset: 0; stroke: #dce2e8; stroke-width: 0.4" />
+     </g>
+     <g id="p27-intervention-line2d_60">
+      <g>
+       <use xlink:href="#p27-intervention-m9c04cbfb95" x="474.86868" y="91.1196" style="fill: #727b84; stroke: #727b84; stroke-width: 0.55" />
+      </g>
+     </g>
+     <g id="p27-intervention-text_29">
+      <text style="font-size: 6.6px; font-family: 'Arial'; text-anchor: middle" x="474.86868" y="100.22458" transform="rotate(-0 474.86868 100.22458)">9</text>
+     </g>
+    </g>
+    <g id="p27-intervention-xtick_20">
+     <g id="p27-intervention-line2d_61">
+      <path d="M 507.789727 91.1196  L 507.789727 31.2228  " clip-path="url(#p27-intervention-pb55e6074dd)" style="fill: none; stroke-dasharray: 0.4,1.2; stroke-dashoffset: 0; stroke: #dce2e8; stroke-width: 0.4" />
+     </g>
+     <g id="p27-intervention-line2d_62">
+      <g>
+       <use xlink:href="#p27-intervention-m9c04cbfb95" x="507.789727" y="91.1196" style="fill: #727b84; stroke: #727b84; stroke-width: 0.55" />
+      </g>
+     </g>
+     <g id="p27-intervention-text_30">
+      <text style="font-size: 6.6px; font-family: 'Arial'; text-anchor: middle" x="507.789727" y="100.22458" transform="rotate(-0 507.789727 100.22458)">12</text>
+     </g>
+    </g>
+    <g id="p27-intervention-xtick_21">
+     <g id="p27-intervention-line2d_63">
+      <path d="M 398.052905 91.1196  L 398.052905 31.2228  " clip-path="url(#p27-intervention-pb55e6074dd)" style="fill: none; stroke-dasharray: 0.4,1.2; stroke-dashoffset: 0; stroke: #dce2e8; stroke-width: 0.4" />
+     </g>
+     <g id="p27-intervention-line2d_64" />
+    </g>
+    <g id="p27-intervention-xtick_22">
+     <g id="p27-intervention-line2d_65">
+      <path d="M 420.000269 91.1196  L 420.000269 31.2228  " clip-path="url(#p27-intervention-pb55e6074dd)" style="fill: none; stroke-dasharray: 0.4,1.2; stroke-dashoffset: 0; stroke: #dce2e8; stroke-width: 0.4" />
+     </g>
+     <g id="p27-intervention-line2d_66" />
+    </g>
+    <g id="p27-intervention-xtick_23">
+     <g id="p27-intervention-line2d_67">
+      <path d="M 430.973951 91.1196  L 430.973951 31.2228  " clip-path="url(#p27-intervention-pb55e6074dd)" style="fill: none; stroke-dasharray: 0.4,1.2; stroke-dashoffset: 0; stroke: #dce2e8; stroke-width: 0.4" />
+     </g>
+     <g id="p27-intervention-line2d_68" />
+    </g>
+    <g id="p27-intervention-xtick_24">
+     <g id="p27-intervention-line2d_69">
+      <path d="M 452.921316 91.1196  L 452.921316 31.2228  " clip-path="url(#p27-intervention-pb55e6074dd)" style="fill: none; stroke-dasharray: 0.4,1.2; stroke-dashoffset: 0; stroke: #dce2e8; stroke-width: 0.4" />
+     </g>
+     <g id="p27-intervention-line2d_70" />
+    </g>
+    <g id="p27-intervention-xtick_25">
+     <g id="p27-intervention-line2d_71">
+      <path d="M 463.894998 91.1196  L 463.894998 31.2228  " clip-path="url(#p27-intervention-pb55e6074dd)" style="fill: none; stroke-dasharray: 0.4,1.2; stroke-dashoffset: 0; stroke: #dce2e8; stroke-width: 0.4" />
+     </g>
+     <g id="p27-intervention-line2d_72" />
+    </g>
+    <g id="p27-intervention-xtick_26">
+     <g id="p27-intervention-line2d_73">
+      <path d="M 485.842363 91.1196  L 485.842363 31.2228  " clip-path="url(#p27-intervention-pb55e6074dd)" style="fill: none; stroke-dasharray: 0.4,1.2; stroke-dashoffset: 0; stroke: #dce2e8; stroke-width: 0.4" />
+     </g>
+     <g id="p27-intervention-line2d_74" />
+    </g>
+    <g id="p27-intervention-xtick_27">
+     <g id="p27-intervention-line2d_75">
+      <path d="M 496.816045 91.1196  L 496.816045 31.2228  " clip-path="url(#p27-intervention-pb55e6074dd)" style="fill: none; stroke-dasharray: 0.4,1.2; stroke-dashoffset: 0; stroke: #dce2e8; stroke-width: 0.4" />
+     </g>
+     <g id="p27-intervention-line2d_76" />
+    </g>
+    <g id="p27-intervention-text_31">
+     <text style="font-size: 7px; font-family: 'Arial'; text-anchor: middle" x="447.434475" y="109.209737" transform="rotate(-0 447.434475 109.209737)">Forecast lead (h)</text>
+    </g>
+   </g>
+   <g id="p27-intervention-matplotlib.axis_6">
+    <g id="p27-intervention-ytick_7">
+     <g id="p27-intervention-line2d_77">
+      <path d="M 382.68975 91.1196  L 512.1792 91.1196  " clip-path="url(#p27-intervention-pb55e6074dd)" style="fill: none; stroke: #edf0f3; stroke-width: 0.35; stroke-linecap: square" />
+     </g>
+     <g id="p27-intervention-line2d_78">
+      <g>
+       <use xlink:href="#p27-intervention-m603c4f8fe3" x="382.68975" y="91.1196" style="fill: #727b84; stroke: #727b84; stroke-width: 0.55" />
+      </g>
+     </g>
+     <g id="p27-intervention-text_32">
+      <text style="font-size: 6.6px; font-family: 'Arial'; text-anchor: end" x="378.38975" y="93.52209" transform="rotate(-0 378.38975 93.52209)">0.0</text>
+     </g>
+    </g>
+    <g id="p27-intervention-ytick_8">
+     <g id="p27-intervention-line2d_79">
+      <path d="M 382.68975 74.838948  L 512.1792 74.838948  " clip-path="url(#p27-intervention-pb55e6074dd)" style="fill: none; stroke: #edf0f3; stroke-width: 0.35; stroke-linecap: square" />
+     </g>
+     <g id="p27-intervention-line2d_80">
+      <g>
+       <use xlink:href="#p27-intervention-m603c4f8fe3" x="382.68975" y="74.838948" style="fill: #727b84; stroke: #727b84; stroke-width: 0.55" />
+      </g>
+     </g>
+     <g id="p27-intervention-text_33">
+      <text style="font-size: 6.6px; font-family: 'Arial'; text-anchor: end" x="378.38975" y="77.241438" transform="rotate(-0 378.38975 77.241438)">0.3</text>
+     </g>
+    </g>
+    <g id="p27-intervention-ytick_9">
+     <g id="p27-intervention-line2d_81">
+      <path d="M 382.68975 58.558295  L 512.1792 58.558295  " clip-path="url(#p27-intervention-pb55e6074dd)" style="fill: none; stroke: #edf0f3; stroke-width: 0.35; stroke-linecap: square" />
+     </g>
+     <g id="p27-intervention-line2d_82">
+      <g>
+       <use xlink:href="#p27-intervention-m603c4f8fe3" x="382.68975" y="58.558295" style="fill: #727b84; stroke: #727b84; stroke-width: 0.55" />
+      </g>
+     </g>
+     <g id="p27-intervention-text_34">
+      <text style="font-size: 6.6px; font-family: 'Arial'; text-anchor: end" x="378.38975" y="60.960785" transform="rotate(-0 378.38975 60.960785)">0.6</text>
+     </g>
+    </g>
+    <g id="p27-intervention-ytick_10">
+     <g id="p27-intervention-line2d_83">
+      <path d="M 382.68975 42.277643  L 512.1792 42.277643  " clip-path="url(#p27-intervention-pb55e6074dd)" style="fill: none; stroke: #edf0f3; stroke-width: 0.35; stroke-linecap: square" />
+     </g>
+     <g id="p27-intervention-line2d_84">
+      <g>
+       <use xlink:href="#p27-intervention-m603c4f8fe3" x="382.68975" y="42.277643" style="fill: #727b84; stroke: #727b84; stroke-width: 0.55" />
+      </g>
+     </g>
+     <g id="p27-intervention-text_35">
+      <text style="font-size: 6.6px; font-family: 'Arial'; text-anchor: end" x="378.38975" y="44.680133" transform="rotate(-0 378.38975 44.680133)">0.9</text>
+     </g>
+    </g>
+    <g id="p27-intervention-text_36">
+     <text style="font-size: 7px; font-family: 'Arial'; text-anchor: middle" x="365.242468" y="61.1712" transform="rotate(-90 365.242468 61.1712)">T2M MAE (K)</text>
+    </g>
+   </g>
+   <g id="p27-intervention-patch_15">
+    <path d="M 382.68975 91.1196  L 382.68975 31.2228  " style="fill: none; stroke: #727b84; stroke-width: 0.55; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="p27-intervention-patch_16">
+    <path d="M 382.68975 91.1196  L 512.1792 91.1196  " style="fill: none; stroke: #727b84; stroke-width: 0.55; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g clip-path="url(#p27-progress-future)"><g class="pv-prototype-future">
+    <path d="M 387.079223 72.067197  L 398.052905 60.239992  L 409.026587 53.621315  L 420.000269 40.470176  L 430.973951 37.640314  L 441.947634 41.352634  L 452.921316 41.032924  L 463.894998 42.66421  L 474.86868 47.344173  L 485.842363 47.098241  L 496.816045 50.995397  L 507.789727 40.369557  " clip-path="url(#p27-intervention-pb55e6074dd)" style="fill: none; stroke-dasharray: 3.15,1.785; stroke-dashoffset: 0; stroke: #bd7045; stroke-width: 1.05; stroke-linecap: round" />
+    <g clip-path="url(#p27-intervention-pb55e6074dd)">
+     <use xlink:href="#p27-intervention-m87f4210d98" x="387.079223" y="72.067197" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     <use xlink:href="#p27-intervention-m87f4210d98" x="398.052905" y="60.239992" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     <use xlink:href="#p27-intervention-m87f4210d98" x="409.026587" y="53.621315" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     <use xlink:href="#p27-intervention-m87f4210d98" x="420.000269" y="40.470176" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     <use xlink:href="#p27-intervention-m87f4210d98" x="430.973951" y="37.640314" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     <use xlink:href="#p27-intervention-m87f4210d98" x="441.947634" y="41.352634" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     <use xlink:href="#p27-intervention-m87f4210d98" x="452.921316" y="41.032924" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     <use xlink:href="#p27-intervention-m87f4210d98" x="463.894998" y="42.66421" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     <use xlink:href="#p27-intervention-m87f4210d98" x="474.86868" y="47.344173" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     <use xlink:href="#p27-intervention-m87f4210d98" x="485.842363" y="47.098241" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     <use xlink:href="#p27-intervention-m87f4210d98" x="496.816045" y="50.995397" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     <use xlink:href="#p27-intervention-m87f4210d98" x="507.789727" y="40.369557" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+    </g>
+   </g>
+   </g><g clip-path="url(#p27-progress-reveal)"><g id="p27-intervention-line2d_85" class="pv-contribution-curve pv-curve-removed">
+    <path d="M 387.079223 72.067197  L 398.052905 60.239992  L 409.026587 53.621315  L 420.000269 40.470176  L 430.973951 37.640314  L 441.947634 41.352634  L 452.921316 41.032924  L 463.894998 42.66421  L 474.86868 47.344173  L 485.842363 47.098241  L 496.816045 50.995397  L 507.789727 40.369557  " clip-path="url(#p27-intervention-pb55e6074dd)" style="fill: none; stroke-dasharray: 3.15,1.785; stroke-dashoffset: 0; stroke: #bd7045; stroke-width: 1.05; stroke-linecap: round" />
+    <defs>
+     <path id="p27-intervention-m87f4210d98" d="M 0 1  C 0.265203 1 0.51958 0.894634 0.707107 0.707107  C 0.894634 0.51958 1 0.265203 1 0  C 1 -0.265203 0.894634 -0.51958 0.707107 -0.707107  C 0.51958 -0.894634 0.265203 -1 0 -1  C -0.265203 -1 -0.51958 -0.894634 -0.707107 -0.707107  C -0.894634 -0.51958 -1 -0.265203 -1 0  C -1 0.265203 -0.894634 0.51958 -0.707107 0.707107  C -0.51958 0.894634 -0.265203 1 0 1  z " style="stroke: #bd7045; stroke-width: 0.6" />
+    </defs>
+    <g clip-path="url(#p27-intervention-pb55e6074dd)">
+     <use xlink:href="#p27-intervention-m87f4210d98" x="387.079223" y="72.067197" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     <use xlink:href="#p27-intervention-m87f4210d98" x="398.052905" y="60.239992" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     <use xlink:href="#p27-intervention-m87f4210d98" x="409.026587" y="53.621315" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     <use xlink:href="#p27-intervention-m87f4210d98" x="420.000269" y="40.470176" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     <use xlink:href="#p27-intervention-m87f4210d98" x="430.973951" y="37.640314" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     <use xlink:href="#p27-intervention-m87f4210d98" x="441.947634" y="41.352634" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     <use xlink:href="#p27-intervention-m87f4210d98" x="452.921316" y="41.032924" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     <use xlink:href="#p27-intervention-m87f4210d98" x="463.894998" y="42.66421" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     <use xlink:href="#p27-intervention-m87f4210d98" x="474.86868" y="47.344173" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     <use xlink:href="#p27-intervention-m87f4210d98" x="485.842363" y="47.098241" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     <use xlink:href="#p27-intervention-m87f4210d98" x="496.816045" y="50.995397" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     <use xlink:href="#p27-intervention-m87f4210d98" x="507.789727" y="40.369557" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+    </g>
+   </g>
+   </g><g clip-path="url(#p27-progress-future)"><g class="pv-prototype-future">
+    <path d="M 387.079223 82.231463  L 398.052905 80.86683  L 409.026587 77.973368  L 420.000269 81.25657  L 430.973951 81.90941  L 441.947634 72.979308  L 452.921316 77.915488  L 463.894998 77.4133  L 474.86868 72.292776  L 485.842363 79.184972  L 496.816045 73.314188  L 507.789727 75.466649  " clip-path="url(#p27-intervention-pb55e6074dd)" style="fill: none; stroke: #24749a; stroke-width: 1.55; stroke-linecap: round" />
+    <g clip-path="url(#p27-intervention-pb55e6074dd)">
+     <use xlink:href="#p27-intervention-mc31725454b" x="387.079223" y="82.231463" style="fill: #24749a" />
+     <use xlink:href="#p27-intervention-mc31725454b" x="398.052905" y="80.86683" style="fill: #24749a" />
+     <use xlink:href="#p27-intervention-mc31725454b" x="409.026587" y="77.973368" style="fill: #24749a" />
+     <use xlink:href="#p27-intervention-mc31725454b" x="420.000269" y="81.25657" style="fill: #24749a" />
+     <use xlink:href="#p27-intervention-mc31725454b" x="430.973951" y="81.90941" style="fill: #24749a" />
+     <use xlink:href="#p27-intervention-mc31725454b" x="441.947634" y="72.979308" style="fill: #24749a" />
+     <use xlink:href="#p27-intervention-mc31725454b" x="452.921316" y="77.915488" style="fill: #24749a" />
+     <use xlink:href="#p27-intervention-mc31725454b" x="463.894998" y="77.4133" style="fill: #24749a" />
+     <use xlink:href="#p27-intervention-mc31725454b" x="474.86868" y="72.292776" style="fill: #24749a" />
+     <use xlink:href="#p27-intervention-mc31725454b" x="485.842363" y="79.184972" style="fill: #24749a" />
+     <use xlink:href="#p27-intervention-mc31725454b" x="496.816045" y="73.314188" style="fill: #24749a" />
+     <use xlink:href="#p27-intervention-mc31725454b" x="507.789727" y="75.466649" style="fill: #24749a" />
+    </g>
+   </g>
+   </g><g clip-path="url(#p27-progress-reveal)"><g id="p27-intervention-line2d_86" class="pv-contribution-curve pv-curve-full">
+    <path d="M 387.079223 82.231463  L 398.052905 80.86683  L 409.026587 77.973368  L 420.000269 81.25657  L 430.973951 81.90941  L 441.947634 72.979308  L 452.921316 77.915488  L 463.894998 77.4133  L 474.86868 72.292776  L 485.842363 79.184972  L 496.816045 73.314188  L 507.789727 75.466649  " clip-path="url(#p27-intervention-pb55e6074dd)" style="fill: none; stroke: #24749a; stroke-width: 1.55; stroke-linecap: round" />
+    <defs>
+     <path id="p27-intervention-mc31725454b" d="M 0 1.15  C 0.304984 1.15 0.597517 1.028829 0.813173 0.813173  C 1.028829 0.597517 1.15 0.304984 1.15 0  C 1.15 -0.304984 1.028829 -0.597517 0.813173 -0.813173  C 0.597517 -1.028829 0.304984 -1.15 0 -1.15  C -0.304984 -1.15 -0.597517 -1.028829 -0.813173 -0.813173  C -1.028829 -0.597517 -1.15 -0.304984 -1.15 0  C -1.15 0.304984 -1.028829 0.597517 -0.813173 0.813173  C -0.597517 1.028829 -0.304984 1.15 0 1.15  z " />
+    </defs>
+    <g clip-path="url(#p27-intervention-pb55e6074dd)">
+     <use xlink:href="#p27-intervention-mc31725454b" x="387.079223" y="82.231463" style="fill: #24749a" />
+     <use xlink:href="#p27-intervention-mc31725454b" x="398.052905" y="80.86683" style="fill: #24749a" />
+     <use xlink:href="#p27-intervention-mc31725454b" x="409.026587" y="77.973368" style="fill: #24749a" />
+     <use xlink:href="#p27-intervention-mc31725454b" x="420.000269" y="81.25657" style="fill: #24749a" />
+     <use xlink:href="#p27-intervention-mc31725454b" x="430.973951" y="81.90941" style="fill: #24749a" />
+     <use xlink:href="#p27-intervention-mc31725454b" x="441.947634" y="72.979308" style="fill: #24749a" />
+     <use xlink:href="#p27-intervention-mc31725454b" x="452.921316" y="77.915488" style="fill: #24749a" />
+     <use xlink:href="#p27-intervention-mc31725454b" x="463.894998" y="77.4133" style="fill: #24749a" />
+     <use xlink:href="#p27-intervention-mc31725454b" x="474.86868" y="72.292776" style="fill: #24749a" />
+     <use xlink:href="#p27-intervention-mc31725454b" x="485.842363" y="79.184972" style="fill: #24749a" />
+     <use xlink:href="#p27-intervention-mc31725454b" x="496.816045" y="73.314188" style="fill: #24749a" />
+     <use xlink:href="#p27-intervention-mc31725454b" x="507.789727" y="75.466649" style="fill: #24749a" />
+    </g>
+   </g>
+   </g><g id="p27-intervention-legend_3">
+    <g id="p27-intervention-line2d_87">
+     <path d="M 383.874855 16.009983  L 389.454855 16.009983  L 395.034855 16.009983  " style="fill: none; stroke: #24749a; stroke-width: 1.55; stroke-linecap: round" />
+     <g>
+      <use xlink:href="#p27-intervention-mc31725454b" x="389.454855" y="16.009983" style="fill: #24749a" />
+     </g>
+    </g>
+    <g id="p27-intervention-text_37">
+     <text style="font-size: 6.2px; font-family: 'Arial'; text-anchor: start" x="398.444855" y="18.179983" transform="rotate(-0 398.444855 18.179983)">Full prediction</text>
+    </g>
+    <g id="p27-intervention-line2d_88">
+     <path d="M 383.874855 22.572538  L 389.454855 22.572538  L 395.034855 22.572538  " style="fill: none; stroke-dasharray: 3.15,1.785; stroke-dashoffset: 0; stroke: #bd7045; stroke-width: 1.05; stroke-linecap: round" />
+     <g>
+      <use xlink:href="#p27-intervention-m87f4210d98" x="389.454855" y="22.572538" style="fill: #ffffff; stroke: #bd7045; stroke-width: 0.6" />
+     </g>
+    </g>
+    <g id="p27-intervention-text_38">
+     <text style="font-size: 6.2px; font-family: 'Arial'; text-anchor: start" x="398.444855" y="24.742538" transform="rotate(-0 398.444855 24.742538)">Prototype 27 removed</text>
+    </g>
+   </g>
+  </g>
+  <g id="p27-intervention-text_41">
+   <text style="font-weight: 700; font-size: 7.6px; font-family: 'Arial'; text-anchor: middle" x="447.434475" y="123.928838" transform="rotate(-0 447.434475 123.928838)">(c) Hourly Forecast Error</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p27-intervention-p2a33ef9c1f">
+   <rect x="36.8064" y="31.2228" width="118.797661" height="59.8968" />
+  </clipPath>
+  <clipPath id="p27-intervention-p549b37f86c">
+   <rect x="208.560098" y="31.2228" width="121.173614" height="59.8968" />
+  </clipPath>
+  <clipPath id="p27-intervention-pb55e6074dd">
+   <rect x="382.68975" y="31.2228" width="129.48945" height="59.8968" />
+  </clipPath>
+ </defs>
+<defs>
+     <path id="p27-intervention-m8622733f1c" d="M 0 0.433013  C 0.114836 0.433013 0.224985 0.387388 0.306186 0.306186  C 0.387388 0.224985 0.433013 0.114836 0.433013 0  C 0.433013 -0.114836 0.387388 -0.224985 0.306186 -0.306186  C 0.224985 -0.387388 0.114836 -0.433013 0 -0.433013  C -0.114836 -0.433013 -0.224985 -0.387388 -0.306186 -0.306186  C -0.387388 -0.224985 -0.433013 -0.114836 -0.433013 0  C -0.433013 0.114836 -0.387388 0.224985 -0.306186 0.306186  C -0.224985 0.387388 -0.114836 0.433013 0 0.433013  z " />
+    </defs>
+    <defs>
+       <path id="p27-intervention-m9c04cbfb95" d="M 0 0  L 0 2.3  " style="stroke: #727b84; stroke-width: 0.55" />
+      </defs>
+      <defs>
+       <path id="p27-intervention-m603c4f8fe3" d="M 0 0  L -2.3 0  " style="stroke: #727b84; stroke-width: 0.55" />
+      </defs>
+      <defs>
+     <path id="p27-intervention-m92f75c35ad" d="M 0 -2.236068  L -0.502029 -0.690983  L -2.126627 -0.690983  L -0.812299 0.263932  L -1.314328 1.809017  L -0 0.854102  L 1.314328 1.809017  L 0.812299 0.263932  L 2.126627 -0.690983  L 0.502029 -0.690983  z " style="stroke: #ffffff; stroke-opacity: 0.65; stroke-width: 0.25" />
+    </defs>
+    <defs>
+     <path id="p27-intervention-mdd93ebf655" d="M 0 -4.609772  L -1.034958 -1.424498  L -4.384154 -1.424498  L -1.674598 0.54411  L -2.709556 3.729384  L -0 1.760776  L 2.709556 3.729384  L 1.674598 0.54411  L 4.384154 -1.424498  L 1.034958 -1.424498  z " style="stroke: #ffffff; stroke-width: 0.55" />
+    </defs>
+    <defs>
+     <path id="p27-intervention-mad219ebcfc" d="M 0 -4.609772  L -1.034958 -1.424498  L -4.384154 -1.424498  L -1.674598 0.54411  L -2.709556 3.729384  L -0 1.760776  L 2.709556 3.729384  L 1.674598 0.54411  L 4.384154 -1.424498  L 1.034958 -1.424498  z " style="stroke: #ffffff; stroke-width: 0.55" />
+    </defs>
+    <defs>
+      <path id="p27-intervention-mc014bc0b73" d="M 0 1.224745  C 0.324806 1.224745 0.636353 1.095698 0.866025 0.866025  C 1.095698 0.636353 1.224745 0.324806 1.224745 0  C 1.224745 -0.324806 1.095698 -0.636353 0.866025 -0.866025  C 0.636353 -1.095698 0.324806 -1.224745 0 -1.224745  C -0.324806 -1.224745 -0.636353 -1.095698 -0.866025 -0.866025  C -1.095698 -0.636353 -1.224745 -0.324806 -1.224745 0  C -1.224745 0.324806 -1.095698 0.636353 -0.866025 0.866025  C -0.636353 1.095698 -0.324806 1.224745 0 1.224745  z " />
+     </defs>
+     <defs>
+      <path id="p27-intervention-me123df379f" d="M 0 -3  L -0.673542 -0.927051  L -2.85317 -0.927051  L -1.089814 0.354102  L -1.763356 2.427051  L -0 1.145898  L 1.763356 2.427051  L 1.089814 0.354102  L 2.85317 -0.927051  L 0.673542 -0.927051  z " style="stroke: #ffffff; stroke-opacity: 0.8; stroke-width: 0.25" />
+     </defs>
+     <defs>
+      <path id="p27-intervention-m6b33a9d619" d="M -0 3  L 3 0  L 0 -3  L -3 -0  z " style="stroke: #242a32; stroke-width: 0.9" />
+     </defs>
+     <defs>
+     <path id="p27-intervention-m7715ba0b8c" d="M -0 4.242641  L 4.242641 0  L 0 -4.242641  L -4.242641 -0  z " style="stroke: #242a32; stroke-width: 0.9" />
+    </defs>
+    <defs>
+      <path id="p27-intervention-m8ebd696cee" d="M 0 0.85  C 0.225423 0.85 0.441643 0.760439 0.601041 0.601041  C 0.760439 0.441643 0.85 0.225423 0.85 0  C 0.85 -0.225423 0.760439 -0.441643 0.601041 -0.601041  C 0.441643 -0.760439 0.225423 -0.85 0 -0.85  C -0.225423 -0.85 -0.441643 -0.760439 -0.601041 -0.601041  C -0.760439 -0.441643 -0.85 -0.225423 -0.85 0  C -0.85 0.225423 -0.760439 0.441643 -0.601041 0.601041  C -0.441643 0.760439 -0.225423 0.85 0 0.85  z " />
+     </defs>
+     <g id="p27-intervention-hover-cursor" class="pv-svg-cursor" style="display:none;pointer-events:none"><line id="p27-intervention-cursor-line" x1="0" x2="0" y1="31.2" y2="91.2" stroke="#9098a0" stroke-width=".5" stroke-dasharray="1.5 2" /><circle id="p27-intervention-cursor-full" r="2" fill="#24749a" stroke="white" stroke-width=".6" /><circle id="p27-intervention-cursor-removed" r="2" fill="#bd7045" stroke="white" stroke-width=".6" /></g></svg>

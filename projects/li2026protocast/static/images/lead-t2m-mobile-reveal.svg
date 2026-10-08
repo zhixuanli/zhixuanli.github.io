@@ -1,0 +1,333 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360 237.6" version="1.1" role="img" aria-label="T2M lead-wise MSE, same example and observations as the paper" class="pv-data-svg">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <clipPath id="lead-t2m-mobile-progress-reveal"><rect x="62.25263157894737" y="0" width="8" height="237.6" data-lead-reveal="" data-start-x="62.25263157894737" data-full-width="285.89473684210526" /></clipPath><clipPath id="lead-t2m-mobile-progress-future"><rect x="70.25263157894737" y="0" width="277.89473684210526" height="237.6" data-lead-future="" data-start-x="62.25263157894737" data-full-width="285.89473684210526" /></clipPath></defs>
+ <g id="lead-t2m-mobile-figure_1">
+  <g id="lead-t2m-mobile-patch_1">
+   <path d="M 0 237.6  L 360 237.6  L 360 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="lead-t2m-mobile-axes_1">
+   <g id="lead-t2m-mobile-patch_2">
+    <path d="M 61.2 180.576  L 349.2 180.576  L 349.2 14.256  L 61.2 14.256  z " style="fill: #ffffff" />
+   </g>
+   <g id="lead-t2m-mobile-matplotlib.axis_1">
+    <g id="lead-t2m-mobile-xtick_1">
+     <g id="lead-t2m-mobile-line2d_1">
+      <path d="M 66.252632 180.576  L 66.252632 14.256  " clip-path="url(#lead-t2m-mobile-p4e43a13d13)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-t2m-mobile-line2d_2">
+      <defs>
+       <path id="lead-t2m-mobile-m20e6b53c35" d="M 0 0  L 0 3.5  " style="stroke: #707986; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use xlink:href="#lead-t2m-mobile-m20e6b53c35" x="66.252632" y="180.576" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-t2m-mobile-text_1">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #707986" x="66.252632" y="194.733812" transform="rotate(-0 66.252632 194.733812)">1</text>
+     </g>
+    </g>
+    <g id="lead-t2m-mobile-xtick_2">
+     <g id="lead-t2m-mobile-line2d_3">
+      <path d="M 116.778947 180.576  L 116.778947 14.256  " clip-path="url(#lead-t2m-mobile-p4e43a13d13)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-t2m-mobile-line2d_4">
+      <g>
+       <use xlink:href="#lead-t2m-mobile-m20e6b53c35" x="116.778947" y="180.576" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-t2m-mobile-text_2">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #707986" x="116.778947" y="194.733812" transform="rotate(-0 116.778947 194.733812)">3</text>
+     </g>
+    </g>
+    <g id="lead-t2m-mobile-xtick_3">
+     <g id="lead-t2m-mobile-line2d_5">
+      <path d="M 192.568421 180.576  L 192.568421 14.256  " clip-path="url(#lead-t2m-mobile-p4e43a13d13)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-t2m-mobile-line2d_6">
+      <g>
+       <use xlink:href="#lead-t2m-mobile-m20e6b53c35" x="192.568421" y="180.576" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-t2m-mobile-text_3">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #707986" x="192.568421" y="194.733812" transform="rotate(-0 192.568421 194.733812)">6</text>
+     </g>
+    </g>
+    <g id="lead-t2m-mobile-xtick_4">
+     <g id="lead-t2m-mobile-line2d_7">
+      <path d="M 268.357895 180.576  L 268.357895 14.256  " clip-path="url(#lead-t2m-mobile-p4e43a13d13)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-t2m-mobile-line2d_8">
+      <g>
+       <use xlink:href="#lead-t2m-mobile-m20e6b53c35" x="268.357895" y="180.576" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-t2m-mobile-text_4">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #707986" x="268.357895" y="194.733812" transform="rotate(-0 268.357895 194.733812)">9</text>
+     </g>
+    </g>
+    <g id="lead-t2m-mobile-xtick_5">
+     <g id="lead-t2m-mobile-line2d_9">
+      <path d="M 344.147368 180.576  L 344.147368 14.256  " clip-path="url(#lead-t2m-mobile-p4e43a13d13)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-t2m-mobile-line2d_10">
+      <g>
+       <use xlink:href="#lead-t2m-mobile-m20e6b53c35" x="344.147368" y="180.576" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-t2m-mobile-text_5">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #707986" x="344.147368" y="194.733812" transform="rotate(-0 344.147368 194.733812)">12</text>
+     </g>
+    </g>
+    <g id="lead-t2m-mobile-text_6">
+     <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5a6270" x="205.2" y="211.001" transform="rotate(-0 205.2 211.001)">Forecast lead (h)</text>
+    </g>
+   </g>
+   <g id="lead-t2m-mobile-matplotlib.axis_2">
+    <g id="lead-t2m-mobile-ytick_1">
+     <g id="lead-t2m-mobile-line2d_11">
+      <path d="M 61.2 180.576  L 349.2 180.576  " clip-path="url(#lead-t2m-mobile-p4e43a13d13)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-t2m-mobile-line2d_12">
+      <defs>
+       <path id="lead-t2m-mobile-m37a85fae43" d="M 0 0  L -3.5 0  " style="stroke: #707986; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use xlink:href="#lead-t2m-mobile-m37a85fae43" x="61.2" y="180.576" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-t2m-mobile-text_7">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="54.2" y="184.154906" transform="rotate(-0 54.2 184.154906)">0.0</text>
+     </g>
+    </g>
+    <g id="lead-t2m-mobile-ytick_2">
+     <g id="lead-t2m-mobile-line2d_13">
+      <path d="M 61.2 152.763125  L 349.2 152.763125  " clip-path="url(#lead-t2m-mobile-p4e43a13d13)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-t2m-mobile-line2d_14">
+      <g>
+       <use xlink:href="#lead-t2m-mobile-m37a85fae43" x="61.2" y="152.763125" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-t2m-mobile-text_8">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="54.2" y="156.342031" transform="rotate(-0 54.2 156.342031)">0.5</text>
+     </g>
+    </g>
+    <g id="lead-t2m-mobile-ytick_3">
+     <g id="lead-t2m-mobile-line2d_15">
+      <path d="M 61.2 124.950249  L 349.2 124.950249  " clip-path="url(#lead-t2m-mobile-p4e43a13d13)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-t2m-mobile-line2d_16">
+      <g>
+       <use xlink:href="#lead-t2m-mobile-m37a85fae43" x="61.2" y="124.950249" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-t2m-mobile-text_9">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="54.2" y="128.529156" transform="rotate(-0 54.2 128.529156)">1.0</text>
+     </g>
+    </g>
+    <g id="lead-t2m-mobile-ytick_4">
+     <g id="lead-t2m-mobile-line2d_17">
+      <path d="M 61.2 97.137374  L 349.2 97.137374  " clip-path="url(#lead-t2m-mobile-p4e43a13d13)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-t2m-mobile-line2d_18">
+      <g>
+       <use xlink:href="#lead-t2m-mobile-m37a85fae43" x="61.2" y="97.137374" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-t2m-mobile-text_10">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="54.2" y="100.71628" transform="rotate(-0 54.2 100.71628)">1.5</text>
+     </g>
+    </g>
+    <g id="lead-t2m-mobile-ytick_5">
+     <g id="lead-t2m-mobile-line2d_19">
+      <path d="M 61.2 69.324499  L 349.2 69.324499  " clip-path="url(#lead-t2m-mobile-p4e43a13d13)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-t2m-mobile-line2d_20">
+      <g>
+       <use xlink:href="#lead-t2m-mobile-m37a85fae43" x="61.2" y="69.324499" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-t2m-mobile-text_11">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="54.2" y="72.903405" transform="rotate(-0 54.2 72.903405)">2.0</text>
+     </g>
+    </g>
+    <g id="lead-t2m-mobile-ytick_6">
+     <g id="lead-t2m-mobile-line2d_21">
+      <path d="M 61.2 41.511624  L 349.2 41.511624  " clip-path="url(#lead-t2m-mobile-p4e43a13d13)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-t2m-mobile-line2d_22">
+      <g>
+       <use xlink:href="#lead-t2m-mobile-m37a85fae43" x="61.2" y="41.511624" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-t2m-mobile-text_12">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="54.2" y="45.09053" transform="rotate(-0 54.2 45.09053)">2.5</text>
+     </g>
+    </g>
+    <g id="lead-t2m-mobile-text_13">
+     <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5a6270" x="31.195312" y="97.416" transform="rotate(-90 31.195312 97.416)">MSE (K²)</text>
+    </g>
+   </g>
+   <g clip-path="url(#lead-t2m-mobile-progress-future)"><g class="pv-lead-future">
+    <path d="M 66.252632 61.797395  L 91.515789 51.033791  L 116.778947 61.924349  L 142.042105 60.019881  L 167.305263 43.847763  L 192.568421 64.661671  L 217.831579 62.093714  L 243.094737 47.647419  L 268.357895 63.74966  L 293.621053 59.196287  L 318.884211 29.376  L 344.147368 35.520775  " clip-path="url(#lead-t2m-mobile-p4e43a13d13)" style="fill: none; stroke-dasharray: 4.255,1.84; stroke-dashoffset: 0; stroke: #6b94af; stroke-width: 1.15" />
+    <g clip-path="url(#lead-t2m-mobile-p4e43a13d13)">
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="66.252632" y="61.797395" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="91.515789" y="51.033791" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="116.778947" y="61.924349" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="142.042105" y="60.019881" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="167.305263" y="43.847763" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="192.568421" y="64.661671" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="217.831579" y="62.093714" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="243.094737" y="47.647419" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="268.357895" y="63.74966" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="293.621053" y="59.196287" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="318.884211" y="29.376" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="344.147368" y="35.520775" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+    </g>
+   </g>
+   </g><g clip-path="url(#lead-t2m-mobile-progress-reveal)"><g id="lead-t2m-mobile-curve-TAU">
+    <path d="M 66.252632 61.797395  L 91.515789 51.033791  L 116.778947 61.924349  L 142.042105 60.019881  L 167.305263 43.847763  L 192.568421 64.661671  L 217.831579 62.093714  L 243.094737 47.647419  L 268.357895 63.74966  L 293.621053 59.196287  L 318.884211 29.376  L 344.147368 35.520775  " clip-path="url(#lead-t2m-mobile-p4e43a13d13)" style="fill: none; stroke-dasharray: 4.255,1.84; stroke-dashoffset: 0; stroke: #6b94af; stroke-width: 1.15" />
+    <defs>
+     <path id="lead-t2m-mobile-mb71e2c05f0" d="M -1.7 1.7  L 1.7 1.7  L 1.7 -1.7  L -1.7 -1.7  z " style="stroke: #6b94af; stroke-linejoin: miter" />
+    </defs>
+    <g clip-path="url(#lead-t2m-mobile-p4e43a13d13)">
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="66.252632" y="61.797395" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="91.515789" y="51.033791" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="116.778947" y="61.924349" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="142.042105" y="60.019881" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="167.305263" y="43.847763" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="192.568421" y="64.661671" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="217.831579" y="62.093714" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="243.094737" y="47.647419" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="268.357895" y="63.74966" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="293.621053" y="59.196287" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="318.884211" y="29.376" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mb71e2c05f0" x="344.147368" y="35.520775" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+    </g>
+   </g>
+   </g><g clip-path="url(#lead-t2m-mobile-progress-future)"><g class="pv-lead-future">
+    <path d="M 66.252632 150.664459  L 91.515789 142.765419  L 116.778947 141.91851  L 142.042105 139.138809  L 167.305263 131.297875  L 192.568421 131.286629  L 217.831579 127.520119  L 243.094737 120.35131  L 268.357895 117.884647  L 293.621053 113.299661  L 318.884211 101.135891  L 344.147368 98.839141  " clip-path="url(#lead-t2m-mobile-p4e43a13d13)" style="fill: none; stroke-dasharray: 7.36,1.84,1.15,1.84; stroke-dashoffset: 0; stroke: #be8864; stroke-width: 1.15" />
+    <g clip-path="url(#lead-t2m-mobile-p4e43a13d13)">
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="66.252632" y="150.664459" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="91.515789" y="142.765419" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="116.778947" y="141.91851" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="142.042105" y="139.138809" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="167.305263" y="131.297875" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="192.568421" y="131.286629" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="217.831579" y="127.520119" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="243.094737" y="120.35131" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="268.357895" y="117.884647" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="293.621053" y="113.299661" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="318.884211" y="101.135891" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="344.147368" y="98.839141" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+    </g>
+   </g>
+   </g><g clip-path="url(#lead-t2m-mobile-progress-reveal)"><g id="lead-t2m-mobile-curve-Met2Net">
+    <path d="M 66.252632 150.664459  L 91.515789 142.765419  L 116.778947 141.91851  L 142.042105 139.138809  L 167.305263 131.297875  L 192.568421 131.286629  L 217.831579 127.520119  L 243.094737 120.35131  L 268.357895 117.884647  L 293.621053 113.299661  L 318.884211 101.135891  L 344.147368 98.839141  " clip-path="url(#lead-t2m-mobile-p4e43a13d13)" style="fill: none; stroke-dasharray: 7.36,1.84,1.15,1.84; stroke-dashoffset: 0; stroke: #be8864; stroke-width: 1.15" />
+    <defs>
+     <path id="lead-t2m-mobile-m26bd3f8097" d="M 0 -1.7  L -1.7 1.7  L 1.7 1.7  z " style="stroke: #be8864; stroke-linejoin: miter" />
+    </defs>
+    <g clip-path="url(#lead-t2m-mobile-p4e43a13d13)">
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="66.252632" y="150.664459" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="91.515789" y="142.765419" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="116.778947" y="141.91851" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="142.042105" y="139.138809" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="167.305263" y="131.297875" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="192.568421" y="131.286629" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="217.831579" y="127.520119" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="243.094737" y="120.35131" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="268.357895" y="117.884647" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="293.621053" y="113.299661" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="318.884211" y="101.135891" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-m26bd3f8097" x="344.147368" y="98.839141" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+    </g>
+   </g>
+   </g><g clip-path="url(#lead-t2m-mobile-progress-future)"><g class="pv-lead-future">
+    <path d="M 66.252632 131.814517  L 91.515789 127.538899  L 116.778947 129.528344  L 142.042105 130.580634  L 167.305263 124.248016  L 192.568421 124.088676  L 217.831579 123.496663  L 243.094737 119.101596  L 268.357895 115.269846  L 293.621053 113.551156  L 318.884211 94.438221  L 344.147368 91.650219  " clip-path="url(#lead-t2m-mobile-p4e43a13d13)" style="fill: none; stroke-dasharray: 1.15,1.8975; stroke-dashoffset: 0; stroke: #8c81a4; stroke-width: 1.15" />
+    <g clip-path="url(#lead-t2m-mobile-p4e43a13d13)">
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="66.252632" y="131.814517" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="91.515789" y="127.538899" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="116.778947" y="129.528344" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="142.042105" y="130.580634" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="167.305263" y="124.248016" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="192.568421" y="124.088676" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="217.831579" y="123.496663" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="243.094737" y="119.101596" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="268.357895" y="115.269846" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="293.621053" y="113.551156" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="318.884211" y="94.438221" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="344.147368" y="91.650219" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+    </g>
+   </g>
+   </g><g clip-path="url(#lead-t2m-mobile-progress-reveal)"><g id="lead-t2m-mobile-curve-PredFormer">
+    <path d="M 66.252632 131.814517  L 91.515789 127.538899  L 116.778947 129.528344  L 142.042105 130.580634  L 167.305263 124.248016  L 192.568421 124.088676  L 217.831579 123.496663  L 243.094737 119.101596  L 268.357895 115.269846  L 293.621053 113.551156  L 318.884211 94.438221  L 344.147368 91.650219  " clip-path="url(#lead-t2m-mobile-p4e43a13d13)" style="fill: none; stroke-dasharray: 1.15,1.8975; stroke-dashoffset: 0; stroke: #8c81a4; stroke-width: 1.15" />
+    <defs>
+     <path id="lead-t2m-mobile-mc7f7c978f0" d="M -0 2.404163  L 2.404163 0  L 0 -2.404163  L -2.404163 -0  z " style="stroke: #8c81a4; stroke-linejoin: miter" />
+    </defs>
+    <g clip-path="url(#lead-t2m-mobile-p4e43a13d13)">
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="66.252632" y="131.814517" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="91.515789" y="127.538899" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="116.778947" y="129.528344" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="142.042105" y="130.580634" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="167.305263" y="124.248016" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="192.568421" y="124.088676" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="217.831579" y="123.496663" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="243.094737" y="119.101596" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="268.357895" y="115.269846" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="293.621053" y="113.551156" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="318.884211" y="94.438221" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-t2m-mobile-mc7f7c978f0" x="344.147368" y="91.650219" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+    </g>
+   </g>
+   </g><g clip-path="url(#lead-t2m-mobile-progress-future)"><g class="pv-lead-future">
+    <path d="M 66.252632 175.056077  L 91.515789 170.471049  L 116.778947 165.168507  L 142.042105 161.517928  L 167.305263 154.983139  L 192.568421 148.644096  L 217.831579 146.165883  L 243.094737 141.007864  L 268.357895 130.896201  L 293.621053 126.655043  L 318.884211 112.288423  L 344.147368 110.058754  " clip-path="url(#lead-t2m-mobile-p4e43a13d13)" style="fill: none; stroke: #b05c5c; stroke-width: 1.8; stroke-linecap: square" />
+    <g clip-path="url(#lead-t2m-mobile-p4e43a13d13)">
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="66.252632" y="175.056077" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="91.515789" y="170.471049" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="116.778947" y="165.168507" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="142.042105" y="161.517928" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="167.305263" y="154.983139" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="192.568421" y="148.644096" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="217.831579" y="146.165883" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="243.094737" y="141.007864" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="268.357895" y="130.896201" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="293.621053" y="126.655043" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="318.884211" y="112.288423" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="344.147368" y="110.058754" style="fill: #b05c5c; stroke: #b05c5c" />
+    </g>
+   </g>
+   </g><g clip-path="url(#lead-t2m-mobile-progress-reveal)"><g id="lead-t2m-mobile-curve-A5">
+    <path d="M 66.252632 175.056077  L 91.515789 170.471049  L 116.778947 165.168507  L 142.042105 161.517928  L 167.305263 154.983139  L 192.568421 148.644096  L 217.831579 146.165883  L 243.094737 141.007864  L 268.357895 130.896201  L 293.621053 126.655043  L 318.884211 112.288423  L 344.147368 110.058754  " clip-path="url(#lead-t2m-mobile-p4e43a13d13)" style="fill: none; stroke: #b05c5c; stroke-width: 1.8; stroke-linecap: square" />
+    <defs>
+     <path id="lead-t2m-mobile-m8ed1b640a6" d="M 0 1.7  C 0.450845 1.7 0.883286 1.520877 1.202082 1.202082  C 1.520877 0.883286 1.7 0.450845 1.7 0  C 1.7 -0.450845 1.520877 -0.883286 1.202082 -1.202082  C 0.883286 -1.520877 0.450845 -1.7 0 -1.7  C -0.450845 -1.7 -0.883286 -1.520877 -1.202082 -1.202082  C -1.520877 -0.883286 -1.7 -0.450845 -1.7 0  C -1.7 0.450845 -1.520877 0.883286 -1.202082 1.202082  C -0.883286 1.520877 -0.450845 1.7 0 1.7  z " style="stroke: #b05c5c" />
+    </defs>
+    <g clip-path="url(#lead-t2m-mobile-p4e43a13d13)">
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="66.252632" y="175.056077" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="91.515789" y="170.471049" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="116.778947" y="165.168507" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="142.042105" y="161.517928" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="167.305263" y="154.983139" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="192.568421" y="148.644096" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="217.831579" y="146.165883" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="243.094737" y="141.007864" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="268.357895" y="130.896201" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="293.621053" y="126.655043" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="318.884211" y="112.288423" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-t2m-mobile-m8ed1b640a6" x="344.147368" y="110.058754" style="fill: #b05c5c; stroke: #b05c5c" />
+    </g>
+   </g>
+   </g><g id="lead-t2m-mobile-patch_3">
+    <path d="M 61.2 180.576  L 61.2 14.256  " style="fill: none; stroke: #a6abb3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="lead-t2m-mobile-patch_4">
+    <path d="M 61.2 180.576  L 349.2 180.576  " style="fill: none; stroke: #a6abb3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="lead-t2m-mobile-p4e43a13d13">
+   <rect x="61.2" y="14.256" width="288" height="166.32" />
+  </clipPath>
+ </defs>
+<g id="lead-t2m-mobile-hover-cursor" style="display:none;pointer-events:none"><line id="lead-t2m-mobile-cursor-line" x1="0" x2="0" y1="14.256000000000007" y2="180.576" stroke="#aab2bc" stroke-width=".8" stroke-dasharray="2 3" /><circle id="lead-t2m-mobile-cursor-TAU" r="3.1" fill="#6b94af" stroke="white" stroke-width="1" /><circle id="lead-t2m-mobile-cursor-Met2Net" r="3.1" fill="#be8864" stroke="white" stroke-width="1" /><circle id="lead-t2m-mobile-cursor-PredFormer" r="3.1" fill="#8c81a4" stroke="white" stroke-width="1" /><circle id="lead-t2m-mobile-cursor-A5" r="3.1" fill="#b05c5c" stroke="white" stroke-width="1" /></g></svg>

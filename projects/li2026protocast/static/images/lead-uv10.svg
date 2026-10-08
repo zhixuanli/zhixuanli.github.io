@@ -1,0 +1,278 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 648 230.4" version="1.1" role="img" aria-label="UV10 lead-wise MSE, same example and observations as the paper" class="pv-data-svg">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="lead-uv10-figure_1">
+  <g id="lead-uv10-patch_1">
+   <path d="M 0 230.4  L 648 230.4  L 648 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="lead-uv10-axes_1">
+   <g id="lead-uv10-patch_2">
+    <path d="M 66.096 177.408  L 628.56 177.408  L 628.56 13.824  L 66.096 13.824  z " style="fill: #ffffff" />
+   </g>
+   <g id="lead-uv10-matplotlib.axis_1">
+    <g id="lead-uv10-xtick_1">
+     <g id="lead-uv10-line2d_1">
+      <path d="M 75.963789 177.408  L 75.963789 13.824  " clip-path="url(#lead-uv10-p48a173131d)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-line2d_2">
+      <defs>
+       <path id="lead-uv10-ma05281d217" d="M 0 0  L 0 3.5  " style="stroke: #707986; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use xlink:href="#lead-uv10-ma05281d217" x="75.963789" y="177.408" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-text_1">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #707986" x="75.963789" y="191.565812" transform="rotate(-0 75.963789 191.565812)">1</text>
+     </g>
+    </g>
+    <g id="lead-uv10-xtick_2">
+     <g id="lead-uv10-line2d_3">
+      <path d="M 174.641684 177.408  L 174.641684 13.824  " clip-path="url(#lead-uv10-p48a173131d)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-line2d_4">
+      <g>
+       <use xlink:href="#lead-uv10-ma05281d217" x="174.641684" y="177.408" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-text_2">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #707986" x="174.641684" y="191.565812" transform="rotate(-0 174.641684 191.565812)">3</text>
+     </g>
+    </g>
+    <g id="lead-uv10-xtick_3">
+     <g id="lead-uv10-line2d_5">
+      <path d="M 322.658526 177.408  L 322.658526 13.824  " clip-path="url(#lead-uv10-p48a173131d)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-line2d_6">
+      <g>
+       <use xlink:href="#lead-uv10-ma05281d217" x="322.658526" y="177.408" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-text_3">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #707986" x="322.658526" y="191.565812" transform="rotate(-0 322.658526 191.565812)">6</text>
+     </g>
+    </g>
+    <g id="lead-uv10-xtick_4">
+     <g id="lead-uv10-line2d_7">
+      <path d="M 470.675368 177.408  L 470.675368 13.824  " clip-path="url(#lead-uv10-p48a173131d)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-line2d_8">
+      <g>
+       <use xlink:href="#lead-uv10-ma05281d217" x="470.675368" y="177.408" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-text_4">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #707986" x="470.675368" y="191.565812" transform="rotate(-0 470.675368 191.565812)">9</text>
+     </g>
+    </g>
+    <g id="lead-uv10-xtick_5">
+     <g id="lead-uv10-line2d_9">
+      <path d="M 618.692211 177.408  L 618.692211 13.824  " clip-path="url(#lead-uv10-p48a173131d)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-line2d_10">
+      <g>
+       <use xlink:href="#lead-uv10-ma05281d217" x="618.692211" y="177.408" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-text_5">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #707986" x="618.692211" y="191.565812" transform="rotate(-0 618.692211 191.565812)">12</text>
+     </g>
+    </g>
+    <g id="lead-uv10-text_6">
+     <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5a6270" x="347.328" y="210.833" transform="rotate(-0 347.328 210.833)">Forecast lead (h)</text>
+    </g>
+   </g>
+   <g id="lead-uv10-matplotlib.axis_2">
+    <g id="lead-uv10-ytick_1">
+     <g id="lead-uv10-line2d_11">
+      <path d="M 66.096 177.408  L 628.56 177.408  " clip-path="url(#lead-uv10-p48a173131d)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-line2d_12">
+      <defs>
+       <path id="lead-uv10-m7c45d68951" d="M 0 0  L -3.5 0  " style="stroke: #707986; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use xlink:href="#lead-uv10-m7c45d68951" x="66.096" y="177.408" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-text_7">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="59.096" y="180.986906" transform="rotate(-0 59.096 180.986906)">0.0</text>
+     </g>
+    </g>
+    <g id="lead-uv10-ytick_2">
+     <g id="lead-uv10-line2d_13">
+      <path d="M 66.096 151.322487  L 628.56 151.322487  " clip-path="url(#lead-uv10-p48a173131d)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-line2d_14">
+      <g>
+       <use xlink:href="#lead-uv10-m7c45d68951" x="66.096" y="151.322487" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-text_8">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="59.096" y="154.901393" transform="rotate(-0 59.096 154.901393)">0.5</text>
+     </g>
+    </g>
+    <g id="lead-uv10-ytick_3">
+     <g id="lead-uv10-line2d_15">
+      <path d="M 66.096 125.236973  L 628.56 125.236973  " clip-path="url(#lead-uv10-p48a173131d)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-line2d_16">
+      <g>
+       <use xlink:href="#lead-uv10-m7c45d68951" x="66.096" y="125.236973" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-text_9">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="59.096" y="128.815879" transform="rotate(-0 59.096 128.815879)">1.0</text>
+     </g>
+    </g>
+    <g id="lead-uv10-ytick_4">
+     <g id="lead-uv10-line2d_17">
+      <path d="M 66.096 99.15146  L 628.56 99.15146  " clip-path="url(#lead-uv10-p48a173131d)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-line2d_18">
+      <g>
+       <use xlink:href="#lead-uv10-m7c45d68951" x="66.096" y="99.15146" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-text_10">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="59.096" y="102.730366" transform="rotate(-0 59.096 102.730366)">1.5</text>
+     </g>
+    </g>
+    <g id="lead-uv10-ytick_5">
+     <g id="lead-uv10-line2d_19">
+      <path d="M 66.096 73.065946  L 628.56 73.065946  " clip-path="url(#lead-uv10-p48a173131d)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-line2d_20">
+      <g>
+       <use xlink:href="#lead-uv10-m7c45d68951" x="66.096" y="73.065946" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-text_11">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="59.096" y="76.644853" transform="rotate(-0 59.096 76.644853)">2.0</text>
+     </g>
+    </g>
+    <g id="lead-uv10-ytick_6">
+     <g id="lead-uv10-line2d_21">
+      <path d="M 66.096 46.980433  L 628.56 46.980433  " clip-path="url(#lead-uv10-p48a173131d)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-line2d_22">
+      <g>
+       <use xlink:href="#lead-uv10-m7c45d68951" x="66.096" y="46.980433" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-text_12">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="59.096" y="50.559339" transform="rotate(-0 59.096 50.559339)">2.5</text>
+     </g>
+    </g>
+    <g id="lead-uv10-ytick_7">
+     <g id="lead-uv10-line2d_23">
+      <path d="M 66.096 20.89492  L 628.56 20.89492  " clip-path="url(#lead-uv10-p48a173131d)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-uv10-line2d_24">
+      <g>
+       <use xlink:href="#lead-uv10-m7c45d68951" x="66.096" y="20.89492" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-uv10-text_13">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="59.096" y="24.473826" transform="rotate(-0 59.096 24.473826)">3.0</text>
+     </g>
+    </g>
+    <g id="lead-uv10-text_14">
+     <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5a6270" x="33.091312" y="95.616" transform="rotate(-90 33.091312 95.616)">MSE (m²/s²)</text>
+    </g>
+   </g>
+   <g id="lead-uv10-curve-TAU">
+    <path d="M 75.963789 120.647767  L 125.302737 120.210361  L 174.641684 116.668283  L 223.980632 111.52249  L 273.319579 104.725541  L 322.658526 94.686151  L 371.997474 82.211272  L 421.336421 71.705139  L 470.675368 62.511787  L 520.014316 53.051231  L 569.353263 40.643918  L 618.692211 28.695273  " clip-path="url(#lead-uv10-p48a173131d)" style="fill: none; stroke-dasharray: 4.255,1.84; stroke-dashoffset: 0; stroke: #6b94af; stroke-width: 1.15" />
+    <defs>
+     <path id="lead-uv10-mc93dba5fb5" d="M -1.7 1.7  L 1.7 1.7  L 1.7 -1.7  L -1.7 -1.7  z " style="stroke: #6b94af; stroke-linejoin: miter" />
+    </defs>
+    <g clip-path="url(#lead-uv10-p48a173131d)">
+     <use xlink:href="#lead-uv10-mc93dba5fb5" x="75.963789" y="120.647767" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mc93dba5fb5" x="125.302737" y="120.210361" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mc93dba5fb5" x="174.641684" y="116.668283" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mc93dba5fb5" x="223.980632" y="111.52249" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mc93dba5fb5" x="273.319579" y="104.725541" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mc93dba5fb5" x="322.658526" y="94.686151" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mc93dba5fb5" x="371.997474" y="82.211272" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mc93dba5fb5" x="421.336421" y="71.705139" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mc93dba5fb5" x="470.675368" y="62.511787" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mc93dba5fb5" x="520.014316" y="53.051231" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mc93dba5fb5" x="569.353263" y="40.643918" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mc93dba5fb5" x="618.692211" y="28.695273" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+    </g>
+   </g>
+   <g id="lead-uv10-curve-Met2Net">
+    <path d="M 75.963789 156.897911  L 125.302737 153.27873  L 174.641684 147.764531  L 223.980632 141.161793  L 273.319579 134.220607  L 322.658526 125.788984  L 371.997474 115.772782  L 421.336421 107.256848  L 470.675368 100.216161  L 520.014316 91.356677  L 569.353263 81.190751  L 618.692211 65.301743  " clip-path="url(#lead-uv10-p48a173131d)" style="fill: none; stroke-dasharray: 7.36,1.84,1.15,1.84; stroke-dashoffset: 0; stroke: #be8864; stroke-width: 1.15" />
+    <defs>
+     <path id="lead-uv10-mf46319ebe5" d="M 0 -1.7  L -1.7 1.7  L 1.7 1.7  z " style="stroke: #be8864; stroke-linejoin: miter" />
+    </defs>
+    <g clip-path="url(#lead-uv10-p48a173131d)">
+     <use xlink:href="#lead-uv10-mf46319ebe5" x="75.963789" y="156.897911" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mf46319ebe5" x="125.302737" y="153.27873" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mf46319ebe5" x="174.641684" y="147.764531" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mf46319ebe5" x="223.980632" y="141.161793" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mf46319ebe5" x="273.319579" y="134.220607" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mf46319ebe5" x="322.658526" y="125.788984" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mf46319ebe5" x="371.997474" y="115.772782" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mf46319ebe5" x="421.336421" y="107.256848" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mf46319ebe5" x="470.675368" y="100.216161" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mf46319ebe5" x="520.014316" y="91.356677" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mf46319ebe5" x="569.353263" y="81.190751" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-mf46319ebe5" x="618.692211" y="65.301743" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+    </g>
+   </g>
+   <g id="lead-uv10-curve-PredFormer">
+    <path d="M 75.963789 171.536233  L 125.302737 165.892701  L 174.641684 158.348819  L 223.980632 151.056478  L 273.319579 143.639816  L 322.658526 135.110032  L 371.997474 125.067138  L 421.336421 116.731466  L 470.675368 108.633112  L 520.014316 97.954615  L 569.353263 86.799326  L 618.692211 72.45477  " clip-path="url(#lead-uv10-p48a173131d)" style="fill: none; stroke-dasharray: 1.15,1.8975; stroke-dashoffset: 0; stroke: #8c81a4; stroke-width: 1.15" />
+    <defs>
+     <path id="lead-uv10-ma9b540b5ec" d="M -0 2.404163  L 2.404163 0  L 0 -2.404163  L -2.404163 -0  z " style="stroke: #8c81a4; stroke-linejoin: miter" />
+    </defs>
+    <g clip-path="url(#lead-uv10-p48a173131d)">
+     <use xlink:href="#lead-uv10-ma9b540b5ec" x="75.963789" y="171.536233" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-ma9b540b5ec" x="125.302737" y="165.892701" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-ma9b540b5ec" x="174.641684" y="158.348819" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-ma9b540b5ec" x="223.980632" y="151.056478" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-ma9b540b5ec" x="273.319579" y="143.639816" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-ma9b540b5ec" x="322.658526" y="135.110032" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-ma9b540b5ec" x="371.997474" y="125.067138" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-ma9b540b5ec" x="421.336421" y="116.731466" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-ma9b540b5ec" x="470.675368" y="108.633112" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-ma9b540b5ec" x="520.014316" y="97.954615" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-ma9b540b5ec" x="569.353263" y="86.799326" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-uv10-ma9b540b5ec" x="618.692211" y="72.45477" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+    </g>
+   </g>
+   <g id="lead-uv10-curve-A5">
+    <path d="M 75.963789 173.411144  L 125.302737 167.491918  L 174.641684 160.214796  L 223.980632 152.852065  L 273.319579 145.45686  L 322.658526 137.218809  L 371.997474 131.267206  L 421.336421 124.554687  L 470.675368 116.42672  L 520.014316 110.710933  L 569.353263 97.831299  L 618.692211 89.040184  " clip-path="url(#lead-uv10-p48a173131d)" style="fill: none; stroke: #b05c5c; stroke-width: 1.8; stroke-linecap: square" />
+    <defs>
+     <path id="lead-uv10-m4e6a99b059" d="M 0 1.7  C 0.450845 1.7 0.883286 1.520877 1.202082 1.202082  C 1.520877 0.883286 1.7 0.450845 1.7 0  C 1.7 -0.450845 1.520877 -0.883286 1.202082 -1.202082  C 0.883286 -1.520877 0.450845 -1.7 0 -1.7  C -0.450845 -1.7 -0.883286 -1.520877 -1.202082 -1.202082  C -1.520877 -0.883286 -1.7 -0.450845 -1.7 0  C -1.7 0.450845 -1.520877 0.883286 -1.202082 1.202082  C -0.883286 1.520877 -0.450845 1.7 0 1.7  z " style="stroke: #b05c5c" />
+    </defs>
+    <g clip-path="url(#lead-uv10-p48a173131d)">
+     <use xlink:href="#lead-uv10-m4e6a99b059" x="75.963789" y="173.411144" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-uv10-m4e6a99b059" x="125.302737" y="167.491918" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-uv10-m4e6a99b059" x="174.641684" y="160.214796" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-uv10-m4e6a99b059" x="223.980632" y="152.852065" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-uv10-m4e6a99b059" x="273.319579" y="145.45686" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-uv10-m4e6a99b059" x="322.658526" y="137.218809" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-uv10-m4e6a99b059" x="371.997474" y="131.267206" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-uv10-m4e6a99b059" x="421.336421" y="124.554687" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-uv10-m4e6a99b059" x="470.675368" y="116.42672" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-uv10-m4e6a99b059" x="520.014316" y="110.710933" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-uv10-m4e6a99b059" x="569.353263" y="97.831299" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-uv10-m4e6a99b059" x="618.692211" y="89.040184" style="fill: #b05c5c; stroke: #b05c5c" />
+    </g>
+   </g>
+   <g id="lead-uv10-patch_3">
+    <path d="M 66.096 177.408  L 66.096 13.824  " style="fill: none; stroke: #a6abb3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="lead-uv10-patch_4">
+    <path d="M 66.096 177.408  L 628.56 177.408  " style="fill: none; stroke: #a6abb3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="lead-uv10-p48a173131d">
+   <rect x="66.096" y="13.824" width="562.464" height="163.584" />
+  </clipPath>
+ </defs>
+<g id="lead-uv10-hover-cursor" style="display:none;pointer-events:none"><line id="lead-uv10-cursor-line" x1="0" x2="0" y1="13.824000000000034" y2="177.40800000000002" stroke="#aab2bc" stroke-width=".8" stroke-dasharray="2 3" /><circle id="lead-uv10-cursor-TAU" r="3.1" fill="#6b94af" stroke="white" stroke-width="1" /><circle id="lead-uv10-cursor-Met2Net" r="3.1" fill="#be8864" stroke="white" stroke-width="1" /><circle id="lead-uv10-cursor-PredFormer" r="3.1" fill="#8c81a4" stroke="white" stroke-width="1" /><circle id="lead-uv10-cursor-A5" r="3.1" fill="#b05c5c" stroke="white" stroke-width="1" /></g></svg>

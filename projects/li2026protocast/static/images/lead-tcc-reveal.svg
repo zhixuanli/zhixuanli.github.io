@@ -1,0 +1,346 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 648 230.4" version="1.1" role="img" aria-label="TCC lead-wise MSE, same example and observations as the paper" class="pv-data-svg">
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <clipPath id="lead-tcc-progress-reveal"><rect x="71.96378947368422" y="0" width="8" height="230.4" data-lead-reveal="" data-start-x="71.96378947368422" data-full-width="550.7284210526317" /></clipPath><clipPath id="lead-tcc-progress-future"><rect x="79.96378947368422" y="0" width="542.7284210526317" height="230.4" data-lead-future="" data-start-x="71.96378947368422" data-full-width="550.7284210526317" /></clipPath></defs>
+ <g id="lead-tcc-figure_1">
+  <g id="lead-tcc-patch_1">
+   <path d="M 0 230.4  L 648 230.4  L 648 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="lead-tcc-axes_1">
+   <g id="lead-tcc-patch_2">
+    <path d="M 66.096 177.408  L 628.56 177.408  L 628.56 13.824  L 66.096 13.824  z " style="fill: #ffffff" />
+   </g>
+   <g id="lead-tcc-matplotlib.axis_1">
+    <g id="lead-tcc-xtick_1">
+     <g id="lead-tcc-line2d_1">
+      <path d="M 75.963789 177.408  L 75.963789 13.824  " clip-path="url(#lead-tcc-pdfd5f1f409)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-tcc-line2d_2">
+      <defs>
+       <path id="lead-tcc-m605f466002" d="M 0 0  L 0 3.5  " style="stroke: #707986; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use xlink:href="#lead-tcc-m605f466002" x="75.963789" y="177.408" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-tcc-text_1">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #707986" x="75.963789" y="191.565812" transform="rotate(-0 75.963789 191.565812)">1</text>
+     </g>
+    </g>
+    <g id="lead-tcc-xtick_2">
+     <g id="lead-tcc-line2d_3">
+      <path d="M 174.641684 177.408  L 174.641684 13.824  " clip-path="url(#lead-tcc-pdfd5f1f409)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-tcc-line2d_4">
+      <g>
+       <use xlink:href="#lead-tcc-m605f466002" x="174.641684" y="177.408" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-tcc-text_2">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #707986" x="174.641684" y="191.565812" transform="rotate(-0 174.641684 191.565812)">3</text>
+     </g>
+    </g>
+    <g id="lead-tcc-xtick_3">
+     <g id="lead-tcc-line2d_5">
+      <path d="M 322.658526 177.408  L 322.658526 13.824  " clip-path="url(#lead-tcc-pdfd5f1f409)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-tcc-line2d_6">
+      <g>
+       <use xlink:href="#lead-tcc-m605f466002" x="322.658526" y="177.408" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-tcc-text_3">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #707986" x="322.658526" y="191.565812" transform="rotate(-0 322.658526 191.565812)">6</text>
+     </g>
+    </g>
+    <g id="lead-tcc-xtick_4">
+     <g id="lead-tcc-line2d_7">
+      <path d="M 470.675368 177.408  L 470.675368 13.824  " clip-path="url(#lead-tcc-pdfd5f1f409)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-tcc-line2d_8">
+      <g>
+       <use xlink:href="#lead-tcc-m605f466002" x="470.675368" y="177.408" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-tcc-text_4">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #707986" x="470.675368" y="191.565812" transform="rotate(-0 470.675368 191.565812)">9</text>
+     </g>
+    </g>
+    <g id="lead-tcc-xtick_5">
+     <g id="lead-tcc-line2d_9">
+      <path d="M 618.692211 177.408  L 618.692211 13.824  " clip-path="url(#lead-tcc-pdfd5f1f409)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-tcc-line2d_10">
+      <g>
+       <use xlink:href="#lead-tcc-m605f466002" x="618.692211" y="177.408" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-tcc-text_5">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #707986" x="618.692211" y="191.565812" transform="rotate(-0 618.692211 191.565812)">12</text>
+     </g>
+    </g>
+    <g id="lead-tcc-text_6">
+     <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5a6270" x="347.328" y="210.833" transform="rotate(-0 347.328 210.833)">Forecast lead (h)</text>
+    </g>
+   </g>
+   <g id="lead-tcc-matplotlib.axis_2">
+    <g id="lead-tcc-ytick_1">
+     <g id="lead-tcc-line2d_11">
+      <path d="M 66.096 177.408  L 628.56 177.408  " clip-path="url(#lead-tcc-pdfd5f1f409)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-tcc-line2d_12">
+      <defs>
+       <path id="lead-tcc-m5dd16ac126" d="M 0 0  L -3.5 0  " style="stroke: #707986; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use xlink:href="#lead-tcc-m5dd16ac126" x="66.096" y="177.408" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-tcc-text_7">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="59.096" y="180.986906" transform="rotate(-0 59.096 180.986906)">0.000</text>
+     </g>
+    </g>
+    <g id="lead-tcc-ytick_2">
+     <g id="lead-tcc-line2d_13">
+      <path d="M 66.096 151.078916  L 628.56 151.078916  " clip-path="url(#lead-tcc-pdfd5f1f409)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-tcc-line2d_14">
+      <g>
+       <use xlink:href="#lead-tcc-m5dd16ac126" x="66.096" y="151.078916" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-tcc-text_8">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="59.096" y="154.657822" transform="rotate(-0 59.096 154.657822)">0.005</text>
+     </g>
+    </g>
+    <g id="lead-tcc-ytick_3">
+     <g id="lead-tcc-line2d_15">
+      <path d="M 66.096 124.749832  L 628.56 124.749832  " clip-path="url(#lead-tcc-pdfd5f1f409)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-tcc-line2d_16">
+      <g>
+       <use xlink:href="#lead-tcc-m5dd16ac126" x="66.096" y="124.749832" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-tcc-text_9">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="59.096" y="128.328739" transform="rotate(-0 59.096 128.328739)">0.010</text>
+     </g>
+    </g>
+    <g id="lead-tcc-ytick_4">
+     <g id="lead-tcc-line2d_17">
+      <path d="M 66.096 98.420749  L 628.56 98.420749  " clip-path="url(#lead-tcc-pdfd5f1f409)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-tcc-line2d_18">
+      <g>
+       <use xlink:href="#lead-tcc-m5dd16ac126" x="66.096" y="98.420749" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-tcc-text_10">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="59.096" y="101.999655" transform="rotate(-0 59.096 101.999655)">0.015</text>
+     </g>
+    </g>
+    <g id="lead-tcc-ytick_5">
+     <g id="lead-tcc-line2d_19">
+      <path d="M 66.096 72.091665  L 628.56 72.091665  " clip-path="url(#lead-tcc-pdfd5f1f409)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-tcc-line2d_20">
+      <g>
+       <use xlink:href="#lead-tcc-m5dd16ac126" x="66.096" y="72.091665" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-tcc-text_11">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="59.096" y="75.670571" transform="rotate(-0 59.096 75.670571)">0.020</text>
+     </g>
+    </g>
+    <g id="lead-tcc-ytick_6">
+     <g id="lead-tcc-line2d_21">
+      <path d="M 66.096 45.762581  L 628.56 45.762581  " clip-path="url(#lead-tcc-pdfd5f1f409)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-tcc-line2d_22">
+      <g>
+       <use xlink:href="#lead-tcc-m5dd16ac126" x="66.096" y="45.762581" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-tcc-text_12">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="59.096" y="49.341487" transform="rotate(-0 59.096 49.341487)">0.025</text>
+     </g>
+    </g>
+    <g id="lead-tcc-ytick_7">
+     <g id="lead-tcc-line2d_23">
+      <path d="M 66.096 19.433497  L 628.56 19.433497  " clip-path="url(#lead-tcc-pdfd5f1f409)" style="fill: none; stroke: #e9edf2; stroke-width: 0.5; stroke-linecap: square" />
+     </g>
+     <g id="lead-tcc-line2d_24">
+      <g>
+       <use xlink:href="#lead-tcc-m5dd16ac126" x="66.096" y="19.433497" style="fill: #707986; stroke: #707986; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="lead-tcc-text_13">
+      <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: end; fill: #707986" x="59.096" y="23.012404" transform="rotate(-0 59.096 23.012404)">0.030</text>
+     </g>
+    </g>
+    <g id="lead-tcc-text_14">
+     <text style="font-size: 10px; font-family: 'Arial', 'Helvetica', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #5a6270" x="21.969437" y="95.616" transform="rotate(-90 21.969437 95.616)">MSE (fraction²)</text>
+    </g>
+   </g>
+   <g clip-path="url(#lead-tcc-progress-future)"><g class="pv-lead-future">
+    <path d="M 75.963789 117.733765  L 125.302737 108.055654  L 174.641684 100.208904  L 223.980632 78.099629  L 273.319579 73.807202  L 322.658526 61.892281  L 371.997474 43.885307  L 421.336421 45.414549  L 470.675368 35.564964  L 520.014316 35.781118  L 569.353263 37.509414  L 618.692211 28.695273  " clip-path="url(#lead-tcc-pdfd5f1f409)" style="fill: none; stroke-dasharray: 4.255,1.84; stroke-dashoffset: 0; stroke: #6b94af; stroke-width: 1.15" />
+    <g clip-path="url(#lead-tcc-pdfd5f1f409)">
+     <use xlink:href="#lead-tcc-m2215357871" x="75.963789" y="117.733765" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m2215357871" x="125.302737" y="108.055654" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m2215357871" x="174.641684" y="100.208904" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m2215357871" x="223.980632" y="78.099629" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m2215357871" x="273.319579" y="73.807202" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m2215357871" x="322.658526" y="61.892281" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m2215357871" x="371.997474" y="43.885307" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m2215357871" x="421.336421" y="45.414549" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m2215357871" x="470.675368" y="35.564964" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m2215357871" x="520.014316" y="35.781118" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m2215357871" x="569.353263" y="37.509414" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m2215357871" x="618.692211" y="28.695273" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+    </g>
+   </g>
+   </g><g clip-path="url(#lead-tcc-progress-reveal)"><g id="lead-tcc-curve-TAU">
+    <path d="M 75.963789 117.733765  L 125.302737 108.055654  L 174.641684 100.208904  L 223.980632 78.099629  L 273.319579 73.807202  L 322.658526 61.892281  L 371.997474 43.885307  L 421.336421 45.414549  L 470.675368 35.564964  L 520.014316 35.781118  L 569.353263 37.509414  L 618.692211 28.695273  " clip-path="url(#lead-tcc-pdfd5f1f409)" style="fill: none; stroke-dasharray: 4.255,1.84; stroke-dashoffset: 0; stroke: #6b94af; stroke-width: 1.15" />
+    <defs>
+     <path id="lead-tcc-m2215357871" d="M -1.7 1.7  L 1.7 1.7  L 1.7 -1.7  L -1.7 -1.7  z " style="stroke: #6b94af; stroke-linejoin: miter" />
+    </defs>
+    <g clip-path="url(#lead-tcc-pdfd5f1f409)">
+     <use xlink:href="#lead-tcc-m2215357871" x="75.963789" y="117.733765" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m2215357871" x="125.302737" y="108.055654" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m2215357871" x="174.641684" y="100.208904" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m2215357871" x="223.980632" y="78.099629" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m2215357871" x="273.319579" y="73.807202" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m2215357871" x="322.658526" y="61.892281" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m2215357871" x="371.997474" y="43.885307" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m2215357871" x="421.336421" y="45.414549" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m2215357871" x="470.675368" y="35.564964" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m2215357871" x="520.014316" y="35.781118" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m2215357871" x="569.353263" y="37.509414" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m2215357871" x="618.692211" y="28.695273" style="fill: #6b94af; stroke: #6b94af; stroke-linejoin: miter" />
+    </g>
+   </g>
+   </g><g clip-path="url(#lead-tcc-progress-future)"><g class="pv-lead-future">
+    <path d="M 75.963789 151.952769  L 125.302737 131.618832  L 174.641684 117.620348  L 223.980632 93.631074  L 273.319579 85.503876  L 322.658526 72.257271  L 371.997474 56.830205  L 421.336421 57.700218  L 470.675368 50.503415  L 520.014316 51.968764  L 569.353263 51.376844  L 618.692211 39.272681  " clip-path="url(#lead-tcc-pdfd5f1f409)" style="fill: none; stroke-dasharray: 7.36,1.84,1.15,1.84; stroke-dashoffset: 0; stroke: #be8864; stroke-width: 1.15" />
+    <g clip-path="url(#lead-tcc-pdfd5f1f409)">
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="75.963789" y="151.952769" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="125.302737" y="131.618832" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="174.641684" y="117.620348" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="223.980632" y="93.631074" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="273.319579" y="85.503876" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="322.658526" y="72.257271" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="371.997474" y="56.830205" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="421.336421" y="57.700218" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="470.675368" y="50.503415" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="520.014316" y="51.968764" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="569.353263" y="51.376844" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="618.692211" y="39.272681" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+    </g>
+   </g>
+   </g><g clip-path="url(#lead-tcc-progress-reveal)"><g id="lead-tcc-curve-Met2Net">
+    <path d="M 75.963789 151.952769  L 125.302737 131.618832  L 174.641684 117.620348  L 223.980632 93.631074  L 273.319579 85.503876  L 322.658526 72.257271  L 371.997474 56.830205  L 421.336421 57.700218  L 470.675368 50.503415  L 520.014316 51.968764  L 569.353263 51.376844  L 618.692211 39.272681  " clip-path="url(#lead-tcc-pdfd5f1f409)" style="fill: none; stroke-dasharray: 7.36,1.84,1.15,1.84; stroke-dashoffset: 0; stroke: #be8864; stroke-width: 1.15" />
+    <defs>
+     <path id="lead-tcc-m4d3eabc021" d="M 0 -1.7  L -1.7 1.7  L 1.7 1.7  z " style="stroke: #be8864; stroke-linejoin: miter" />
+    </defs>
+    <g clip-path="url(#lead-tcc-pdfd5f1f409)">
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="75.963789" y="151.952769" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="125.302737" y="131.618832" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="174.641684" y="117.620348" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="223.980632" y="93.631074" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="273.319579" y="85.503876" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="322.658526" y="72.257271" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="371.997474" y="56.830205" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="421.336421" y="57.700218" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="470.675368" y="50.503415" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="520.014316" y="51.968764" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="569.353263" y="51.376844" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m4d3eabc021" x="618.692211" y="39.272681" style="fill: #be8864; stroke: #be8864; stroke-linejoin: miter" />
+    </g>
+   </g>
+   </g><g clip-path="url(#lead-tcc-progress-future)"><g class="pv-lead-future">
+    <path d="M 75.963789 152.330933  L 125.302737 131.392276  L 174.641684 117.058999  L 223.980632 91.408124  L 273.319579 81.625304  L 322.658526 69.245419  L 371.997474 54.302119  L 421.336421 56.534282  L 470.675368 50.002712  L 520.014316 55.125478  L 569.353263 53.712426  L 618.692211 46.978251  " clip-path="url(#lead-tcc-pdfd5f1f409)" style="fill: none; stroke-dasharray: 1.15,1.8975; stroke-dashoffset: 0; stroke: #8c81a4; stroke-width: 1.15" />
+    <g clip-path="url(#lead-tcc-pdfd5f1f409)">
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="75.963789" y="152.330933" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="125.302737" y="131.392276" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="174.641684" y="117.058999" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="223.980632" y="91.408124" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="273.319579" y="81.625304" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="322.658526" y="69.245419" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="371.997474" y="54.302119" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="421.336421" y="56.534282" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="470.675368" y="50.002712" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="520.014316" y="55.125478" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="569.353263" y="53.712426" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="618.692211" y="46.978251" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+    </g>
+   </g>
+   </g><g clip-path="url(#lead-tcc-progress-reveal)"><g id="lead-tcc-curve-PredFormer">
+    <path d="M 75.963789 152.330933  L 125.302737 131.392276  L 174.641684 117.058999  L 223.980632 91.408124  L 273.319579 81.625304  L 322.658526 69.245419  L 371.997474 54.302119  L 421.336421 56.534282  L 470.675368 50.002712  L 520.014316 55.125478  L 569.353263 53.712426  L 618.692211 46.978251  " clip-path="url(#lead-tcc-pdfd5f1f409)" style="fill: none; stroke-dasharray: 1.15,1.8975; stroke-dashoffset: 0; stroke: #8c81a4; stroke-width: 1.15" />
+    <defs>
+     <path id="lead-tcc-m40b5b2546a" d="M -0 2.404163  L 2.404163 0  L 0 -2.404163  L -2.404163 -0  z " style="stroke: #8c81a4; stroke-linejoin: miter" />
+    </defs>
+    <g clip-path="url(#lead-tcc-pdfd5f1f409)">
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="75.963789" y="152.330933" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="125.302737" y="131.392276" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="174.641684" y="117.058999" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="223.980632" y="91.408124" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="273.319579" y="81.625304" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="322.658526" y="69.245419" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="371.997474" y="54.302119" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="421.336421" y="56.534282" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="470.675368" y="50.002712" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="520.014316" y="55.125478" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="569.353263" y="53.712426" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+     <use xlink:href="#lead-tcc-m40b5b2546a" x="618.692211" y="46.978251" style="fill: #8c81a4; stroke: #8c81a4; stroke-linejoin: miter" />
+    </g>
+   </g>
+   </g><g clip-path="url(#lead-tcc-progress-future)"><g class="pv-lead-future">
+    <path d="M 75.963789 155.214956  L 125.302737 135.080588  L 174.641684 121.474543  L 223.980632 99.605928  L 273.319579 94.156415  L 322.658526 83.379946  L 371.997474 70.758242  L 421.336421 71.471403  L 470.675368 65.959716  L 520.014316 65.688676  L 569.353263 58.399767  L 618.692211 53.087953  " clip-path="url(#lead-tcc-pdfd5f1f409)" style="fill: none; stroke: #b05c5c; stroke-width: 1.8; stroke-linecap: square" />
+    <g clip-path="url(#lead-tcc-pdfd5f1f409)">
+     <use xlink:href="#lead-tcc-m563117bca1" x="75.963789" y="155.214956" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-tcc-m563117bca1" x="125.302737" y="135.080588" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-tcc-m563117bca1" x="174.641684" y="121.474543" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-tcc-m563117bca1" x="223.980632" y="99.605928" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-tcc-m563117bca1" x="273.319579" y="94.156415" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-tcc-m563117bca1" x="322.658526" y="83.379946" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-tcc-m563117bca1" x="371.997474" y="70.758242" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-tcc-m563117bca1" x="421.336421" y="71.471403" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-tcc-m563117bca1" x="470.675368" y="65.959716" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-tcc-m563117bca1" x="520.014316" y="65.688676" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-tcc-m563117bca1" x="569.353263" y="58.399767" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-tcc-m563117bca1" x="618.692211" y="53.087953" style="fill: #b05c5c; stroke: #b05c5c" />
+    </g>
+   </g>
+   </g><g clip-path="url(#lead-tcc-progress-reveal)"><g id="lead-tcc-curve-A5">
+    <path d="M 75.963789 155.214956  L 125.302737 135.080588  L 174.641684 121.474543  L 223.980632 99.605928  L 273.319579 94.156415  L 322.658526 83.379946  L 371.997474 70.758242  L 421.336421 71.471403  L 470.675368 65.959716  L 520.014316 65.688676  L 569.353263 58.399767  L 618.692211 53.087953  " clip-path="url(#lead-tcc-pdfd5f1f409)" style="fill: none; stroke: #b05c5c; stroke-width: 1.8; stroke-linecap: square" />
+    <defs>
+     <path id="lead-tcc-m563117bca1" d="M 0 1.7  C 0.450845 1.7 0.883286 1.520877 1.202082 1.202082  C 1.520877 0.883286 1.7 0.450845 1.7 0  C 1.7 -0.450845 1.520877 -0.883286 1.202082 -1.202082  C 0.883286 -1.520877 0.450845 -1.7 0 -1.7  C -0.450845 -1.7 -0.883286 -1.520877 -1.202082 -1.202082  C -1.520877 -0.883286 -1.7 -0.450845 -1.7 0  C -1.7 0.450845 -1.520877 0.883286 -1.202082 1.202082  C -0.883286 1.520877 -0.450845 1.7 0 1.7  z " style="stroke: #b05c5c" />
+    </defs>
+    <g clip-path="url(#lead-tcc-pdfd5f1f409)">
+     <use xlink:href="#lead-tcc-m563117bca1" x="75.963789" y="155.214956" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-tcc-m563117bca1" x="125.302737" y="135.080588" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-tcc-m563117bca1" x="174.641684" y="121.474543" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-tcc-m563117bca1" x="223.980632" y="99.605928" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-tcc-m563117bca1" x="273.319579" y="94.156415" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-tcc-m563117bca1" x="322.658526" y="83.379946" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-tcc-m563117bca1" x="371.997474" y="70.758242" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-tcc-m563117bca1" x="421.336421" y="71.471403" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-tcc-m563117bca1" x="470.675368" y="65.959716" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-tcc-m563117bca1" x="520.014316" y="65.688676" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-tcc-m563117bca1" x="569.353263" y="58.399767" style="fill: #b05c5c; stroke: #b05c5c" />
+     <use xlink:href="#lead-tcc-m563117bca1" x="618.692211" y="53.087953" style="fill: #b05c5c; stroke: #b05c5c" />
+    </g>
+   </g>
+   </g><g id="lead-tcc-patch_3">
+    <path d="M 66.096 177.408  L 66.096 13.824  " style="fill: none; stroke: #a6abb3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="lead-tcc-patch_4">
+    <path d="M 66.096 177.408  L 628.56 177.408  " style="fill: none; stroke: #a6abb3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="lead-tcc-pdfd5f1f409">
+   <rect x="66.096" y="13.824" width="562.464" height="163.584" />
+  </clipPath>
+ </defs>
+<g id="lead-tcc-hover-cursor" style="display:none;pointer-events:none"><line id="lead-tcc-cursor-line" x1="0" x2="0" y1="13.824000000000034" y2="177.40800000000002" stroke="#aab2bc" stroke-width=".8" stroke-dasharray="2 3" /><circle id="lead-tcc-cursor-TAU" r="3.1" fill="#6b94af" stroke="white" stroke-width="1" /><circle id="lead-tcc-cursor-Met2Net" r="3.1" fill="#be8864" stroke="white" stroke-width="1" /><circle id="lead-tcc-cursor-PredFormer" r="3.1" fill="#8c81a4" stroke="white" stroke-width="1" /><circle id="lead-tcc-cursor-A5" r="3.1" fill="#b05c5c" stroke="white" stroke-width="1" /></g></svg>

@@ -1,0 +1,127 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Amodal Instance Segmentation (AIS) task aims to infer the complete mask of occluded instance. Under many circumstances, existing methods treat occluded objects as unoccluded...">
+  <meta property="og:title" content="OAFormer: Learning Occlusion Distinguishable Feature for Amodal Instance Segmentation">
+  <meta property="og:description" content="The Amodal Instance Segmentation (AIS) task aims to infer the complete mask of occluded instance. Under many circumstances, existing methods treat occluded objects as unoccluded...">
+  <meta property="og:url" content="https://zhixuanli.github.io/projects/li2023oaformer/">
+  <meta property="og:image" content="static/image/your_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="OAFormer: Learning Occlusion Distinguishable Feature for Amodal Instance Segmentation">
+  <meta name="twitter:description" content="The Amodal Instance Segmentation (AIS) task aims to infer the complete mask of occluded instance. Under many circumstances, existing methods treat occluded objects as unoccluded...">
+  <meta name="twitter:image" content="static/image/your_banner_image.png">
+  <title>OAFormer: Learning Occlusion Distinguishable Feature for Amodal Instance Segmentation</title>
+  <script>
+    (function () {
+      var savedTheme = localStorage.getItem("zl-theme");
+      if (savedTheme === "light" || savedTheme === "dark") {
+        document.documentElement.dataset.theme = savedTheme;
+      } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.documentElement.dataset.theme = "dark";
+      }
+    }());
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Libre+Caslon+Display&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css?v=19">
+  <link rel="stylesheet" href="../project-theme.css?v=3">
+  <link rel="stylesheet" href="../project-glass.css?v=2">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="project-nav" aria-label="Project navigation">
+    <a class="icon-button" href="../../" aria-label="Back to Zhixuan Li's homepage" title="Back to homepage"><i data-lucide="arrow-left" aria-hidden="true"></i></a>
+    <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode"><i data-lucide="moon" aria-hidden="true"></i></button>
+  </nav>
+
+  <main id="main">
+    <header class="project-hero">
+      <div class="project-shell hero-shell">
+        <p class="eyebrow">ICASSP</p>
+        <h1>OAFormer: Learning Occlusion Distinguishable Feature for Amodal Instance Segmentation</h1>
+        <p class="author-line"><span class="author-block"> <a href="https://zhixuanli.github.io/">Zhixuan Li</a><sup>1, 2</sup>,</span> <span class="author-block"> <a href="https://emmasrh.github.io/">Ruohua Shi</a><sup>2</sup>,</span> <span class="author-block"> <a href="https://idm.pku.edu.cn/info/1017/1040.htm">Tiejun Huang</a><sup>2</sup>,</span> <span class="author-block"> <a href="https://idm.pku.edu.cn/info/1017/1044.htm">Tingting Jiang</a><sup>1, 2*</sup></span></p>
+        <div class="affiliations" aria-label="Author affiliations">
+          <p><span class="author-block"><sup>1</sup>Advanced Institute of Information Technology, Peking University, Hangzhou, China,</span></p>
+          <p><span class="author-block"><sup>2</sup>National Engineering Research Center of Visual Technology, School of Computer Science, Peking University, Beijing, China</span></p>
+        </div>
+        <p class="corresponding"><sup>*</sup>Corresponding author</p>
+        <div class="project-actions" aria-label="Paper resources">
+          <a class="project-command primary" href="https://ieeexplore.ieee.org/abstract/document/10096534"><span>Paper</span><i data-lucide="file-text" aria-hidden="true"></i></a>
+          <a class="project-command" href="#bibtex"><span>BibTeX</span><i data-lucide="braces" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="project-band tinted" id="abstract">
+      <div class="project-shell text-layout">
+        <p class="section-label">Abstract</p>
+        <div>
+          <h2>Overview</h2>
+          <p class="abstract-copy">The Amodal Instance Segmentation (AIS) task aims to infer the complete mask of occluded instance. Under many circumstances, existing methods treat occluded objects as unoccluded ones, and vice versa, leading to inaccurate predictions. This is because existing AIS methods do not explicitly utilize the occlusion rates of each object as supervision. However, occlusion information is critical for the methods to recognize whether the target objects are occluded. Hence we believe it is vital for the method to be distinguishable about the degree of occlusion for each instance. In this paper, a simple yet effective Occlusion-aware transformer-based model, OAFormer, is proposed for accurate amodal instance segmentation. The goal of OAFormer is to learn the occlusion discriminative features. Novel components are proposed to enable OAFormer to be occlusion distinguishable. We conduct extensive experiments on two challenging AIS datasets to evaluate the effectiveness of our method. OAFormer outperforms state-of-the-art methods by large margins.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-band" id="figure-1">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">01 · Figure</p>
+          <h2>Typical cases of the occlusion confusing problem. (a) Occlude bottle is regarded as unoccluded and resulting in wrong prediction. (b) Unoccluded chocolate is regarded as occluded and predicted wrongly.</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/motivation_image.png" alt="OAFormer: Learning Occlusion Distinguishable Feature for Amodal Instance Segmentation research figure">
+          <figcaption>Typical cases of the occlusion confusing problem. (a) Occlude bottle is regarded as unoccluded and resulting in wrong prediction. (b) Unoccluded chocolate is regarded as occluded and predicted wrongly.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted" id="figure-2">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">02 · Figure</p>
+          <h2>The Proposed OAFormer Approach</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/overall_architecture.png" alt="OAFormer: Learning Occlusion Distinguishable Feature for Amodal Instance Segmentation research figure">
+          <figcaption>Overview of the proposed OAFormer. OAFormer takes an image as the input. After extracting the features by the Encoder and the Cascaded Global Decoder, the Occlusion Distinguish Module predicts the occlusion rates of each target objects and embeds occlusion information into the attention masks. Finally, the Amodal Decoder takes the occlusion-aware attention masks and queries as input, and outputs the predicted amodal masks.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band" id="figure-3">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">03 · Figure</p>
+          <h2>Experimental Results</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/exp_res.png" alt="OAFormer: Learning Occlusion Distinguishable Feature for Amodal Instance Segmentation research figure">
+          <figcaption>Comparison with state-of-the-art methods on the D2SA and COCOA-cls datasets. For supervision, “bbox” means amodal bounding box, “mask” means amodal masks, and “cls” means class labels. For each metric, the bold performance is the best, and the second-best is underlined.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted bibtex-band" id="bibtex">
+      <div class="project-shell text-layout">
+        <p class="section-label">Citation</p>
+        <div>
+          <div class="bibtex-heading">
+            <h2>BibTeX</h2>
+            <button class="copy-button" id="copy-bibtex" type="button"><i data-lucide="copy" aria-hidden="true"></i><span>Copy</span></button>
+          </div>
+          <pre><code id="bibtex-code">@inproceedings{li2023oaformer,
+          title={{OAFormer}: Learning Occlusion Distinguishable Feature for Amodal Instance Segmentation},
+          author={Li, Zhixuan and Shi, Ruohua and Huang, Tiejun and Jiang, Tingting},
+          booktitle={International Conference on Acoustics, Speech, and Signal Processing},
+          pages={1--5},
+          year={2023}
+      }</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="../project-theme.js?v=2"></script>
+</body>
+</html>
