@@ -1,0 +1,139 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A3D uses reconstructed 3D shape priors to guide 2D amodal instance segmentation.">
+  <meta property="og:title" content="2D Amodal Instance Segmentation Guided by 3D Shape Prior">
+  <meta property="og:description" content="A3D uses reconstructed 3D shape priors to guide 2D amodal instance segmentation.">
+  <meta property="og:url" content="https://zhixuanli.github.io/projects/li2022a3d/">
+  <meta property="og:image" content="https://zhixuanli.github.io/projects/li2022a3d/static/images/shape_prior_comparison.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="2D Amodal Instance Segmentation Guided by 3D Shape Prior">
+  <meta name="twitter:description" content="A3D uses reconstructed 3D shape priors to guide 2D amodal instance segmentation.">
+  <meta name="twitter:image" content="https://zhixuanli.github.io/projects/li2022a3d/static/images/shape_prior_comparison.jpg">
+  <title>2D Amodal Instance Segmentation Guided by 3D Shape Prior</title>
+  <script>
+    (function () {
+      var savedTheme = localStorage.getItem("zl-theme");
+      if (savedTheme === "light" || savedTheme === "dark") {
+        document.documentElement.dataset.theme = savedTheme;
+      } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.documentElement.dataset.theme = "dark";
+      }
+    }());
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Libre+Caslon+Display&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css?v=19">
+  <link rel="stylesheet" href="../project-theme.css?v=3">
+  <link rel="stylesheet" href="../project-glass.css?v=2">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="project-nav" aria-label="Project navigation">
+    <a class="icon-button" href="../../" aria-label="Back to Zhixuan Li's homepage" title="Back to homepage"><i data-lucide="arrow-left" aria-hidden="true"></i></a>
+    <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode"><i data-lucide="moon" aria-hidden="true"></i></button>
+  </nav>
+
+  <main id="main">
+    <header class="project-hero">
+      <div class="project-shell hero-shell">
+        <p class="eyebrow">ECCV</p>
+        <h1>2D Amodal Instance Segmentation Guided by 3D Shape Prior</h1>
+        <p class="author-line"><span class="author-block"><a href="https://zhixuanli.github.io/">Zhixuan Li</a><sup>1,2</sup>,</span> <span class="author-block"><a href="https://www.researchgate.net/scientific-contributions/Weining-Ye-2233854612">Weining Ye</a><sup>2</sup>,</span> <span class="author-block"><a href="https://idm.pku.edu.cn/info/1017/1044.htm">Tingting Jiang</a><sup>1,2&dagger;</sup>,</span> <span class="author-block"><a href="https://idm.pku.edu.cn/info/1017/1040.htm">Tiejun Huang</a><sup>2</sup></span></p>
+        <div class="affiliations" aria-label="Author affiliations">
+          <p><span class="author-block"><sup>1</sup>Advanced Institute of Information Technology, Peking University, Hangzhou, China</span></p>
+          <p><span class="author-block"><sup>2</sup>National Engineering Research Center of Visual Technology, School of Computer Science, Peking University, Beijing, China</span></p>
+        </div>
+        <p class="corresponding"><sup>&dagger;</sup>Corresponding author</p>
+        <div class="project-actions" aria-label="Paper resources">
+          <a class="project-command primary" href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/2272_ECCV_2022_paper.php"><span>Paper</span><i data-lucide="file-text" aria-hidden="true"></i></a>
+          <a class="project-command" href="#bibtex"><span>BibTeX</span><i data-lucide="braces" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="project-band tinted" id="abstract">
+      <div class="project-shell text-layout">
+        <p class="section-label">Abstract</p>
+        <div>
+          <h2>Overview</h2>
+          <p class="abstract-copy">Amodal instance segmentation aims to predict the complete mask of an occluded instance, including both visible and invisible regions. Existing 2D methods learn complete silhouettes directly in image space, but these masks are only observations of a 3D model from particular viewpoints and therefore generalize poorly to unseen views. We build a bridge between occluded 2D instances and complete 3D models through reconstruction, using a 3D shape prior to guide 2D amodal segmentation. A3D reconstructs 3D models from occluded instances without requiring 3D annotations, then projects them into 2D masks under estimated viewpoints. Pretraining on large 3D reconstruction datasets handles shape diversity, and experiments show that A3D outperforms existing 2D amodal instance segmentation methods.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-band" id="figure-1">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">01 · Figure</p>
+          <h2>A finite 2D shape dictionary struggles with object viewpoints that were not observed during training. A3D reconstructs a complete 3D shape prior from each occluded instance and projects it to the estimated viewpoint, allowing the model to generate suitable 2D amodal masks adaptively.</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/shape_prior_comparison.jpg" alt="Comparison between a 2D shape-prior dictionary and the proposed 3D shape-prior approach.">
+          <figcaption>A finite 2D shape dictionary struggles with object viewpoints that were not observed during training. A3D reconstructs a complete 3D shape prior from each occluded instance and projects it to the estimated viewpoint, allowing the model to generate suitable 2D amodal masks adaptively.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted" id="figure-2">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">02 · Figure</p>
+          <h2>The Proposed A3D Approach</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/a3d_architecture.jpg" alt="Overview of the Amodal 3D Network architecture.">
+          <figcaption>A3D first predicts an amodal bounding box and visible mask. Its category-specific 3D modeling branch reconstructs a complete shape prior, while a viewpoint estimator predicts camera parameters. A differentiable renderer projects the reconstructed model into a coarse 2D amodal mask, which is then combined with image and visible-mask cues for final refinement.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band" id="figure-3">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">03 · Figure</p>
+          <h2>Region-Specific Edge Refinement</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/edge_refinement.jpg" alt="The region-specific edge refinement module in A3D.">
+          <figcaption>Mesh reconstruction captures the coarse complete shape but may lose fine boundaries. The region-specific edge refinement module combines the visible mask, cropped RGB appearance, and rendered coarse mask. It preserves reliable visible-region boundaries while refining the uncertain occluded region.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted" id="figure-4">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">04 · Figure</p>
+          <h2>3D Shape Prior Reconstruction</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/shape_reconstruction.jpg" alt="Examples of reconstructed 3D shape priors and projected 2D amodal masks.">
+          <figcaption>The reconstructed category-specific models retain complete object geometry even when the input is heavily occluded. Viewing each shape prior from multiple camera angles illustrates why 3D representation is more robust to viewpoint changes than memorizing a fixed collection of 2D masks.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted bibtex-band" id="bibtex">
+      <div class="project-shell text-layout">
+        <p class="section-label">Citation</p>
+        <div>
+          <div class="bibtex-heading">
+            <h2>BibTeX</h2>
+            <button class="copy-button" id="copy-bibtex" type="button"><i data-lucide="copy" aria-hidden="true"></i><span>Copy</span></button>
+          </div>
+          <pre><code id="bibtex-code">@inproceedings{li2022a3d,
+  title={2{D} Amodal Instance Segmentation Guided by 3{D} Shape Prior},
+  author={Li, Zhixuan and Ye, Weining and Jiang, Tingting and Huang, Tiejun},
+  booktitle={Proceedings of the IEEE/CVF European Conference on Computer Vision},
+  pages={165--181},
+  year={2022}
+}</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="../project-theme.js?v=2"></script>
+</body>
+</html>

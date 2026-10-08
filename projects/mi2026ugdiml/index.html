@@ -1,0 +1,140 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="UGD-IML unifies constrained and unconstrained image manipulation localization with generative diffusion.">
+  <meta property="og:title" content="UGD-IML: A Unified Generative Diffusion-based Framework for Constrained and Unconstrained Image Manipulation Localization">
+  <meta property="og:description" content="UGD-IML unifies constrained and unconstrained image manipulation localization with generative diffusion.">
+  <meta property="og:url" content="https://zhixuanli.github.io/projects/mi2026ugdiml/">
+  <meta property="og:image" content="https://zhixuanli.github.io/projects/mi2026ugdiml/static/images/ugdiml_overview.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="UGD-IML: A Unified Generative Diffusion-based Framework for Constrained and Unconstrained Image Manipulation Localization">
+  <meta name="twitter:description" content="UGD-IML unifies constrained and unconstrained image manipulation localization with generative diffusion.">
+  <meta name="twitter:image" content="https://zhixuanli.github.io/projects/mi2026ugdiml/static/images/ugdiml_overview.jpg">
+  <title>UGD-IML: A Unified Generative Diffusion-based Framework for Constrained and Unconstrained Image Manipulation Localization</title>
+  <script>
+    (function () {
+      var savedTheme = localStorage.getItem("zl-theme");
+      if (savedTheme === "light" || savedTheme === "dark") {
+        document.documentElement.dataset.theme = savedTheme;
+      } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.documentElement.dataset.theme = "dark";
+      }
+    }());
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Libre+Caslon+Display&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css?v=19">
+  <link rel="stylesheet" href="../project-theme.css?v=3">
+  <link rel="stylesheet" href="../project-glass.css?v=2">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="project-nav" aria-label="Project navigation">
+    <a class="icon-button" href="../../" aria-label="Back to Zhixuan Li's homepage" title="Back to homepage"><i data-lucide="arrow-left" aria-hidden="true"></i></a>
+    <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode"><i data-lucide="moon" aria-hidden="true"></i></button>
+  </nav>
+
+  <main id="main">
+    <header class="project-hero">
+      <div class="project-shell hero-shell">
+        <p class="eyebrow">Neurocomputing</p>
+        <h1>UGD-IML: A Unified Generative Diffusion-based Framework for Constrained and Unconstrained Image Manipulation Localization</h1>
+        <p class="author-line"><span class="author-block">Yachun Mi<sup>1</sup>,</span> <span class="author-block">Xingyang He<sup>1</sup>,</span> <span class="author-block">Shixin Sun<sup>1</sup>,</span> <span class="author-block">Yu Li<sup>1</sup>,</span> <span class="author-block">Zhixuan Li<sup>2</sup>,</span> <span class="author-block">Jian Jin<sup>3</sup>,</span> <span class="author-block">Chen Hui<sup>3</sup>,</span> <span class="author-block">Shaohui Liu<sup>1&dagger;</sup></span></p>
+        <div class="affiliations" aria-label="Author affiliations">
+          <p><span class="author-block"><sup>1</sup>Harbin Institute of Technology</span></p>
+          <p><span class="author-block"><sup>2</sup>Nanyang Technological University</span></p>
+          <p><span class="author-block"><sup>3</sup>Nanjing University of Information Science and Technology</span></p>
+        </div>
+        <p class="corresponding"><sup>&dagger;</sup>Corresponding author</p>
+        <div class="project-actions" aria-label="Paper resources">
+          <a class="project-command primary" href="https://arxiv.org/abs/2508.06101"><span>Paper</span><i data-lucide="file-text" aria-hidden="true"></i></a>
+          <a class="project-command" href="#bibtex"><span>BibTeX</span><i data-lucide="braces" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="project-band tinted" id="abstract">
+      <div class="project-shell text-layout">
+        <p class="section-label">Abstract</p>
+        <div>
+          <h2>Overview</h2>
+          <p class="abstract-copy">Image manipulation localization must handle both open-world forgeries and constrained settings where an original reference image is available. UGD-IML unifies these tasks with a generative diffusion framework that iteratively denoises a manipulation mask. A conditional control module extracts image guidance, while task-specific conditioning and noise embeddings allow one model to support both settings. Multi-step generation also exposes uncertainty around difficult boundaries and improves robustness across manipulation types.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-band" id="figure-1">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">01 · Figure</p>
+          <h2>UGD-IML formulates manipulation localization as conditional mask generation, using a shared diffusion model for both unconstrained localization and class-constrained localization.</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/ugdiml_overview.jpg" alt="Conditional diffusion architecture of UGD-IML.">
+          <figcaption>UGD-IML formulates manipulation localization as conditional mask generation, using a shared diffusion model for both unconstrained localization and class-constrained localization.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted" id="figure-2">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">02 · Figure</p>
+          <h2>Unified Task Conditioning</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/task_conditioning.jpg" alt="Different conditional-control processes for IML and CIML.">
+          <figcaption>The same conditional control module processes forgery evidence in both tasks. Constrained localization additionally compares the manipulated image with its source image through shared feature extraction.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band" id="figure-3">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">03 · Figure</p>
+          <h2>Localization Results</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/qualitative_results.jpg" alt="UGD-IML qualitative results for constrained and unconstrained manipulation localization.">
+          <figcaption>UGD-IML localizes diverse edited regions with coherent masks in both unconstrained and source-guided scenarios.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted" id="figure-4">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">04 · Figure</p>
+          <h2>Uncertainty Awareness</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/uncertainty.jpg" alt="Uncertainty and error maps produced by UGD-IML.">
+          <figcaption>Variation across diffusion samples provides an uncertainty estimate that concentrates near ambiguous manipulation boundaries and often aligns with localization errors.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted bibtex-band" id="bibtex">
+      <div class="project-shell text-layout">
+        <p class="section-label">Citation</p>
+        <div>
+          <div class="bibtex-heading">
+            <h2>BibTeX</h2>
+            <button class="copy-button" id="copy-bibtex" type="button"><i data-lucide="copy" aria-hidden="true"></i><span>Copy</span></button>
+          </div>
+          <pre><code id="bibtex-code">@article{mi2026ugdiml,
+  title={{UGD-IML}: A Unified Generative Diffusion-based Framework for Constrained and Unconstrained Image Manipulation Localization},
+  author={Mi, Yachun and He, Xingyang and Sun, Shixin and Li, Yu and Li, Zhixuan and Jin, Jian and Hui, Chen and Liu, Shaohui},
+  journal={Neurocomputing},
+  year={2026},
+  publisher={Elsevier}
+}</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="../project-theme.js?v=2"></script>
+</body>
+</html>

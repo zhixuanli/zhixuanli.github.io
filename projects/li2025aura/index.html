@@ -1,0 +1,128 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Amodal segmentation aims to infer the complete shape of occluded objects, even when the occluded region's appearance is unavailable.">
+  <meta property="og:title" content="Unveiling the Invisible: Reasoning Complex Occlusions Amodally with AURA">
+  <meta property="og:description" content="Amodal segmentation aims to infer the complete shape of occluded objects, even when the occluded region's appearance is unavailable.">
+  <meta property="og:url" content="https://zhixuanli.github.io/projects/li2025aura/">
+  <meta property="og:image" content="static/image/your_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Unveiling the Invisible: Reasoning Complex Occlusions Amodally with AURA">
+  <meta name="twitter:description" content="Amodal segmentation aims to infer the complete shape of occluded objects, even when the occluded region's appearance is unavailable.">
+  <meta name="twitter:image" content="static/image/your_banner_image.png">
+  <title>Unveiling the Invisible: Reasoning Complex Occlusions Amodally with AURA</title>
+  <script>
+    (function () {
+      var savedTheme = localStorage.getItem("zl-theme");
+      if (savedTheme === "light" || savedTheme === "dark") {
+        document.documentElement.dataset.theme = savedTheme;
+      } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.documentElement.dataset.theme = "dark";
+      }
+    }());
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Libre+Caslon+Display&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css?v=19">
+  <link rel="stylesheet" href="../project-theme.css?v=3">
+  <link rel="stylesheet" href="../project-glass.css?v=2">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="project-nav" aria-label="Project navigation">
+    <a class="icon-button" href="../../" aria-label="Back to Zhixuan Li's homepage" title="Back to homepage"><i data-lucide="arrow-left" aria-hidden="true"></i></a>
+    <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode"><i data-lucide="moon" aria-hidden="true"></i></button>
+  </nav>
+
+  <main id="main">
+    <header class="project-hero">
+      <div class="project-shell hero-shell">
+        <p class="eyebrow">ICCV</p>
+        <h1>Unveiling the Invisible: Reasoning Complex Occlusions Amodally with AURA</h1>
+        <p class="author-line"><span class="author-block"> <a href="https://zhixuanli.github.io/">Zhixuan Li</a><sup>1</sup>,</span> <span class="author-block"> <a href="https://openreview.net/profile?id=~Hyunse_Yoon1">Hyunse Yoon</a><sup>2</sup>,</span> <span class="author-block"> <a href="https://scholar.google.com/citations?user=W1Qo1OUAAAAJ&hl=en">Sanghoon Lee</a><sup>2</sup>,</span> <span class="author-block"> <a href="https://scholar.google.com/citations?user=D_S41X4AAAAJ&hl=en">Weisi Lin</a><sup>1*</sup></span></p>
+        <div class="affiliations" aria-label="Author affiliations">
+          <p><span class="author-block"><sup>1</sup>Nanyang Technological University, Singapore,</span></p>
+          <p><span class="author-block"><sup>2</sup>Department of Electrical Electronic Engineering, Yonsei University, Korea</span></p>
+        </div>
+        <p class="corresponding"><sup>*</sup>Corresponding author</p>
+        <div class="project-actions" aria-label="Paper resources">
+          <a class="project-command primary" href="https://arxiv.org/pdf/2503.10225v2"><span>Paper</span><i data-lucide="file-text" aria-hidden="true"></i></a>
+          <a class="project-command" href="https://arxiv.org/abs/2503.10225v2"><span>arXiv</span><i data-lucide="external-link" aria-hidden="true"></i></a>
+          <a class="project-command" href="#bibtex"><span>BibTeX</span><i data-lucide="braces" aria-hidden="true"></i></a>
+        </div>
+        <p class="project-notice">Due to evaluations for potential technology transfer and patent applications, the public release of the source code has been suspended.</p>
+      </div>
+    </header>
+
+    <section class="project-band tinted" id="abstract">
+      <div class="project-shell text-layout">
+        <p class="section-label">Abstract</p>
+        <div>
+          <h2>Overview</h2>
+          <p class="abstract-copy">Amodal segmentation aims to infer the complete shape of occluded objects, even when the occluded region's appearance is unavailable. However, current amodal segmentation methods lack the capability to interact with users through text input and struggle to understand or reason about implicit and complex purposes. While methods like LISA integrate multi-modal large language models (LLMs) with segmentation for reasoning tasks, they are limited to predicting only visible object regions and face challenges in handling complex occlusion scenarios. To address these limitations, we propose a novel task named amodal reasoning segmentation, aiming to predict the complete amodal shape of occluded objects while providing answers with elaborations based on user text input. We develop a generalizable dataset generation pipeline and introduce a new dataset focusing on daily life scenarios, encompassing diverse real-world occlusions. Furthermore, we present AURA (Amodal Understanding and Reasoning Assistant), a novel model with advanced global and spatial-level designs specifically tailored to handle complex occlusions. Extensive experiments validate AURA's effectiveness on the proposed dataset.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-band" id="figure-1">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">01 · Figure</p>
+          <h2>We introduce AURA, a multi-modal approach designed for reasoning the amodal segmentation mask including both visible and occlusion regions based on the user&#39;s question. AURA can deduct the implicit purpose underneath the question and response with the textual answer along with predicted amodal masks for various objects.</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/motivation_image.jpg" alt="Unveiling the Invisible: Reasoning Complex Occlusions Amodally with AURA research figure">
+          <figcaption>We introduce AURA, a multi-modal approach designed for reasoning the amodal segmentation mask including both visible and occlusion regions based on the user&#39;s question. AURA can deduct the implicit purpose underneath the question and response with the textual answer along with predicted amodal masks for various objects.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted" id="figure-2">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">02 · Figure</p>
+          <h2>The Proposed AURA Approach</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/overall_architecture.jpg" alt="Overall architecture of the proposed AURA.">
+          <figcaption>Overall architecture of the proposed AURA. (a) Given an input image and the input question from the user, the Vision Backbone extracts the visual features of the input image, and the Multi-Modal LLM equipped with LoRA is utilized for understanding the input image and textual questions simultaneously and responding with textual answers including the [SEG] tokens indicating the segmentation masks. (b) For each [SEG], the Prompt Encoder takes its embedding of the Multi-Modal LLM and outputs the refined embeddings corresponding to the [SEG]. (c) Finally, the Visible Mask Decoder predicts the visible mask using each [SEG]&#39;s refined embeddings. The Amodal Decoder predicts the amodal mask using the occlusion-aware embedding predicted by the Occlusion Condition Encoder. A Spatial Occlusion Encoder is designed to constrain the spatial occlusion information of the predicted visible and amodal segmentation masks to be accurate.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band" id="figure-3">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">03 · Figure</p>
+          <h2>Experimental Results Visualization</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/exp_vis.jpg" alt="Experimental Results Visualization">
+          <figcaption>Visualization results of AURA. Three cases are shown from top to bottom with questions and ground-truth (GT) answers. The first two cases show the images, ground-truth amodal and visible masks, and the predicted masks of AURA. In the last case, the predicted amodal mask by AURA for the occludee, which is the occluded toilet, is shown replacing the ground-truth visible mask.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted bibtex-band" id="bibtex">
+      <div class="project-shell text-layout">
+        <p class="section-label">Citation</p>
+        <div>
+          <div class="bibtex-heading">
+            <h2>BibTeX</h2>
+            <button class="copy-button" id="copy-bibtex" type="button"><i data-lucide="copy" aria-hidden="true"></i><span>Copy</span></button>
+          </div>
+          <pre><code id="bibtex-code">@inproceedings{li2025aura,
+              title={Unveiling the Invisible: Reasoning Complex Occlusions Amodally with AURA},
+              author={Li, Zhixuan and Yoon, Hyunse and Lee, Sanghoon and Lin, Weisi},
+              booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+              year={2025}
+          }</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="../project-theme.js?v=2"></script>
+</body>
+</html>

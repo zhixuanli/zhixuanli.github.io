@@ -1,0 +1,138 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="DipGuava disentangles geometry-driven and personalized Gaussian features for 3D head avatars.">
+  <meta property="og:title" content="DipGuava: Disentangling Personalized Gaussian Features for 3D Head Avatars from Monocular Video">
+  <meta property="og:description" content="DipGuava disentangles geometry-driven and personalized Gaussian features for 3D head avatars.">
+  <meta property="og:url" content="https://zhixuanli.github.io/projects/lee2026dipguava/">
+  <meta property="og:image" content="https://zhixuanli.github.io/projects/lee2026dipguava/static/images/dipguava_overview.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="DipGuava: Disentangling Personalized Gaussian Features for 3D Head Avatars from Monocular Video">
+  <meta name="twitter:description" content="DipGuava disentangles geometry-driven and personalized Gaussian features for 3D head avatars.">
+  <meta name="twitter:image" content="https://zhixuanli.github.io/projects/lee2026dipguava/static/images/dipguava_overview.jpg">
+  <title>DipGuava: Disentangling Personalized Gaussian Features for 3D Head Avatars from Monocular Video</title>
+  <script>
+    (function () {
+      var savedTheme = localStorage.getItem("zl-theme");
+      if (savedTheme === "light" || savedTheme === "dark") {
+        document.documentElement.dataset.theme = savedTheme;
+      } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        document.documentElement.dataset.theme = "dark";
+      }
+    }());
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=Libre+Caslon+Display&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css?v=19">
+  <link rel="stylesheet" href="../project-theme.css?v=3">
+  <link rel="stylesheet" href="../project-glass.css?v=2">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="project-nav" aria-label="Project navigation">
+    <a class="icon-button" href="../../" aria-label="Back to Zhixuan Li's homepage" title="Back to homepage"><i data-lucide="arrow-left" aria-hidden="true"></i></a>
+    <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode"><i data-lucide="moon" aria-hidden="true"></i></button>
+  </nav>
+
+  <main id="main">
+    <header class="project-hero">
+      <div class="project-shell hero-shell">
+        <p class="eyebrow">AAAI</p>
+        <h1>DipGuava: Disentangling Personalized Gaussian Features for 3D Head Avatars from Monocular Video</h1>
+        <p class="author-line"><span class="author-block">Jeonghaeng Lee<sup>1</sup>,</span> <span class="author-block">Seok Keun Choi<sup>1</sup>,</span> <span class="author-block">Zhixuan Li<sup>2</sup>,</span> <span class="author-block">Weisi Lin<sup>2</sup>,</span> <span class="author-block">Sanghoon Lee<sup>1</sup></span></p>
+        <div class="affiliations" aria-label="Author affiliations">
+          <p><span class="author-block"><sup>1</sup>Yonsei University</span></p>
+          <p><span class="author-block"><sup>2</sup>Nanyang Technological University</span></p>
+        </div>
+        <div class="project-actions" aria-label="Paper resources">
+          <a class="project-command primary" href="https://ojs.aaai.org/index.php/AAAI/article/view/37510"><span>Paper</span><i data-lucide="file-text" aria-hidden="true"></i></a>
+          <a class="project-command" href="https://arxiv.org/abs/2603.28003"><span>arXiv</span><i data-lucide="external-link" aria-hidden="true"></i></a>
+          <a class="project-command" href="#bibtex"><span>BibTeX</span><i data-lucide="braces" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="project-band tinted" id="abstract">
+      <div class="project-shell text-layout">
+        <p class="section-label">Abstract</p>
+        <div>
+          <h2>Overview</h2>
+          <p class="abstract-copy">Recent head-avatar methods can reproduce facial motion but often miss identity-specific details. DipGuava introduces a structured two-stage representation: the first stage learns a geometry-driven base appearance, and the second predicts personalized residuals such as wrinkles and subtle skin deformation. Dynamic appearance fusion integrates these residuals after geometric deformation, maintaining spatial and semantic alignment. The disentangled design produces photorealistic avatars with stronger identity preservation and expression fidelity than prior approaches.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-band" id="figure-1">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">01 · Figure</p>
+          <h2>DipGuava separates stable geometry-driven appearance from personalized residual details, then fuses both after deformation to create expressive, identity-preserving 3D Gaussian head avatars from monocular video.</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/dipguava_overview.jpg" alt="Overview of the two-stage DipGuava framework.">
+          <figcaption>DipGuava separates stable geometry-driven appearance from personalized residual details, then fuses both after deformation to create expressive, identity-preserving 3D Gaussian head avatars from monocular video.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted" id="figure-2">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">02 · Figure</p>
+          <h2>Self-Driven and Cross-Identity Animation</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/qualitative_results.jpg" alt="Qualitative DipGuava results for self-driven animation and cross-identity reenactment.">
+          <figcaption>The method reconstructs fine facial structure, eye blinks, lip motion, and expression-dependent details while following either the subject&#39;s own motion or a different driving identity.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band" id="figure-3">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">03 · Figure</p>
+          <h2>Disentangled Personalized Details</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/component_analysis.jpg" alt="Ablations of DipGuava components and dynamic appearance fusion.">
+          <figcaption>Component studies show that base appearance, personalized residuals, geometric deformation, and dynamic appearance fusion play complementary roles in preserving both global structure and high-frequency detail.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted" id="figure-4">
+      <div class="project-shell">
+        <div class="section-heading">
+          <p class="section-label">04 · Figure</p>
+          <h2>Expression-Aware Dynamics</h2>
+        </div>
+        <figure class="research-figure">
+          <img class="research-image" src="static/images/personalized_dynamics.jpg" alt="Expression-aware wrinkles and identity-specific residuals generated by DipGuava.">
+          <figcaption>Personalized residuals adapt wrinkles and other local features to expression and identity, instead of treating them as fixed textures.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project-band tinted bibtex-band" id="bibtex">
+      <div class="project-shell text-layout">
+        <p class="section-label">Citation</p>
+        <div>
+          <div class="bibtex-heading">
+            <h2>BibTeX</h2>
+            <button class="copy-button" id="copy-bibtex" type="button"><i data-lucide="copy" aria-hidden="true"></i><span>Copy</span></button>
+          </div>
+          <pre><code id="bibtex-code">@inproceedings{lee2026dipguava,
+  title={{DipGuava}: Disentangling Personalized Gaussian Features for 3D Head Avatars from Monocular Video},
+  author={Lee, Jeonghaeng and Choi, Seok Keun and Li, Zhixuan and Lin, Weisi and Lee, Sanghoon},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2026}
+}</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="../project-theme.js?v=2"></script>
+</body>
+</html>
